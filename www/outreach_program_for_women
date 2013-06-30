@@ -1,0 +1,714 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+<meta name="google-site-verification" content="PspJjBYdKf-ZfTtgaRKOqlV_UoDJoOPx0d4zUbuGGxo" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-us" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32214061-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ <link rel="shortcut icon" href="/static/images/foundation/favicon.ico">
+
+ <title>The Perl Foundation</title>
+ <link href="http://perldoc.perl.org/static/exploreperl.css" rel="stylesheet" rev="stylesheet" type="text/css">
+
+<!-- <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+ <script type="text/javascript">_uacct = "UA-50555-10";urchinTracker();</script> -->
+ <script language="JavaScript" type="text/javascript" src="http://perldoc.perl.org/static/exploreperl.js"></script>
+
+ <!-- OVER_RIDE CSS NEEDS ADDING TO A STYLESHEET AT SOME POINT -->
+ <style type="text/css">
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	background-color: #4e5d84;
+}
+
+div#page {
+	width: 946px;
+	margin: 16px auto 26px;
+	position: relative;
+}
+
+div.clear {
+	clear: both;
+}
+
+/* @end */
+
+/* @group Header */
+
+div#header {
+	width: 946px;
+	height: 105px;
+	background-image: url(http://perldoc.perl.org/static/tpf/header.png);
+	position: relative;
+}
+
+div#strapline {
+	font: 0.8em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #b4b4b4;
+	position: absolute;
+	top: 68px;
+	left: 117px;
+}
+
+/* @group Download */
+
+div#download_link {
+	position: absolute;
+	top: 48px;
+	font-size: .8em;
+	left: 724px;
+}
+
+div#explore_link {
+	position: absolute;
+	top: 48px;
+	font-size: .8em;
+	left: 846px;
+}
+div.download a {
+	text-decoration: none;
+	color: #b4b4b4;
+}
+
+div.download a:hover {
+	color: #eaeaea;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Body */
+
+div#body {
+	background: url(http://perldoc.perl.org/static/tpf/main_bg.png) repeat-y;
+	position: relative;
+	color: #515151;
+	font-size: 16px !important;
+}
+
+/* @group Navigation */
+
+div#navigation {
+	position: absolute;
+	top: 21px;
+	left: 29px;
+	width: 155px;
+	font-size: 0.8em;
+}
+
+div#navigation_header {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_header.png);
+	width: 155px;
+	height: 14px;
+}
+
+div#navigation_body {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_bg.png);
+	width: 145px;
+	padding-right: 10px;
+}
+
+div#navigation_footer {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_footer.png);
+	width: 155px;
+	height: 13px;
+	position: relative;
+}
+
+div#navigation_end {
+	position: absolute;
+	background-color: #82a1ae;
+	width: 1px;
+	height: 1px;
+	bottom: 0;
+	right: -1px;
+}
+
+#navigation h4 {
+	padding-left: 12px;
+	margin: 0;
+	color: #36497d;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#navigation a {
+	color: #6e6e6e;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #414141;
+}
+
+#navigation ul {
+	margin: 0;
+	list-style-type: none;
+	padding: 2px 0 12px 20px;
+}
+
+#navigation li {
+	padding: 0 0 0 7px;
+	font-weight: 300;
+	font-size: .9em;
+	text-indent: -7px;
+}
+
+div#feeds {
+	margin-top: 17px;
+	margin-left: 19px;
+	font-size: .9em;
+	color: #707070;
+}
+
+/* @group Search */
+
+#navigation form#st-search-form {
+}
+
+#navigation input {
+	padding-left: 20px;
+	margin-left: 12px;
+	width: 109px;
+	height: 18px;
+	border: 1px solid #cacaca;
+	margin-bottom: 11px;
+	background: #fafafa url(http://perldoc.perl.org/static/tpf/search.png) no-repeat 3px 3px;
+	color: #919191;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Content */
+
+div#content {
+	padding-top: 9px;
+	padding-bottom: 20px;
+	width: 731px;
+	margin-left: 184px;
+ font-size: 0.8em;
+}
+
+div#content_header {
+	width: 731px;
+	height: 26px;
+	background: url(http://perldoc.perl.org/static/tpf/content_header.png) no-repeat;
+}
+
+div#content_body {
+	padding-left: 30px;
+	padding-right: 30px;
+	background: url(http://perldoc.perl.org/static/tpf/content_bg.png) repeat-y;	
+	min-height: 1000px;
+}
+
+div#content_footer {
+	width: 731px;
+	height: 25px;
+	background: url(http://perldoc.perl.org/static/tpf/content_footer.png) no-repeat;
+}
+
+h1 {
+	margin: 0;
+	font: 1.9em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #36497d;
+	background: url(http://perldoc.perl.org/static/tpf/h1_bg.png) no-repeat;
+	height: 30px;
+	padding-left: 37px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	font: 1.5em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #36497d;
+	padding-top: 9px;
+	margin: 0;
+	background: url(http://perldoc.perl.org/static/tpf/h2_bg.png) no-repeat -2px 28px;
+	padding-bottom: 4px;
+	padding-left: 0;
+	margin-bottom: 8px;
+}
+
+p {
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+a {
+	color: #36497d;
+}
+
+a:hover {
+	color: #6779a9;
+}
+
+a:visited {
+	color: #5c657d;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Footer */
+
+div#footer {
+
+}
+
+div#footer_content {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
+	padding-right: 74px;
+	padding-left: 74px;
+	background-color: #004065;
+}
+
+div#footer_strapline {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #6c6c6c;
+	font: lighter 1.05em "Gill Sans";
+}
+
+div#footer_end {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer.png);
+	width: 946px;
+	height: 42px;
+	clear: both;
+}
+
+/* @group Address */
+
+div#address {
+	background: url(http://perldoc.perl.org/static/tpf/onion-grey.png) no-repeat 0 4px;
+	padding-left: 51px;
+	float: left;
+	border-right: 1px solid #b4b4b4;
+	padding-right: 35px;
+}
+
+div#address p.name {
+	margin: 0;
+	color: #414141;
+}
+
+div#address p.address {
+	color: #797979;
+	font-size: .9em;
+	margin: 3px 0 0;
+	padding: 0;
+}
+
+div#address p.contact {
+	margin: 3px 0 0;
+	font-size: .9em;
+}
+
+div#address p.contact a {
+	color: #797979;
+	text-decoration: none;
+}
+
+div#address p.contact a:hover {
+	color: #515151;
+}
+
+/* @end */
+
+/* @group Links */
+
+div#footer_links {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
+}
+
+ul.f1 {
+	list-style-type: none;
+	margin: 0;
+	float: right;
+	padding: 8px 0 0;
+}
+
+ul.f1 li {
+	float: left;
+	color: #414141;
+	font-size: .8em;
+	text-align: right;
+	padding-left: 40px;
+}
+
+ul.f2 {
+	list-style-type: none;
+	text-align: right;
+	margin: 3px 0 0;
+	padding: 0;
+}
+
+ul.f2 li {
+	float: none;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+ul.f2 li a {
+	text-decoration: none;
+	color: #858585;
+}
+
+ul.f2 li a:hover {
+	color: #515151;
+}
+
+div#menu br {
+ display: none;
+}
+
+div#menu br + ul {
+ display: none;
+}
+
+div#homepage_link a {
+	width: 500px;
+	height: 83px;
+	display: block;
+	position: absolute;
+	top: 13px;
+	left: 12px;
+}
+
+/* @end */
+
+/* @end */
+ </style>
+
+ </head>
+
+<body onload="explorePerl.render(); explorePerl.addEvents('explore_anchor');">
+ <div id="page">
+ <div id="header">
+ <div id="homepage_link"><a href="/"></a></div>
+ <div id="download_link" class="download">
+ <a href="http://www.perl.org/get.html">Download Perl</a>
+ </div>
+ <div id="explore_link" class="download">
+ <a id="explore_anchor" href="#">Explore</a>
+ </div>
+ </div>
+ <div id="body">
+ <div id="navigation">
+ <div id="navigation_header"></div>
+ <div id="navigation_body">
+ <div id="search"> 
+ <form id="st-search-form" method="get" action="/search/pages">
+ <input id="st-search-term" type="text" name="q" size="17" value="Search" onFocus="if(this.value == 'Search'){this.value=''}" onBlur="if(this.value == ''){this.value='Search'}"/> 
+ </form> 
+ </div>
+
+ <div id="menu"> 
+	 
+ <br /><ul>
+<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage<!-- wiki-renamed-hyperlink "Homepage"<http://www.perlfoundation.org/> --></a></li>
+</ul>
+<h4 id="about">About</h4>
+<ul>
+<li><a href="/who_s_who" >Who's Who</a></li>
+<li><a href="/steering_committee" >Steering Committee</a></li>
+<li><a href="/legal" >Legal</a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns<!-- wiki-renamed-hyperlink "Tax Returns"<https://donate.perlfoundation.org/index.pl?node=IRS&type=document> --></a></li>
+<li><a href="/contact_us" >Contact Us</a></li>
+<li><a href="/press_releases" >Press Releases</a></li>
+<li><a href="/payments" >Payments</a> - details</li>
+<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog<!-- wiki-renamed-hyperlink "Foundation Blog"<http://news.perlfoundation.org/> --></a></li>
+<li><a href="/previous_homepage_news" >Previous Homepage News</a></li>
+</ul>
+<h4 id="get_involved">Get Involved</h4>
+<ul>
+<li><a href="/want_to_help" >Want to Help?</a></li>
+<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation<!-- wiki-renamed-hyperlink "Make a Donation"<https://secure.donor.com/pf012/give> --></a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status<!-- wiki-renamed-hyperlink "Fund Drive Status"<https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status> --></a></li>
+</ul>
+<h4 id="sponsorship">Sponsorship</h4>
+<ul>
+<li><a href="/sponsors" >Sponsors</a></li>
+
+<ul>
+<li><a href="/perl_5_core_maintenance_fund" >Perl 5 Core Maintenance Fund</a></li>
+<li><a href="/ian_hague_perl_6_development_grants" >Ian Hague Perl 6 Development Grants</a></li>
+</ul></ul>
+<h4 id="grants">Grants</h4>
+<ul>
+<li><a href="/grant_benefits" >Grant Benefits</a></li>
+<li><a href="/grants_committee" >Grants Committee</a></li>
+
+<ul>
+<li><a href="/running_grants" >Running Grants</a></li>
+<li><a href="/completed_grants" >Completed Grants</a></li>
+<li><a href="/how_to_write_a_proposal" >How to Write a Proposal</a></li>
+</ul></ul>
+<h4 id="initiatives">Initiatives</h4>
+<ul>
+<li><a href="/outreach_program_for_women" >Outreach Program for Women</a></li>
+<li><a href="/google_code_in" >Google Code-in</a></li>
+<li><a href="/yapc_na" >YAPC::NA</a></li>
+</ul>
+<h4 id="download_perl">Download Perl</h4>
+<ul>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5<!-- wiki-renamed-hyperlink "Perl 5"<http://www.perl.org/get.html> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6<!-- wiki-renamed-hyperlink "Perl 6"<http://www.perl6.org> --></a></li>
+</ul>
+<h4 id="events">Events</h4>
+<ul>
+<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America<!-- wiki-renamed-hyperlink "YAPC North America"<http://yapcna.org> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe<!-- wiki-renamed-hyperlink "YAPC Europe"<http://www.yapceurope.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America<!-- wiki-renamed-hyperlink "YAPC South America"<http://yapc.perl.org.br/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia<!-- wiki-renamed-hyperlink "YAPC Asia"<http://yapcasia.org/> --></a></li>
+</ul>
+<div class="wafl_block"><!-- wiki:
+.html
+<!-=-=
+^^^^ Official Wikis
+
+* "Perl 5 wiki"<http://www.perlfoundation.org/perl5>
+* "Perl 6 wiki"<http://www.perlfoundation.org/perl6>
+* "Parrot wiki"<http://www.perlfoundation.org/parrot>
+-=-=>
+.html
+--></div>
+<br /><h4 id="affiliates">Affiliates</h4>
+<ul>
+<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com<!-- wiki-renamed-hyperlink "Perl.com"<http://www.perl.com/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org<!-- wiki-renamed-hyperlink "Perl.org"<http://www.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs<!-- wiki-renamed-hyperlink "Perl Jobs"<http://jobs.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers<!-- wiki-renamed-hyperlink "Perl Mongers"<http://www.pm.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks<!-- wiki-renamed-hyperlink "PerlMonks"<http://perlmonks.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN<!-- wiki-renamed-hyperlink "CPAN"<http://cpan.org/> --></a></li>
+</ul>
+	 
+ </div>
+ </div>
+ <div id="navigation_footer">
+	 <div id="navigation_end"></div>
+	</div>
+
+ <div id="feeds">
+ Hosting provided by:
+ <a href="http://www.slicehost.com">Slicehost</a><p> 
+Grab a feed:
+
+ <a href="http://news.perlfoundation.org/rss.xml"><img src=" http://www.perlfoundation.org/static/images/foundation/rss-20.gif" alt="RSS 2.0" border="0" width="80" height="15"></a> 
+ </div>
+ </div>
+ <div id="content">
+ <div id="content_header"></div>
+ <div id="content_body">
+	 <h1>Outreach Program for Women</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p>
+This year, for the first time, we are participating in the <a target="_blank" title="(external link)" href="https://live.gnome.org/OutreachProgramForWomen">Outreach Program for Women<!-- wiki-renamed-hyperlink "Outreach Program for Women"<https://live.gnome.org/OutreachProgramForWomen> --></a>. The program will be running from June 17th - September 23rd 2013. The application deadline has been extended to May 8 and the required first contribution is due by May 17.</p>
+<p>
+The <a target="_blank" title="(external link)" href="https://live.gnome.org/OutreachProgramForWomen">main program page<!-- wiki-renamed-hyperlink "main program page"<https://live.gnome.org/OutreachProgramForWomen> --></a> contains general information about the program such as the timeline, background information, eligibility, requirements, and the application form.</p>
+<p>
+We would encourage potential interns to start getting involved with their communities and and to start thinking about project ideas now.</p>
+<p>
+Interns are encouraged to come up with their own project ideas. We will, however, but putting together a list of suggestions and possible mentors.</p>
+<p>
+Program Coordinators:</p>
+<ul>
+<li>Karen Pauley - karen <a href="/at" title="[click to create page]" class="incipient">at</a> perlfoundation.org</li>
+<li>Ya'akov Sloman - yaakov <a href="/at" title="[click to create page]" class="incipient">at</a> perlfoundation.org</li>
+</ul>
+<h2 id="project_ideas">Project Ideas</h2>
+<p>
+<strong>Working on Dancer</strong></p>
+<p>
+<a target="_blank" title="(external link)" href="http://www.perldancer.org/">http://www.perldancer.org/</a></p>
+<p>
+Dancer is a simple but powerful web application framework for Perl</p>
+<p>
+Possible tasks could include working on documentation, design, code refactor, feature implementations, feature smoothing, Git branches cleanup, ticket queue cleanup, marketing, coordinating efforts with the community and the team themselves.</p>
+<p>
+For more information about the possibilities and to begin contributing please contact the mentor for this project: sawyer x - xsawyerx <a href="/at" title="[click to create page]" class="incipient">at</a> cpan.org.</p>
+<p>
+<strong>Working on MetaCPAN</strong></p>
+<p>
+About MetaCPAN</p>
+<p>
+<a target="_blank" title="(external link)" href="http://metacpan.org">http://metacpan.org</a> is an open source search engine for the Comprehensive Perl Archive Network (CPAN), an ever growing archive of code and documentation for<br />
+the Perl programming language.</p>
+<p>
+MetaCPAN is a community effort, with all the code freely available on GitHub. We are a relatively young open source project. At this point, MetaCPAN is about 2.5 years old. It's old enough to have become an important and well utilized part of the Perl world, but it's also young enough to have lots of room to evolve. As you will see we have many ideas and encourage more suggestions. You'll find one a current list of our many code contributors here: <a target="_blank" title="(external link)" href="https://metacpan.org/about/contributors">https://metacpan.org/about/contributors</a></p>
+<p>
+Our code base is based on current best practices and modern web technologies. Our stack includes Catalyst, Plack, ElasticSearch, jQuery, Bootstrap and nginx. We also use Puppet for deployment and Vagrant + VirtualBox for development VMs. We have integration with Twitter, Github, PAUSE, Facebook and Google. All code is managed on Github and we have an active channel (#metacpan) on irc.perl.org.</p>
+<p>
+There are many available projects within MetaCPAN which you could take on or contribute to and there is also room for you to suggest improvements which you would like to make. The project list is ever growing and subject to change as volunteers take items on, but here's a sampling of what we'd love for you to consider working on.</p>
+<p>
+Module tagging.</p>
+<p>
+This is one of the most important things which MetaCPAN potentially can offer to the Perl community at large. A way for users to contribute to the categorizing and organization of the many, many available modules on CPAN. &quot;There's more than one way to do it&quot; is a good thing, but it can also get in the way of solving a problem when you are faced with too many choices. Some thoughts on tagging are posted here: <a target="_blank" title="(external link)" href="http://blogs.perl.org/users/olaf_alders/2013/03/sifting-through-the-cpan.html">http://blogs.perl.org/users/olaf_alders/2013/03/sifting-through-the-cpan.html</a></p>
+<p>
+Web of Trust.</p>
+<p>
+Dave Rolsky, back in 2010 posted an idea he had about how to mark modules as trustworthy (ie used by people he trusts). He said: &quot;I've long wanted some sort of &quot;web of trust&quot; system for CPAN. A CPAN user would mark authors and/or distributions as trusted. We’d take the graph of trust relationships and try to figure out which authors and modules are most trusted. Trust here would be some combination of good code, good docs, responsive author, whatever. The idea is to organically highlight the best of CPAN, and in particular help people discover the best modules in their class. I think this would be really useful for new users, and a lot more useful than the current CPAN rating system.&quot;</p>
+<p>
+Using ++ data (which we already have) and possibly module tagging, we can provide &quot;web of trust&quot; data. This does not, however, require the module tagging implementation to be useful and this would be of great value to many in the Perl community.</p>
+<p>
+Bug Fixes</p>
+<p>
+There are hundreds of outstanding issues waiting to be resolved. The large number of tickets is not indicative of a lack of response on the part of MetaCPAN developers (we try to stay on top of them), but it indicates the enthusiasm with which people are helping us track ways to improve. Starting with some open issues would be a good way to familiarize yourself with our codebase.</p>
+<p>
+API Documentation</p>
+<p>
+Because things traditionally have changed so rapidly, our documentation has either not kept up or not been written to completion. You can help us (and many Perl developers) by documenting the API and posting example code for both new and experienced MetaCPAN users. For example, most people do not know that MetaCPAN can function as an OAuth provider and could, therefore, be used for authenticating users across a range of Perl services. You could post example code for this use case and help facilitate MetaCPAN OAuth integrations.</p>
+<p>
+MetaCPAN is used by web, command line, Android and iOS apps, so there are many kinds of examples which could be documented.</p>
+<p>
+What Can We Offer you?</p>
+<p>
+It's already clear from the materials above that there are many ways for you to make your mark on MetaCPAN, but what can we offer you? You will have the chance to be mentored by experienced (and employed) Perl developers. We will carefully review all of your code and give you constructive (and kind) feedback. We will help you improve your code and your coding practices. MetaCPAN is a positive place. We will help you get from A to B with your code, but your work won't be trashed and you won't be insulted. We value all contributions and we want every contributor to know that she or he is appreciated. There are some harsh places on the Internet and in Open Source. This is not one of them.</p>
+<p>
+You'll have the chance to learn about the technologies as listed in our &quot;stack&quot; above. You will have help and guidance in working with these technologies from people who are quite familiar with them. Your code will deploy on robust hardware (think 30+ GB of RAM). Your code will often deploy within hours or even minutes of being submitted. Your work will immediately be put to the test by our many users on our very busy services. You'll gain experience in NoSQL (ElasticSearch), git, and also in participating in an Open Source project which functions as a highly available web service. You will gain experience not just in writing code, but in participating in the full cycle of code deployment, skills which are quite valuable in the real world.</p>
+<p>
+If any of this sounds remotely interesting to you, please don't hesitate to get in touch. You can contact me directly via the information listed below. If you just want to see how you like the project, feel free to get involved via github, IRC or both. We'll guide you through the process and you can decide for yourself if it's a good fit for you. We look forward to hearing from you.</p>
+<p>
+Contact:</p>
+<p>
+Olaf Alders<br />
+<a href="mailto:olaf@wundersolutions.com">olaf@wundersolutions.com</a><br />
+Twitter: @wundercounter<br />
+IRC: oalders (always in #metacpan on irc.perl.org)</p>
+<p>
+Our github org: <a target="_blank" title="(external link)" href="https://github.com/CPAN-API/">https://github.com/CPAN-API/</a></p>
+<p>
+Front end: <a target="_blank" title="(external link)" href="https://github.com/CPAN-API/metacpan-web">https://github.com/CPAN-API/metacpan-web</a><br />
+API: <a target="_blank" title="(external link)" href="https://github.com/CPAN-API/cpan-api">https://github.com/CPAN-API/cpan-api</a></p>
+<p>
+(On IRC you can ping me (&quot;oalders&quot;), or &quot;mo&quot;, &quot;ranguard&quot; or &quot;rwstauner&quot; to get the most up to date information, but there are also many others in the channel who are very helpful.)</p>
+<p>
+<strong>Work on Moose</strong></p>
+<p>
+Convert Moose's exceptions from plain strings to objects (aka &quot;structured exceptions&quot;). Moose's stringy exceptions are one place where we really screwed up the design. Exception objects afford categorization, annotation, internationalization, and so on. This refactoring would lead to a more robust ecosystem, all the way from Moose's core through to third-party applications. This work would even inform the design of new libraries and applications, since authors look to Moose's own design for best practices.</p>
+<p>
+Contact:</p>
+<p>
+Shawn Moore (sartak)<br />
+<a href="mailto:opw@sartak.org">opw@sartak.org</a> <br />
+Moose Mailing List: <a target="_blank" title="(external link)" href="http://lists.perl.org/list/moose.html">http://lists.perl.org/list/moose.html</a><br />
+IRC: #moose-dev on irc.perl.org</p>
+<h2 id="schedule">Schedule</h2>
+<table style="border-collapse: collapse;" class="formatter_table">
+<tr>
+<td style="border: 1px solid black;padding: .2em;">March 27</td>
+<td style="border: 1px solid black;padding: .2em;">application period opens</td>
+</tr>
+<tr>
+<td style="border: 1px solid black;padding: .2em;">March 27 - May 1</td>
+<td style="border: 1px solid black;padding: .2em;">applicants need to get in touch with at least one project and make a contribution to it</td>
+</tr>
+<tr>
+<td style="border: 1px solid black;padding: .2em;">May 8</td>
+<td style="border: 1px solid black;padding: .2em;">application deadline at 7pm UTC</td>
+</tr>
+<tr>
+<td style="border: 1px solid black;padding: .2em;">May 27</td>
+<td style="border: 1px solid black;padding: .2em;">accepted participants announced on this page at 7pm UTC</td>
+</tr>
+<tr>
+<td style="border: 1px solid black;padding: .2em;">June 17 - September 23</td>
+<td style="border: 1px solid black;padding: .2em;">internship period</td>
+</tr>
+</table>
+<br /><h2 id="payments_schedule">Payments Schedule</h2>
+<p>
+The GNOME Foundation will be administering the payments of the $5,000 (USD) stipends.</p>
+<table style="border-collapse: collapse;" class="formatter_table">
+<tr>
+<td style="border: 1px solid black;padding: .2em;">June 20</td>
+<td style="border: 1px solid black;padding: .2em;">$500 will be sent to participants who have begun their internships by this date</td>
+</tr>
+<tr>
+<td style="border: 1px solid black;padding: .2em;">July 30</td>
+<td style="border: 1px solid black;padding: .2em;">$2250 will be sent to participants in good standing with their mentors by this date</td>
+</tr>
+<tr>
+<td style="border: 1px solid black;padding: .2em;">September 27</td>
+<td style="border: 1px solid black;padding: .2em;">$2250 will be sent to participants who have successfully completed their internships by this date</td>
+</tr>
+</table>
+
+	</div>
+ <div id="content_footer"></div>
+ </div>
+ </div>
+ <div id="footer">
+ <div id="footer_content">
+ <div id="footer_strapline">
+ The Perl Foundation - dedicated to the advancement of the Perl programming language
+ </div>
+ <div id="footer_links">
+ <div id="address">
+ <p class="name">The Perl Foundation</p>
+ <p class="address">340 S Lemon Ave #6055<br>Walnut, CA 91789</p>
+ <p class="contact">
+ <a href="mailto:pr@perlfoundation.org">pr@perlfoundation.org</a><br>
+ <a href="http://www.perlfoundation.org">www.perlfoundation.org</a>
+ </p>
+ </div>
+ <ul class="f1">
+ <li>About TPF
+ <ul class="f2">
+ <li><a href="/who_s_who">Who's who?</a>
+ <li><a href="/legal">Legal</a>
+ <li><a href="/contact_us">Contact us</a>
+ <li><a href="http://news.perlfoundation.org">Foundation blog</a>
+ </ul>
+ <li>Official Wikis
+ <ul class="f2">
+ <li><a href="http://www.perlfoundation.org/perl5">Perl 5 wiki</a>
+ <li><a href="http://www.perlfoundation.org/perl6">Perl 6 wiki</a>
+ <li><a href="http://www.perlfoundation.org/parrot">Parrot wiki</a>
+ </ul>
+ <li>Get Involved
+ <ul class="f2">
+ <li><a href="/want_to_help">Want to help?</a>
+ <li><a href="https://donate.perlfoundation.org/index.pl?node=Contribution%20Info">Make a donation</a>
+ <li><a href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund drive status</a>
+ </ul>
+ <li>Grants
+ <ul class="f2">
+ <li><a href="/sponsors">Sponsors</a>
+ <li><a href="/grant_benefits">Benefits</a>
+ <li><a href="/how_to_write_a_proposal">Write a proposal</a>
+ <li><a href="/grants_committee">Grants committee</a>
+ </ul>
+ </ul>
+ <div class="clear"></div>
+ </div>
+ </div>
+ <div id="footer_end">
+ </div>
+ </div>
+ </div>
+</body>
+</html>

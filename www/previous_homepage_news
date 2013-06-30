@@ -1,0 +1,789 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+<meta name="google-site-verification" content="PspJjBYdKf-ZfTtgaRKOqlV_UoDJoOPx0d4zUbuGGxo" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-us" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32214061-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ <link rel="shortcut icon" href="/static/images/foundation/favicon.ico">
+
+ <title>The Perl Foundation</title>
+ <link href="http://perldoc.perl.org/static/exploreperl.css" rel="stylesheet" rev="stylesheet" type="text/css">
+
+<!-- <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+ <script type="text/javascript">_uacct = "UA-50555-10";urchinTracker();</script> -->
+ <script language="JavaScript" type="text/javascript" src="http://perldoc.perl.org/static/exploreperl.js"></script>
+
+ <!-- OVER_RIDE CSS NEEDS ADDING TO A STYLESHEET AT SOME POINT -->
+ <style type="text/css">
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	background-color: #4e5d84;
+}
+
+div#page {
+	width: 946px;
+	margin: 16px auto 26px;
+	position: relative;
+}
+
+div.clear {
+	clear: both;
+}
+
+/* @end */
+
+/* @group Header */
+
+div#header {
+	width: 946px;
+	height: 105px;
+	background-image: url(http://perldoc.perl.org/static/tpf/header.png);
+	position: relative;
+}
+
+div#strapline {
+	font: 0.8em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #b4b4b4;
+	position: absolute;
+	top: 68px;
+	left: 117px;
+}
+
+/* @group Download */
+
+div#download_link {
+	position: absolute;
+	top: 48px;
+	font-size: .8em;
+	left: 724px;
+}
+
+div#explore_link {
+	position: absolute;
+	top: 48px;
+	font-size: .8em;
+	left: 846px;
+}
+div.download a {
+	text-decoration: none;
+	color: #b4b4b4;
+}
+
+div.download a:hover {
+	color: #eaeaea;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Body */
+
+div#body {
+	background: url(http://perldoc.perl.org/static/tpf/main_bg.png) repeat-y;
+	position: relative;
+	color: #515151;
+	font-size: 16px !important;
+}
+
+/* @group Navigation */
+
+div#navigation {
+	position: absolute;
+	top: 21px;
+	left: 29px;
+	width: 155px;
+	font-size: 0.8em;
+}
+
+div#navigation_header {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_header.png);
+	width: 155px;
+	height: 14px;
+}
+
+div#navigation_body {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_bg.png);
+	width: 145px;
+	padding-right: 10px;
+}
+
+div#navigation_footer {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_footer.png);
+	width: 155px;
+	height: 13px;
+	position: relative;
+}
+
+div#navigation_end {
+	position: absolute;
+	background-color: #82a1ae;
+	width: 1px;
+	height: 1px;
+	bottom: 0;
+	right: -1px;
+}
+
+#navigation h4 {
+	padding-left: 12px;
+	margin: 0;
+	color: #36497d;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#navigation a {
+	color: #6e6e6e;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #414141;
+}
+
+#navigation ul {
+	margin: 0;
+	list-style-type: none;
+	padding: 2px 0 12px 20px;
+}
+
+#navigation li {
+	padding: 0 0 0 7px;
+	font-weight: 300;
+	font-size: .9em;
+	text-indent: -7px;
+}
+
+div#feeds {
+	margin-top: 17px;
+	margin-left: 19px;
+	font-size: .9em;
+	color: #707070;
+}
+
+/* @group Search */
+
+#navigation form#st-search-form {
+}
+
+#navigation input {
+	padding-left: 20px;
+	margin-left: 12px;
+	width: 109px;
+	height: 18px;
+	border: 1px solid #cacaca;
+	margin-bottom: 11px;
+	background: #fafafa url(http://perldoc.perl.org/static/tpf/search.png) no-repeat 3px 3px;
+	color: #919191;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Content */
+
+div#content {
+	padding-top: 9px;
+	padding-bottom: 20px;
+	width: 731px;
+	margin-left: 184px;
+ font-size: 0.8em;
+}
+
+div#content_header {
+	width: 731px;
+	height: 26px;
+	background: url(http://perldoc.perl.org/static/tpf/content_header.png) no-repeat;
+}
+
+div#content_body {
+	padding-left: 30px;
+	padding-right: 30px;
+	background: url(http://perldoc.perl.org/static/tpf/content_bg.png) repeat-y;	
+	min-height: 1000px;
+}
+
+div#content_footer {
+	width: 731px;
+	height: 25px;
+	background: url(http://perldoc.perl.org/static/tpf/content_footer.png) no-repeat;
+}
+
+h1 {
+	margin: 0;
+	font: 1.9em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #36497d;
+	background: url(http://perldoc.perl.org/static/tpf/h1_bg.png) no-repeat;
+	height: 30px;
+	padding-left: 37px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	font: 1.5em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #36497d;
+	padding-top: 9px;
+	margin: 0;
+	background: url(http://perldoc.perl.org/static/tpf/h2_bg.png) no-repeat -2px 28px;
+	padding-bottom: 4px;
+	padding-left: 0;
+	margin-bottom: 8px;
+}
+
+p {
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+a {
+	color: #36497d;
+}
+
+a:hover {
+	color: #6779a9;
+}
+
+a:visited {
+	color: #5c657d;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Footer */
+
+div#footer {
+
+}
+
+div#footer_content {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
+	padding-right: 74px;
+	padding-left: 74px;
+	background-color: #004065;
+}
+
+div#footer_strapline {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #6c6c6c;
+	font: lighter 1.05em "Gill Sans";
+}
+
+div#footer_end {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer.png);
+	width: 946px;
+	height: 42px;
+	clear: both;
+}
+
+/* @group Address */
+
+div#address {
+	background: url(http://perldoc.perl.org/static/tpf/onion-grey.png) no-repeat 0 4px;
+	padding-left: 51px;
+	float: left;
+	border-right: 1px solid #b4b4b4;
+	padding-right: 35px;
+}
+
+div#address p.name {
+	margin: 0;
+	color: #414141;
+}
+
+div#address p.address {
+	color: #797979;
+	font-size: .9em;
+	margin: 3px 0 0;
+	padding: 0;
+}
+
+div#address p.contact {
+	margin: 3px 0 0;
+	font-size: .9em;
+}
+
+div#address p.contact a {
+	color: #797979;
+	text-decoration: none;
+}
+
+div#address p.contact a:hover {
+	color: #515151;
+}
+
+/* @end */
+
+/* @group Links */
+
+div#footer_links {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
+}
+
+ul.f1 {
+	list-style-type: none;
+	margin: 0;
+	float: right;
+	padding: 8px 0 0;
+}
+
+ul.f1 li {
+	float: left;
+	color: #414141;
+	font-size: .8em;
+	text-align: right;
+	padding-left: 40px;
+}
+
+ul.f2 {
+	list-style-type: none;
+	text-align: right;
+	margin: 3px 0 0;
+	padding: 0;
+}
+
+ul.f2 li {
+	float: none;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+ul.f2 li a {
+	text-decoration: none;
+	color: #858585;
+}
+
+ul.f2 li a:hover {
+	color: #515151;
+}
+
+div#menu br {
+ display: none;
+}
+
+div#menu br + ul {
+ display: none;
+}
+
+div#homepage_link a {
+	width: 500px;
+	height: 83px;
+	display: block;
+	position: absolute;
+	top: 13px;
+	left: 12px;
+}
+
+/* @end */
+
+/* @end */
+ </style>
+
+ </head>
+
+<body onload="explorePerl.render(); explorePerl.addEvents('explore_anchor');">
+ <div id="page">
+ <div id="header">
+ <div id="homepage_link"><a href="/"></a></div>
+ <div id="download_link" class="download">
+ <a href="http://www.perl.org/get.html">Download Perl</a>
+ </div>
+ <div id="explore_link" class="download">
+ <a id="explore_anchor" href="#">Explore</a>
+ </div>
+ </div>
+ <div id="body">
+ <div id="navigation">
+ <div id="navigation_header"></div>
+ <div id="navigation_body">
+ <div id="search"> 
+ <form id="st-search-form" method="get" action="/search/pages">
+ <input id="st-search-term" type="text" name="q" size="17" value="Search" onFocus="if(this.value == 'Search'){this.value=''}" onBlur="if(this.value == ''){this.value='Search'}"/> 
+ </form> 
+ </div>
+
+ <div id="menu"> 
+	 
+ <br /><ul>
+<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage<!-- wiki-renamed-hyperlink "Homepage"<http://www.perlfoundation.org/> --></a></li>
+</ul>
+<h4 id="about">About</h4>
+<ul>
+<li><a href="/who_s_who" >Who's Who</a></li>
+<li><a href="/steering_committee" >Steering Committee</a></li>
+<li><a href="/legal" >Legal</a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns<!-- wiki-renamed-hyperlink "Tax Returns"<https://donate.perlfoundation.org/index.pl?node=IRS&type=document> --></a></li>
+<li><a href="/contact_us" >Contact Us</a></li>
+<li><a href="/press_releases" >Press Releases</a></li>
+<li><a href="/payments" >Payments</a> - details</li>
+<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog<!-- wiki-renamed-hyperlink "Foundation Blog"<http://news.perlfoundation.org/> --></a></li>
+<li><a href="/previous_homepage_news" >Previous Homepage News</a></li>
+</ul>
+<h4 id="get_involved">Get Involved</h4>
+<ul>
+<li><a href="/want_to_help" >Want to Help?</a></li>
+<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation<!-- wiki-renamed-hyperlink "Make a Donation"<https://secure.donor.com/pf012/give> --></a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status<!-- wiki-renamed-hyperlink "Fund Drive Status"<https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status> --></a></li>
+</ul>
+<h4 id="sponsorship">Sponsorship</h4>
+<ul>
+<li><a href="/sponsors" >Sponsors</a></li>
+
+<ul>
+<li><a href="/perl_5_core_maintenance_fund" >Perl 5 Core Maintenance Fund</a></li>
+<li><a href="/ian_hague_perl_6_development_grants" >Ian Hague Perl 6 Development Grants</a></li>
+</ul></ul>
+<h4 id="grants">Grants</h4>
+<ul>
+<li><a href="/grant_benefits" >Grant Benefits</a></li>
+<li><a href="/grants_committee" >Grants Committee</a></li>
+
+<ul>
+<li><a href="/running_grants" >Running Grants</a></li>
+<li><a href="/completed_grants" >Completed Grants</a></li>
+<li><a href="/how_to_write_a_proposal" >How to Write a Proposal</a></li>
+</ul></ul>
+<h4 id="initiatives">Initiatives</h4>
+<ul>
+<li><a href="/outreach_program_for_women" >Outreach Program for Women</a></li>
+<li><a href="/google_code_in" >Google Code-in</a></li>
+<li><a href="/yapc_na" >YAPC::NA</a></li>
+</ul>
+<h4 id="download_perl">Download Perl</h4>
+<ul>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5<!-- wiki-renamed-hyperlink "Perl 5"<http://www.perl.org/get.html> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6<!-- wiki-renamed-hyperlink "Perl 6"<http://www.perl6.org> --></a></li>
+</ul>
+<h4 id="events">Events</h4>
+<ul>
+<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America<!-- wiki-renamed-hyperlink "YAPC North America"<http://yapcna.org> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe<!-- wiki-renamed-hyperlink "YAPC Europe"<http://www.yapceurope.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America<!-- wiki-renamed-hyperlink "YAPC South America"<http://yapc.perl.org.br/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia<!-- wiki-renamed-hyperlink "YAPC Asia"<http://yapcasia.org/> --></a></li>
+</ul>
+<div class="wafl_block"><!-- wiki:
+.html
+<!-=-=
+^^^^ Official Wikis
+
+* "Perl 5 wiki"<http://www.perlfoundation.org/perl5>
+* "Perl 6 wiki"<http://www.perlfoundation.org/perl6>
+* "Parrot wiki"<http://www.perlfoundation.org/parrot>
+-=-=>
+.html
+--></div>
+<br /><h4 id="affiliates">Affiliates</h4>
+<ul>
+<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com<!-- wiki-renamed-hyperlink "Perl.com"<http://www.perl.com/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org<!-- wiki-renamed-hyperlink "Perl.org"<http://www.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs<!-- wiki-renamed-hyperlink "Perl Jobs"<http://jobs.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers<!-- wiki-renamed-hyperlink "Perl Mongers"<http://www.pm.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks<!-- wiki-renamed-hyperlink "PerlMonks"<http://perlmonks.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN<!-- wiki-renamed-hyperlink "CPAN"<http://cpan.org/> --></a></li>
+</ul>
+	 
+ </div>
+ </div>
+ <div id="navigation_footer">
+	 <div id="navigation_end"></div>
+	</div>
+
+ <div id="feeds">
+ Hosting provided by:
+ <a href="http://www.slicehost.com">Slicehost</a><p> 
+Grab a feed:
+
+ <a href="http://news.perlfoundation.org/rss.xml"><img src=" http://www.perlfoundation.org/static/images/foundation/rss-20.gif" alt="RSS 2.0" border="0" width="80" height="15"></a> 
+ </div>
+ </div>
+ <div id="content">
+ <div id="content_header"></div>
+ <div id="content_body">
+	 <h1>Previous Homepage News</h1>
+
+<p>
+This page contains the previous Homepage articles and is ordered in reverse chronological order (latest archived articles first).</p>
+<h2 id="liquid_web_donate_10_000_to_the_p5_cmf">Liquid Web Donate $10,000 to the P5 CMF</h2>
+<span class="nlw_phrase"><img alt="liquid_web.jpg" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20110922111614-1-21625/files/liquid_web.jpg" /><!-- wiki: {image: [The Perl Foundation] liquid_web.jpg} --></span><br /><br /><div class="wafl_block"><a href="#Liquid" style="font-weight:bold; text-decoration: none;"> 22nd
+  September 2011 </a>
+<!-- wiki:
+.html
+<a href=="#Liquid" style=="font-=weight:bold; text-=decoration: none;">
+22nd September 2011
+</a>
+.html
+--></div>
+<br /><p>
+It is my pleasure to announce that Liquid Web has joined the swelling number of companies, organisation and individuals who have confirmed their support for the Perl 5 Core Maintenance Fund. Karen Pauley, President of the Perl foundation, was delighted with the news of the donation. &quot;This investment in Perl's future from Liquid Web will go a long way to help maintain the viability of Perl 5 as a platform for the many businesses that depend upon it and will deliver a positive impact upon the entire Perl community”.</p>
+<p>
+Liquid Web, Inc. (<a target="_blank" title="(external link)" href="http://www.LiquidWeb.com">http://www.LiquidWeb.com</a>) are a rapidly growing managed Web Hosting company, with locations in Michigan and Arizona with a clear commitment to innovation and development.</p>
+<p>
+We have now made more information available, please download the pdf of the press release: <span class="nlw_phrase"><a href="/attachment/press_releases/Perl-5-CMF-liquid-web-sponsorship.pdf">[Press Releases] Perl-5-CMF-liquid-web-sponsorship.pdf</a><!-- wiki: {file: [Press Releases] Perl-=5-=CMF-=liquid-=web-=sponsorship.pdf} --></span>, <span class="nlw_phrase"><a href="/attachment/press_releases/liquid-web-Press-Release-Perl5-cmf-Donation.pdf">[Press Releases] liquid-web-Press-Release-Perl5-cmf-Donation.pdf</a><!-- wiki: {file: [Press Releases] liquid-=web-=Press-=Release-=Perl5-=cmf-=Donation.pdf} --></span>, or read the news item at: <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2011/09/liquid-web-donate-to-p5-cmf.html">http://news.perlfoundation.org/2011/09/liquid-web-donate-to-p5-cmf.html</a>.</p>
+<h2 id="nicholas_clark_perl_5_cmf_grant_approved">Nicholas Clark Perl 5 CMF Grant approved</h2>
+<div class="wafl_block"><a href="#clark-cmf" style="font-weight:bold; text-decoration: none;"> 5th
+  September 2011 </a>
+<!-- wiki:
+.html
+<a href=="#clark-=cmf" style=="font-=weight:bold; text-=decoration: none;">
+5th September 2011
+</a>
+.html
+--></div>
+<br /><p>
+Karen Pauley announced today that Dr Nicholas Clark has been succesful in his grant application to work on the Perl 5 Core as part of the Perl 5 Core Maintenance Fund, read more in Karen's article: <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2011/09/perl-5-core-maintenance-grant.html">http://news.perlfoundation.org/2011/09/perl-5-core-maintenance-grant.html</a> and the original proposal at <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2011/08/grant-proposal-improving-perl.html">http://news.perlfoundation.org/2011/08/grant-proposal-improving-perl.html</a>.</p>
+<h2 id="net_a_porter_champions_web_dev_with_10_000_donation_to_perl_5_cmf">Net-A-Porter champions Web Dev with $10,000 donation to Perl 5 CMF</h2>
+<span class="nlw_phrase"><img alt="nap_logo.gif" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20110831154233-1-6548/files/nap_logo.gif" /><!-- wiki: {image: [The Perl Foundation] nap_logo.gif} --></span><br /><br /><div class="wafl_block"><a href="#NAP" style="font-weight:bold; text-decoration: none;"> 31st August
+  2011 </a>
+<!-- wiki:
+.html
+<a href=="#NAP" style=="font-=weight:bold; text-=decoration: none;">
+31st August 2011
+</a>
+.html
+--></div>
+<br /><p>
+As announced by Karen Pauley at this year's YAPC::EU in Riga, Latvia, &quot;NET-A-PORTER.COM&quot;:<a target="_blank" title="(external link)" href="http://www.net-a-porter.com">http://www.net-a-porter.com</a>, the world's premier online luxury fashion retailer, will donate $10,000 to the Perl 5 Core Maintenance Fund. &quot;NET-A-PORTER&quot;:<a target="_blank" title="(external link)" href="http://www.net-a-porter.com">http://www.net-a-porter.com</a> is committed to innovations in web technology and has created a bespoke e-Commerce platform to offer its customers a fast, responsive and interactive user experience. It uses Perl for a number of its programs and makes this donation as a sign of its commitment to the language and an acknowledgement of the work that the Foundation is doing.</p>
+<p>
+We have now made more information available, please download the pdf of the press release: <span class="nlw_phrase"><a href="/attachment/press_releases/Perl-5-CMF-NAP-sponsorship.pdf">[Press Releases] Perl-5-CMF-NAP-sponsorship.pdf</a><!-- wiki: {file: [Press Releases] Perl-=5-=CMF-=NAP-=sponsorship.pdf} --></span>, or read the news item at: <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2011/08/net-a-porter-champions-web-dev.html">http://news.perlfoundation.org/2011/08/net-a-porter-champions-web-dev.html</a>.</p>
+<h2 id="lovefilm_supports_the_perl_community">LOVEFiLM supports the Perl Community</h2>
+<div class="wafl_block"><a href="#LOVEFiLM" style="font-weight:bold; text-decoration: none;"> 30th
+  August 2011 </a>
+<!-- wiki:
+.html
+<a href=="#LOVEFiLM" style=="font-=weight:bold; text-=decoration: none;">
+30th August 2011
+</a>
+.html
+--></div>
+<br /><p>
+The Perl Foundation is proud to announce that LOVEFiLM, Europe’s largest subscription service, are supporting the Perl community by assisting with the maintenance of regular programs such as memberships and grants.</p>
+<p>
+Mike Blakemore, Chief Technology Officer at LOVEFiLM states: “Perl underpins all the technology at LOVEFiLM – from warehouse, customer service, website, and back end processes. Its flexibility lets us innovate quickly and its maturity means there are developers rich in experience when it comes to operating in Perl.”</p>
+<p>
+Karen Pauley, Perl Foundation President stated: &quot;The support from LOVEFiLM is an essential component of the relationship that the Perl community shares with the commercial world. I am happy once again to see another successful Perl company proud of its involvement in the Perl Foundation and the community we support.&quot;</p>
+<p>
+For more information download the pdf of the press release: <span class="nlw_phrase"><a href="/attachment/press_releases/TPF-Lovefilm-supporting-the-Perl-community.pdf">[Press Releases] TPF-Lovefilm-supporting-the-Perl-community.pdf</a><!-- wiki: {file: [Press Releases] TPF-=Lovefilm-=supporting-=the-=Perl-=community.pdf} --></span>, or the news item at <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2011/08/lovefilm-helping-support-the-c.html">http://news.perlfoundation.org/2011/08/lovefilm-helping-support-the-c.html</a>.</p>
+<h2 id="oslo_perl_mongers_donate_to_1_000_euros_to_the_perl_5_core_maintenance_fund">Oslo Perl Mongers donate to 1,000 euros to the Perl 5 Core Maintenance Fund</h2>
+<div class="wafl_block"><a href="#oslo" style="font-weight:bold; text-decoration: none;"> 17th August
+  2011 </a>
+<!-- wiki:
+.html
+<a href=="#oslo" style=="font-=weight:bold; text-=decoration: none;">
+17th August 2011
+</a>
+.html
+--></div>
+<br /><p>
+We are proud to announce that the Oslo Perl Mongers have donated 1,000 Euros to the Perl 5 Core Maintenance Fund. They announced at the end of the YAPC::EU that they have had a good year promoting Perl and promoting Perl training and have gathered funds for further community projects and part of this is in support of the TPF. &quot;We are overjoyed that another local Perl group is able to donate a significant sum to us,&quot; said Karen Pauley on hearing the news.</p>
+<h2 id="white_camel_awards">White Camel Awards</h2>
+<div class="wafl_block"><a href="#camel-2011" style="font-weight:bold; text-decoration: none;"> 17th
+  August 2011 </a>
+<!-- wiki:
+.html
+<a href=="#camel-=2011" style=="font-=weight:bold; text-=decoration: none;">
+17th August 2011
+</a>
+.html
+--></div>
+<br /><p>
+Leo Lapworth, Daisuke Maki and Andrew Shitov have been awarded the White Camel award for 2011. The announcement was made by brian d foy at the YAPC::EU::2011 conference in Riga, Latvia. The White Camel award celebrates those people who have made significant contribution to the Perl community in the previous year. The Perl Foundation offers its warmest congratulations to this years winners.</p>
+<h2 id="dijkmat_donate_5_000_to_perl_5_cmf">Dijkmat Donate $5,000 to Perl 5 CMF</h2>
+<span class="nlw_phrase"><img alt="dm_trans150.gif" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20110817091202-0-13941/files/dm_trans150.gif" /><!-- wiki: {image: [The Perl Foundation] dm_trans150.gif} --></span><br /><br /><div class="wafl_block"><a href="#dijkmat" style="font-weight:bold; text-decoration: none;"> 17th
+  August 2011 </a>
+<!-- wiki:
+.html
+<a href=="#dijkmat" style=="font-=weight:bold; text-=decoration: none;">
+17th August 2011
+</a>
+.html
+--></div>
+<br /><p>
+It is a great pleasure to announce that Dijkmat have donated five thousand dollars to the Perl 5 Core Maintenance Fund. Dijmat are well known in the European Perl community for their work with Amsterdam Perl Mongers, YEF (YAPC Europe Federation) and their consistent attendance, support and volunteering for the European conferences and events. &quot;Once again Dijkmat have shown their love for, and support of, the Perl community with this generous contribution,&quot; said Karen Pauley, &quot;we are very fortunate to have active members and contributors like Liz and Wendy.&quot;</p>
+<p>
+Dijkmat have years of experience in the development of programs and interactive websites (including toolkits for development). They have a high level of knowledge and experience in project management, personnel management, design, marketing, sales, administration and systems management. Dijkmat BV was founded in January 2000 by Elizabeth Mattijsen and Wendy GA van Dijk.</p>
+<h2 id="net_a_porter_donate_10_000_to_perl_5_cmf">Net-A-Porter Donate $10,000 to Perl 5 CMF</h2>
+<span class="nlw_phrase"><img alt="nap_logo.gif" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20110831154233-1-6548/files/nap_logo.gif" /><!-- wiki: {image: [The Perl Foundation] nap_logo.gif} --></span><br /><br /><div class="wafl_block"><a href="#net-a-porter" style="font-weight:bold; text-decoration: none;"> 16th
+  August 2011 </a>
+<!-- wiki:
+.html
+<a href=="#net-=a-=porter" style=="font-=weight:bold; text-=decoration: none;">
+16th August 2011
+</a>
+.html
+--></div>
+<br /><p>
+It is my pleasure to announce that the Perl 5 Core Maintenance Fund has attracted sponsorship from Net-A-Porter. Net-A-Porter approached Karen Pauley, President of The Perl Foundation, and expressed their desire to fund this important initiative. “The generous support from Net-A-Porter will allow us to extend and expand grants to Perl developers who are working on the essential maintenance of the Perl 5 Core.” said TPF president Karen Pauley while attending YAPC Europe. “This will directly benefit the many thousands of Perl users around the world, helping us improve the language experience for everyone.”</p>
+<p>
+Net-A-Porter is committed to innovations in web technology and has created a bespoke e-Commerce platform to offer its customers a fast, responsive and interactive user experience. It uses Perl for a number of its programs and makes this donation as a sign of its commitment to the language and an acknowledgment of the work that the Foundation is doing.</p>
+<h2 id="cpanel_donate_10_000_to_perl_5_cmf">cPanel Donate $10,000 to Perl 5 CMF</h2>
+<span class="nlw_phrase"><img alt="cPanel.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20110719095951-1-8373/files/cPanel.png" /><!-- wiki: {image: [The Perl Foundation] cPanel.png} --></span><br /><br /><p>
+It is my pleasure to announce that the Perl 5 Core Maintenance Fund has attracted sponsorship from cPanel. cPanel approached Karen Pauley, president of The Perl Foundation, during the recent YAPC::NA conference in Asheville and announced their intent to sponsor this fund $10,000. cPanel has been developed in Perl and they have been sponsoring Perl events for many years. This generous contribution towards the Perl 5 Core Maintenance Fund is just another example of their continued investment in the Perl community and the Perl language.</p>
+<p>
+cPanel is a leading Web Hosting Control Panel Software provider supplying hosting automation tools to numerous data centers and customers all around the world. cPanel offers web hosting software that automates the intricate workings of web hosting servers. cPanel products are used on tens of thousands of servers worldwide to equip server administrators with the tools they need to provide top notch hosting to their customers.</p>
+<p>
+For more information download the pdf of the press release: <span class="nlw_phrase"><a href="/attachment/press_releases/Perl-5-CMF-cpanel-sponsorship.pages">[Press Releases] Perl-5-CMF-cpanel-sponsorship.pages</a><!-- wiki: {file: [Press Releases] Perl-=5-=CMF-=cpanel-=sponsorship.pages} --></span>, or the news item at: <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2011/07/cpanel-sponsor-p5cmf.html">http://news.perlfoundation.org/2011/07/cpanel-sponsor-p5cmf.html</a>.</p>
+<h2 id="booking_com_donate_10_000_to_perl_5_cmf">Booking.com Donate $10,000 to Perl 5 CMF</h2>
+<span class="nlw_phrase"><img alt="booking.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20110719095811-0-8501/files/booking.png" /><!-- wiki: {image: [The Perl Foundation] booking.png} --></span><br /><br /><p>
+It is my pleasure to announce that Booking.com approached Karen Pauley, president of The Perl Foundation, during the recent YAPC::NA conference in Asheville and announced their intent to sponsor the Core Maintenance Fund for $10,000 Booking.com have sponsored Perl events and initiatives for many years and have also been host to Perl events at their offices in Amsterdam.</p>
+<p>
+Booking.com is one of the world’s leading online hotel room reservation services and part of the priceline.com group. Booking.com was founded in 1996 and is based in Amsterdam, the Netherlands. Booking.com attracts millions of unique visitors each month who can choose from over one hundred and thirty-five thousand participating hotels based in over one hundred countries worldwide. Booking.com reserves greater than two hundred thousand room nights each day in over forty languages. They have over forty offices worldwide serving twenty-four hours a day to their customers.</p>
+<p>
+For more information download the pdf of the press release: <span class="nlw_phrase"><a href="/attachment/press_releases/Perl-5-CMF-booking-sponsorship.pdf">[Press Releases] Perl-5-CMF-booking-sponsorship.pdf</a><!-- wiki: {file: [Press Releases] Perl-=5-=CMF-=booking-=sponsorship.pdf} --></span>, or the news item at <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2011/07/bookingcom-sponsor-p5cmf.html">http://news.perlfoundation.org/2011/07/bookingcom-sponsor-p5cmf.html</a>.</p>
+<h2 id="vienna_pm_donates_10_000_dollars_to_the_core_maintenance_fund">Vienna.pm donates 10,000 dollars to the Core Maintenance Fund</h2>
+<p>
+The initial objective of the Core Maintenance Fund is to raise $25,000 to continue funding Dave Mitchell's work and to fund new work on the core by Nicholas Clark. This has been &quot;match funded&quot; by Vienna.pm who will match dollar for dollar the first $10,000 of sponsorship leaving on 20% of the initial funding to be found after the first $10,000 has been raised (<a target="_blank" title="(external link)" href="http://vienna.pm.org/10_000_dollar_for_the_perl5_core_maintaince_fund.html">27th July announcement by Thomas Klausner<!-- wiki-renamed-hyperlink "27th July announcement by Thomas Klausner"<http://vienna.pm.org/10_000_dollar_for_the_perl5_core_maintaince_fund.html> --></a>). This generous contribution is due to the well managed <a target="_blank" title="(external link)" href="http://vienna.yapceurope.org/ye2007/">YAPC::Europe 2007<!-- wiki-renamed-hyperlink "YAPC::Europe 2007"<http://vienna.yapceurope.org/ye2007/> --></a> in Vienna.</p>
+<p>
+The Perl Foundation would like to thank Vienna.pm for the generous contribution and to kick-starting the sponsorship drive for this important initiative.</p>
+<h2 id="perl_5_core_maintenance_fund">Perl 5 Core Maintenance Fund</h2>
+<p>
+The Perl Foundation has provided a series of grants targeted at improving the Perl 5 core. The original funding as provided by Booking.com is now almost depleted but The Perl Foundation is committed to raising new funding to help continue and expand this important venture. We are hoping to further fund Dave Mitchell's work and to fund new work on the core by Nicholas Clark.</p>
+<p>
+We are looking for companies and individuals to donate at this targeted fund <a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">https://secure.donor.com/pf012/give</a>. Larger sponsors will receive specific mention of their contribution to this fund on the Sponsor's page under the fund's section, donations of $1000 dollars or more will result in the sponsor's logo being used and the organisation (of choice) being credited on a weekly report. Please visit the page on the <a href="/perl_5_core_maintenance_fund" >Perl 5 Core Maintenance Fund</a> for more details and how to apply.</p>
+<h2 id="the_perl_foundation_booth_at_oscon">The Perl Foundation booth at OSCON</h2>
+<div class="wafl_block"><div><span style="float: right; margin: 10px;"> <img
+      src="http://www.perlfoundation.org/http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20110628203216-0-25390/files/oscon-booth-small-01.jpg"
+      border="0"> </span> If you are visiting OSCON this week then you might
+  like to wander to The Perl Foundation's booth at the event where you can pick
+  up some merchandise and chat with the booth attendants (Chris and Mark
+  Prather are featured in the photograph) about the recent events in Perl and
+  the Perlverse.<br><br> This year we have added an element of frivolity to our
+  booth and you can pick up a balloon camel that we have had custom made by a
+  local balloon artist (get them quick before they are hit by deflation!), or
+  grab stickers and flyers that will link you to some of the best sites for
+  Perl and Perl projects. A fuller report with more pictures will be available
+  after the event. </div>
+<!-- wiki:
+.html
+<span style=="float: right; margin: 10px;">
+<img border=="0" src=="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20110628203216-=0-=25390/files/oscon-=booth-=small-=01.jpg">
+</span>
+If you are visiting OSCON this week then you might like to wander to The Perl Foundation's booth at the event where you can pick up some merchandise and chat with the booth attendants (Chris and Mark Prather are featured in the photograph) about the recent events in Perl and the Perlverse.<br><br>
+This year we have added an element of frivolity to our booth and you can pick up a balloon camel that we have had custom made by a local balloon artist (get them quick before they are hit by deflation!), or grab stickers and flyers that will link you to some of the best sites for Perl and Perl projects. A fuller report with more pictures will be available after the event.
+.html
+--></div>
+<br /><h2 id="perl_5_14">Perl 5.14</h2>
+<p>
+A new version of Perl, 5.14, was officially released on 14th May following the successful test period, including the testing of release candidates. This is the first release of Perl 5 using the new annual schedule.<br />
+A Perl Foundation news article can be found at: <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2011/05/perl-514.html">http://news.perlfoundation.org/2011/05/perl-514.html</a><br />
+A full list of changes can be found at: <a target="_blank" title="(external link)" href="http://perl5.git.perl.org/perl.git/blob/HEAD:/pod/perldelta.pod">http://perl5.git.perl.org/perl.git/blob/HEAD:/pod/perldelta.pod</a></p>
+<p>
+As always the code will be available for <a target="_blank" title="(external link)" href="http://www.cpan.org/ports/index.html">download<!-- wiki-renamed-hyperlink "download"<http://www.cpan.org/ports/index.html> --></a> from <a target="_blank" title="(external link)" href="http://www.cpan.org/index.html">CPAN<!-- wiki-renamed-hyperlink "CPAN"<http://www.cpan.org/index.html> --></a>.</p>
+<h2 id="google_summer_of_code_2011">Google Summer of Code 2011</h2>
+<p>
+I am delighted to announce that TPF has been accepted as a mentoring organization for this year's <a target="_blank" title="(external link)" href="http://www.google-melange.com/">Google Summer of Code<!-- wiki-renamed-hyperlink "Google Summer of Code"<http://www.google=-melange.com/> --></a>. <a target="_blank" title="(external link)" href="http://code.google.com/soc/">Google Summer of Code<!-- wiki-renamed-hyperlink "Google Summer of Code"<http://code.google.com/soc/> --></a> is a program that offers stipends to student developers for writing code for open source software projects. The following six students and projects have been accepted:</p>
+<p>
+<a target="_blank" title="(external link)" href="http://perl.andrewalker.net/proposal-rework-catalyst-component-setup-code/">Andr� Walker - Rework Catalyst component setup code<!-- wiki-renamed-hyperlink "Andr� Walker =- Rework Catalyst component setup code"<http://perl.andrewalker.net/proposal=-rework=-catalyst=-component=-setup=-code/> --></a><br />
+Mentored by Tomas Doran and Eden Cardim</p>
+<p>
+<a target="_blank" title="(external link)" href="http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/hugmeir/1">Brian Neil Fraser - Making the Perl Core UTF-8 clean<!-- wiki-renamed-hyperlink "Brian Neil Fraser =- Making the Perl Core UTF=-8 clean"<http://www.google=-melange.com/gsoc/proposal/review/google/gsoc2011/hugmeir/1> --></a><br />
+Mentored by Florian Ragwitz and Zefram</p>
+<p>
+<a target="_blank" title="(external link)" href="http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/gnusosa/1">Carlos Ivan Sosa - Removing the upgrading necessity of the Dancer script with a module<!-- wiki-renamed-hyperlink "Carlos Ivan Sosa =- Removing the upgrading necessity of the Dancer script with a module"<http://www.google=-melange.com/gsoc/proposal/review/google/gsoc2011/gnusosa/1> --></a><br />
+Mentored by Sawyer X and Franck Cuny</p>
+<p>
+Marc Green - Standardization of core documentation parsing tools<br />
+Mentored by Ricardo Signes and David E. Wheeler</p>
+<p>
+<a target="_blank" title="(external link)" href="http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/mo/1">Moritz Onken - CPAN search for the modern web<!-- wiki-renamed-hyperlink "Moritz Onken =- CPAN search for the modern web"<http://www.google=-melange.com/gsoc/proposal/review/google/gsoc2011/mo/1> --></a><br />
+Mentored by Clinton Gormley and Olaf Alders</p>
+<p>
+<a target="_blank" title="(external link)" href="http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/tadzik/1">Tadeusz Sośnierz - Pod parser for Rakudo<!-- wiki-renamed-hyperlink "Tadeusz Sośnierz =- Pod parser for Rakudo"<http://www.google=-melange.com/gsoc/proposal/review/google/gsoc2011/tadzik/1> --></a><br />
+Mentored by Moritz Lenz and Carl Masak</p>
+<h2 id="yapc_na_2012_call_for_venue">YAPC::NA 2012 Call For Venue</h2>
+<p>
+<a target="_blank" title="(external link)" href="http://www.yapc2011.us/yn2011/">YAPC::NA 2011 in Asheville, NC<!-- wiki-renamed-hyperlink "YAPC::NA 2011 in Asheville, NC"<http://www.yapc2011.us/yn2011/> --></a> is still four months away, but that doesn't mean that we can't start planning for 2012. The call for venue is officially open! The TPF Conference Committee will be accepting bids today through May 15th 2011.</p>
+<p>
+What is YAPC::NA?</p>
+<p>
+YAPC::NA is an annual Perl-focused conference held at various locations throughout North America. The conference is a grassroots symposia on the Perl programming language promoted by The Perl Foundation.</p>
+<p>
+What is the &quot;Call for Venue&quot;?</p>
+<p>
+Each year <a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers<!-- wiki-renamed-hyperlink "Perl Mongers"<http://www.pm.org/> --></a> groups bid to host the conference for the upcoming year in the location of their choosing. The &quot;Call for Venue&quot; is The Perl Foundation's official invitation for groups to send in their bids.</p>
+<p>
+How do you submit a bid?</p>
+<p>
+The best place to start is the <a target="_blank" title="(external link)" href="http://yapc.org/yapcna.html">bidding details<!-- wiki-renamed-hyperlink "bidding details"<http://yapc.org/yapcna.html> --></a> page at <a target="_blank" title="(external link)" href="http://www.yapc.org">yapc.org<!-- wiki-renamed-hyperlink "yapc.org"<http://www.yapc.org> --></a>. While there, you'll find links to the <a target="_blank" title="(external link)" href="http://tpf.googlecode.com/svn/trunk/yapc/Bidding.pm">venue requirements<!-- wiki-renamed-hyperlink "venue requirements"<http://tpf.googlecode.com/svn/trunk/yapc/Bidding.pm> --></a> and the <a target="_blank" title="(external link)" href="http://yapc.org/yapc-crit.txt">review criteria<!-- wiki-renamed-hyperlink "review criteria"<http://yapc.org/yapc=-crit.txt> --></a>. You can do a little more research and peek at previous bids by searching the 'yapc' tag at <a target="_blank" title="(external link)" href="http://news.perlfoundation.org">The Perl Foundation blog<!-- wiki-renamed-hyperlink "The Perl Foundation blog"<http://news.perlfoundation.org> --></a>.</p>
+<p>
+Also, feel free to post your questions to this blog post or email tpf-conferences (at) perl (dot) org. If you know a previous organizer, it might not be a bad idea to chat with he or she to get some advice.</p>
+<p>
+After your done and have your bid together, just email it to tpf-conferences (at) perl (dot) org. Remember, the deadline is May 15th 2011.</p>
+
+	</div>
+ <div id="content_footer"></div>
+ </div>
+ </div>
+ <div id="footer">
+ <div id="footer_content">
+ <div id="footer_strapline">
+ The Perl Foundation - dedicated to the advancement of the Perl programming language
+ </div>
+ <div id="footer_links">
+ <div id="address">
+ <p class="name">The Perl Foundation</p>
+ <p class="address">340 S Lemon Ave #6055<br>Walnut, CA 91789</p>
+ <p class="contact">
+ <a href="mailto:pr@perlfoundation.org">pr@perlfoundation.org</a><br>
+ <a href="http://www.perlfoundation.org">www.perlfoundation.org</a>
+ </p>
+ </div>
+ <ul class="f1">
+ <li>About TPF
+ <ul class="f2">
+ <li><a href="/who_s_who">Who's who?</a>
+ <li><a href="/legal">Legal</a>
+ <li><a href="/contact_us">Contact us</a>
+ <li><a href="http://news.perlfoundation.org">Foundation blog</a>
+ </ul>
+ <li>Official Wikis
+ <ul class="f2">
+ <li><a href="http://www.perlfoundation.org/perl5">Perl 5 wiki</a>
+ <li><a href="http://www.perlfoundation.org/perl6">Perl 6 wiki</a>
+ <li><a href="http://www.perlfoundation.org/parrot">Parrot wiki</a>
+ </ul>
+ <li>Get Involved
+ <ul class="f2">
+ <li><a href="/want_to_help">Want to help?</a>
+ <li><a href="https://donate.perlfoundation.org/index.pl?node=Contribution%20Info">Make a donation</a>
+ <li><a href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund drive status</a>
+ </ul>
+ <li>Grants
+ <ul class="f2">
+ <li><a href="/sponsors">Sponsors</a>
+ <li><a href="/grant_benefits">Benefits</a>
+ <li><a href="/how_to_write_a_proposal">Write a proposal</a>
+ <li><a href="/grants_committee">Grants committee</a>
+ </ul>
+ </ul>
+ <div class="clear"></div>
+ </div>
+ </div>
+ <div id="footer_end">
+ </div>
+ </div>
+ </div>
+</body>
+</html>

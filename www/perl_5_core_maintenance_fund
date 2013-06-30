@@ -1,0 +1,668 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+<meta name="google-site-verification" content="PspJjBYdKf-ZfTtgaRKOqlV_UoDJoOPx0d4zUbuGGxo" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-us" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32214061-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ <link rel="shortcut icon" href="/static/images/foundation/favicon.ico">
+
+ <title>The Perl Foundation</title>
+ <link href="http://perldoc.perl.org/static/exploreperl.css" rel="stylesheet" rev="stylesheet" type="text/css">
+
+<!-- <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+ <script type="text/javascript">_uacct = "UA-50555-10";urchinTracker();</script> -->
+ <script language="JavaScript" type="text/javascript" src="http://perldoc.perl.org/static/exploreperl.js"></script>
+
+ <!-- OVER_RIDE CSS NEEDS ADDING TO A STYLESHEET AT SOME POINT -->
+ <style type="text/css">
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	background-color: #4e5d84;
+}
+
+div#page {
+	width: 946px;
+	margin: 16px auto 26px;
+	position: relative;
+}
+
+div.clear {
+	clear: both;
+}
+
+/* @end */
+
+/* @group Header */
+
+div#header {
+	width: 946px;
+	height: 105px;
+	background-image: url(http://perldoc.perl.org/static/tpf/header.png);
+	position: relative;
+}
+
+div#strapline {
+	font: 0.8em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #b4b4b4;
+	position: absolute;
+	top: 68px;
+	left: 117px;
+}
+
+/* @group Download */
+
+div#download_link {
+	position: absolute;
+	top: 48px;
+	font-size: .8em;
+	left: 724px;
+}
+
+div#explore_link {
+	position: absolute;
+	top: 48px;
+	font-size: .8em;
+	left: 846px;
+}
+div.download a {
+	text-decoration: none;
+	color: #b4b4b4;
+}
+
+div.download a:hover {
+	color: #eaeaea;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Body */
+
+div#body {
+	background: url(http://perldoc.perl.org/static/tpf/main_bg.png) repeat-y;
+	position: relative;
+	color: #515151;
+	font-size: 16px !important;
+}
+
+/* @group Navigation */
+
+div#navigation {
+	position: absolute;
+	top: 21px;
+	left: 29px;
+	width: 155px;
+	font-size: 0.8em;
+}
+
+div#navigation_header {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_header.png);
+	width: 155px;
+	height: 14px;
+}
+
+div#navigation_body {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_bg.png);
+	width: 145px;
+	padding-right: 10px;
+}
+
+div#navigation_footer {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_footer.png);
+	width: 155px;
+	height: 13px;
+	position: relative;
+}
+
+div#navigation_end {
+	position: absolute;
+	background-color: #82a1ae;
+	width: 1px;
+	height: 1px;
+	bottom: 0;
+	right: -1px;
+}
+
+#navigation h4 {
+	padding-left: 12px;
+	margin: 0;
+	color: #36497d;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#navigation a {
+	color: #6e6e6e;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #414141;
+}
+
+#navigation ul {
+	margin: 0;
+	list-style-type: none;
+	padding: 2px 0 12px 20px;
+}
+
+#navigation li {
+	padding: 0 0 0 7px;
+	font-weight: 300;
+	font-size: .9em;
+	text-indent: -7px;
+}
+
+div#feeds {
+	margin-top: 17px;
+	margin-left: 19px;
+	font-size: .9em;
+	color: #707070;
+}
+
+/* @group Search */
+
+#navigation form#st-search-form {
+}
+
+#navigation input {
+	padding-left: 20px;
+	margin-left: 12px;
+	width: 109px;
+	height: 18px;
+	border: 1px solid #cacaca;
+	margin-bottom: 11px;
+	background: #fafafa url(http://perldoc.perl.org/static/tpf/search.png) no-repeat 3px 3px;
+	color: #919191;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Content */
+
+div#content {
+	padding-top: 9px;
+	padding-bottom: 20px;
+	width: 731px;
+	margin-left: 184px;
+ font-size: 0.8em;
+}
+
+div#content_header {
+	width: 731px;
+	height: 26px;
+	background: url(http://perldoc.perl.org/static/tpf/content_header.png) no-repeat;
+}
+
+div#content_body {
+	padding-left: 30px;
+	padding-right: 30px;
+	background: url(http://perldoc.perl.org/static/tpf/content_bg.png) repeat-y;	
+	min-height: 1000px;
+}
+
+div#content_footer {
+	width: 731px;
+	height: 25px;
+	background: url(http://perldoc.perl.org/static/tpf/content_footer.png) no-repeat;
+}
+
+h1 {
+	margin: 0;
+	font: 1.9em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #36497d;
+	background: url(http://perldoc.perl.org/static/tpf/h1_bg.png) no-repeat;
+	height: 30px;
+	padding-left: 37px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	font: 1.5em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #36497d;
+	padding-top: 9px;
+	margin: 0;
+	background: url(http://perldoc.perl.org/static/tpf/h2_bg.png) no-repeat -2px 28px;
+	padding-bottom: 4px;
+	padding-left: 0;
+	margin-bottom: 8px;
+}
+
+p {
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+a {
+	color: #36497d;
+}
+
+a:hover {
+	color: #6779a9;
+}
+
+a:visited {
+	color: #5c657d;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Footer */
+
+div#footer {
+
+}
+
+div#footer_content {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
+	padding-right: 74px;
+	padding-left: 74px;
+	background-color: #004065;
+}
+
+div#footer_strapline {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #6c6c6c;
+	font: lighter 1.05em "Gill Sans";
+}
+
+div#footer_end {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer.png);
+	width: 946px;
+	height: 42px;
+	clear: both;
+}
+
+/* @group Address */
+
+div#address {
+	background: url(http://perldoc.perl.org/static/tpf/onion-grey.png) no-repeat 0 4px;
+	padding-left: 51px;
+	float: left;
+	border-right: 1px solid #b4b4b4;
+	padding-right: 35px;
+}
+
+div#address p.name {
+	margin: 0;
+	color: #414141;
+}
+
+div#address p.address {
+	color: #797979;
+	font-size: .9em;
+	margin: 3px 0 0;
+	padding: 0;
+}
+
+div#address p.contact {
+	margin: 3px 0 0;
+	font-size: .9em;
+}
+
+div#address p.contact a {
+	color: #797979;
+	text-decoration: none;
+}
+
+div#address p.contact a:hover {
+	color: #515151;
+}
+
+/* @end */
+
+/* @group Links */
+
+div#footer_links {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
+}
+
+ul.f1 {
+	list-style-type: none;
+	margin: 0;
+	float: right;
+	padding: 8px 0 0;
+}
+
+ul.f1 li {
+	float: left;
+	color: #414141;
+	font-size: .8em;
+	text-align: right;
+	padding-left: 40px;
+}
+
+ul.f2 {
+	list-style-type: none;
+	text-align: right;
+	margin: 3px 0 0;
+	padding: 0;
+}
+
+ul.f2 li {
+	float: none;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+ul.f2 li a {
+	text-decoration: none;
+	color: #858585;
+}
+
+ul.f2 li a:hover {
+	color: #515151;
+}
+
+div#menu br {
+ display: none;
+}
+
+div#menu br + ul {
+ display: none;
+}
+
+div#homepage_link a {
+	width: 500px;
+	height: 83px;
+	display: block;
+	position: absolute;
+	top: 13px;
+	left: 12px;
+}
+
+/* @end */
+
+/* @end */
+ </style>
+
+ </head>
+
+<body onload="explorePerl.render(); explorePerl.addEvents('explore_anchor');">
+ <div id="page">
+ <div id="header">
+ <div id="homepage_link"><a href="/"></a></div>
+ <div id="download_link" class="download">
+ <a href="http://www.perl.org/get.html">Download Perl</a>
+ </div>
+ <div id="explore_link" class="download">
+ <a id="explore_anchor" href="#">Explore</a>
+ </div>
+ </div>
+ <div id="body">
+ <div id="navigation">
+ <div id="navigation_header"></div>
+ <div id="navigation_body">
+ <div id="search"> 
+ <form id="st-search-form" method="get" action="/search/pages">
+ <input id="st-search-term" type="text" name="q" size="17" value="Search" onFocus="if(this.value == 'Search'){this.value=''}" onBlur="if(this.value == ''){this.value='Search'}"/> 
+ </form> 
+ </div>
+
+ <div id="menu"> 
+	 
+ <br /><ul>
+<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage<!-- wiki-renamed-hyperlink "Homepage"<http://www.perlfoundation.org/> --></a></li>
+</ul>
+<h4 id="about">About</h4>
+<ul>
+<li><a href="/who_s_who" >Who's Who</a></li>
+<li><a href="/steering_committee" >Steering Committee</a></li>
+<li><a href="/legal" >Legal</a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns<!-- wiki-renamed-hyperlink "Tax Returns"<https://donate.perlfoundation.org/index.pl?node=IRS&type=document> --></a></li>
+<li><a href="/contact_us" >Contact Us</a></li>
+<li><a href="/press_releases" >Press Releases</a></li>
+<li><a href="/payments" >Payments</a> - details</li>
+<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog<!-- wiki-renamed-hyperlink "Foundation Blog"<http://news.perlfoundation.org/> --></a></li>
+<li><a href="/previous_homepage_news" >Previous Homepage News</a></li>
+</ul>
+<h4 id="get_involved">Get Involved</h4>
+<ul>
+<li><a href="/want_to_help" >Want to Help?</a></li>
+<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation<!-- wiki-renamed-hyperlink "Make a Donation"<https://secure.donor.com/pf012/give> --></a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status<!-- wiki-renamed-hyperlink "Fund Drive Status"<https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status> --></a></li>
+</ul>
+<h4 id="sponsorship">Sponsorship</h4>
+<ul>
+<li><a href="/sponsors" >Sponsors</a></li>
+
+<ul>
+<li><a href="/perl_5_core_maintenance_fund" >Perl 5 Core Maintenance Fund</a></li>
+<li><a href="/ian_hague_perl_6_development_grants" >Ian Hague Perl 6 Development Grants</a></li>
+</ul></ul>
+<h4 id="grants">Grants</h4>
+<ul>
+<li><a href="/grant_benefits" >Grant Benefits</a></li>
+<li><a href="/grants_committee" >Grants Committee</a></li>
+
+<ul>
+<li><a href="/running_grants" >Running Grants</a></li>
+<li><a href="/completed_grants" >Completed Grants</a></li>
+<li><a href="/how_to_write_a_proposal" >How to Write a Proposal</a></li>
+</ul></ul>
+<h4 id="initiatives">Initiatives</h4>
+<ul>
+<li><a href="/outreach_program_for_women" >Outreach Program for Women</a></li>
+<li><a href="/google_code_in" >Google Code-in</a></li>
+<li><a href="/yapc_na" >YAPC::NA</a></li>
+</ul>
+<h4 id="download_perl">Download Perl</h4>
+<ul>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5<!-- wiki-renamed-hyperlink "Perl 5"<http://www.perl.org/get.html> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6<!-- wiki-renamed-hyperlink "Perl 6"<http://www.perl6.org> --></a></li>
+</ul>
+<h4 id="events">Events</h4>
+<ul>
+<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America<!-- wiki-renamed-hyperlink "YAPC North America"<http://yapcna.org> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe<!-- wiki-renamed-hyperlink "YAPC Europe"<http://www.yapceurope.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America<!-- wiki-renamed-hyperlink "YAPC South America"<http://yapc.perl.org.br/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia<!-- wiki-renamed-hyperlink "YAPC Asia"<http://yapcasia.org/> --></a></li>
+</ul>
+<div class="wafl_block"><!-- wiki:
+.html
+<!-=-=
+^^^^ Official Wikis
+
+* "Perl 5 wiki"<http://www.perlfoundation.org/perl5>
+* "Perl 6 wiki"<http://www.perlfoundation.org/perl6>
+* "Parrot wiki"<http://www.perlfoundation.org/parrot>
+-=-=>
+.html
+--></div>
+<br /><h4 id="affiliates">Affiliates</h4>
+<ul>
+<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com<!-- wiki-renamed-hyperlink "Perl.com"<http://www.perl.com/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org<!-- wiki-renamed-hyperlink "Perl.org"<http://www.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs<!-- wiki-renamed-hyperlink "Perl Jobs"<http://jobs.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers<!-- wiki-renamed-hyperlink "Perl Mongers"<http://www.pm.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks<!-- wiki-renamed-hyperlink "PerlMonks"<http://perlmonks.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN<!-- wiki-renamed-hyperlink "CPAN"<http://cpan.org/> --></a></li>
+</ul>
+	 
+ </div>
+ </div>
+ <div id="navigation_footer">
+	 <div id="navigation_end"></div>
+	</div>
+
+ <div id="feeds">
+ Hosting provided by:
+ <a href="http://www.slicehost.com">Slicehost</a><p> 
+Grab a feed:
+
+ <a href="http://news.perlfoundation.org/rss.xml"><img src=" http://www.perlfoundation.org/static/images/foundation/rss-20.gif" alt="RSS 2.0" border="0" width="80" height="15"></a> 
+ </div>
+ </div>
+ <div id="content">
+ <div id="content_header"></div>
+ <div id="content_body">
+	 <h1>Perl 5 Core Maintenance Fund</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p>
+In 2008 a generous contribution from Booking.com enabled The Perl Foundation to provide a series of grants, awarded to Dave Mitchell, targeted at improving the Perl 5 core. This project has been very successful and once the original contribution was spent we committed to raising new funding to help continue and expand this important venture. Details of the funding raised so far and how this has been spent can be found in this <a target="_blank" title="(external link)" href="https://docs.google.com/spreadsheet/pub?key=0AkU6pBm3WGeedGlqV1d0OXFVaG8yVTVDRFI5c0hLOHc&amp;output=html">Google document<!-- wiki-renamed-hyperlink "Google document"<https://docs.google.com/spreadsheet/pub?key=0AkU6pBm3WGeedGlqV1d0OXFVaG8yVTVDRFI5c0hLOHc&output=html> --></a>.</p>
+<h2 id="description_of_fund">Description of Fund</h2>
+<p>
+The donations made to this fund will be used for the maintenance and improvement of the Perl 5 core. Funds will be disbursed via grants awarded by The Perl Foundation in conjunction with well-respected members of the perl5 community. The grants will be awarded to the most appropriate applicant and managed in association with the Perl 5 Porters.</p>
+<h3 id="initial_objectives">Initial Objectives</h3>
+<p>
+The initial objective of this fund was to raise $25,000 to continue funding Dave Mitchell's work and to fund new work on the core by Nicholas Clark. This has been &quot;match funded&quot; by Vienna.pm who will match dollar for dollar the first $10,000 of sponsorship leaving on 20% of the initial funding to be found after the first $10,000 has been raised (<a target="_blank" title="(external link)" href="http://vienna.pm.org/10_000_dollar_for_the_perl5_core_maintaince_fund.html">27th July announcement by Thomas Klausner<!-- wiki-renamed-hyperlink "27th July announcement by Thomas Klausner"<http://vienna.pm.org/10_000_dollar_for_the_perl5_core_maintaince_fund.html> --></a>). This generous contribution is due to the well managed <a target="_blank" title="(external link)" href="http://vienna.yapceurope.org/ye2007/">YAPC::Europe 2007<!-- wiki-renamed-hyperlink "YAPC::Europe 2007"<http://vienna.yapceurope.org/ye2007/> --></a> in Vienna.</p>
+<h2 id="applicant_eligibility">Applicant Eligibility</h2>
+<p>
+Due to the nature of this fund, and its targeted focus, eligibility to apply has two initial requirements:</p>
+<p>
+1. To be eligible the applicant must be a contributor to the Perl 5 core.<br />
+2. The application must be endorsed by one or more people with commit rights to the core.</p>
+<h4 id="approval_process">Approval Process</h4>
+<p>
+Once an application has been received, and confirmed as matching the initial requirements, it will be published on The Perl Foundation blog for a period of community feedback. If it is required, by the nature of the grant, feedback may also be requested from key community members. During this period of feedback applicants may be asked to provide additional material or to amend their application before it is put forward for evaluation.</p>
+<p>
+Final evaluation of any grants will be performed by the president of The Perl Foundation in consultation with other members (Executive, Board and Committee); with members of the Perl 5 Porters; with the Perl 5 Pumpking.</p>
+<h4 id="license_and_release">License and Release</h4>
+<p>
+Any code created, modified or submitted during the period of the grant 'must' be released as open source under the same license terms as Perl 5 itself. Completed work will need to published in a public version control system.</p>
+<h2 id="grant_conditions">Grant Conditions</h2>
+<h4 id="reporting">Reporting</h4>
+<p>
+1. Successful applicants must provide a weekly report to the P5P mailing list. Missing two weekly reports in a row without prior notice will be grounds for terminating the grant.<br />
+2. Successful applicants must provide a monthly report to The Perl Foundation.</p>
+<h4 id="management">Management</h4>
+<p>
+1. Each grant will have at least two managers to represent Perl 5 Porters and The Perl Foundation.<br />
+2. In cases where the applicant does not have a commit bit to the Perl 5 core, the manager from Perl 5 Porters must be an existing committer.<br />
+3. Payments will be made on a monthly basis, in arrears, only after the work has been signed off by the grant manager.<br />
+4. In the case of a dispute that cannot be resolved the grant will be terminated.</p>
+<h4 id="termination_of_grant">Termination of Grant</h4>
+<p>
+As previously reported, missing two weekly reports in a row without prior notice and disputes that cannot be resolved will terminate the grant. Payment will be made for the work completed to date. For time based grants, payment will be for hours worked. For milestone based grants, payment will be made up to the last completed milestone.</p>
+<h2 id="termination_of_fund">Termination of Fund</h2>
+<p>
+If a period of one year has elapsed with no grants in progress and no new applications the remaining funds might be used for general Perl5 development.</p>
+<h2 id="application">Application</h2>
+<p>
+In order to apply for a grant under this fund the following Grant Application form must be completed:</p>
+<h3 id="perl_5_core_maintenance_grant_application_form">Perl 5 Core Maintenance Grant Application Form</h3>
+<p>
+(Please submit all areas of the completed form to Karen Pauley, President of TPF, karen(at)perlfoundation.org.)</p>
+<p>
+<strong>Name:</strong><br />
+(Your full name and irc nickname.)</p>
+<p>
+<strong>Email &amp; Phone:</strong><br />
+(This information will not be made public but is required for the Foundation grant approval and payment of any funds.)</p>
+<p>
+<strong>Project Title:</strong><br />
+(How the grant will be known.)</p>
+<p>
+<strong>Synopsis:</strong><br />
+(A brief description of your grant application.)</p>
+<p>
+<strong>Benefits to Perl 5 Core Maintenance:</strong><br />
+(How your work will specifically benefit the core.)</p>
+<p>
+<strong>Deliverable Elements:</strong></p>
+<p>
+<strong>Project Details:</strong><br />
+(A more detailed description.)</p>
+<p>
+<strong>Project Schedule:</strong><br />
+(Please be as realistic as possible.)</p>
+<p>
+<strong>Bio.:</strong><br />
+(Who are you? What makes you the best person to work on this project?)</p>
+<p>
+<strong>Endorsed by:</strong></p>
+<p>
+<strong>Country of Residence:</strong><br />
+(Current country of residence, please note if you intend to move during the grant process and can provide details please do so.)</p>
+<p>
+<strong>Nationality:</strong><br />
+(Residents and nationals of countries who we are prohibited by U.S. law from engaging in commerce, are ineligible to participate.)</p>
+<p>
+<strong>Amount Requested:</strong><br />
+(In USD ($))</p>
+<p>
+<strong>Suggestions for Grant Manager:</strong><br />
+(Please make suggestions as to who would be willing to manage this grant bearing in mind that if you do not have commit access that your Grant Manager from Perl 5 Porters will be required to have this.)</p>
+
+	</div>
+ <div id="content_footer"></div>
+ </div>
+ </div>
+ <div id="footer">
+ <div id="footer_content">
+ <div id="footer_strapline">
+ The Perl Foundation - dedicated to the advancement of the Perl programming language
+ </div>
+ <div id="footer_links">
+ <div id="address">
+ <p class="name">The Perl Foundation</p>
+ <p class="address">340 S Lemon Ave #6055<br>Walnut, CA 91789</p>
+ <p class="contact">
+ <a href="mailto:pr@perlfoundation.org">pr@perlfoundation.org</a><br>
+ <a href="http://www.perlfoundation.org">www.perlfoundation.org</a>
+ </p>
+ </div>
+ <ul class="f1">
+ <li>About TPF
+ <ul class="f2">
+ <li><a href="/who_s_who">Who's who?</a>
+ <li><a href="/legal">Legal</a>
+ <li><a href="/contact_us">Contact us</a>
+ <li><a href="http://news.perlfoundation.org">Foundation blog</a>
+ </ul>
+ <li>Official Wikis
+ <ul class="f2">
+ <li><a href="http://www.perlfoundation.org/perl5">Perl 5 wiki</a>
+ <li><a href="http://www.perlfoundation.org/perl6">Perl 6 wiki</a>
+ <li><a href="http://www.perlfoundation.org/parrot">Parrot wiki</a>
+ </ul>
+ <li>Get Involved
+ <ul class="f2">
+ <li><a href="/want_to_help">Want to help?</a>
+ <li><a href="https://donate.perlfoundation.org/index.pl?node=Contribution%20Info">Make a donation</a>
+ <li><a href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund drive status</a>
+ </ul>
+ <li>Grants
+ <ul class="f2">
+ <li><a href="/sponsors">Sponsors</a>
+ <li><a href="/grant_benefits">Benefits</a>
+ <li><a href="/how_to_write_a_proposal">Write a proposal</a>
+ <li><a href="/grants_committee">Grants committee</a>
+ </ul>
+ </ul>
+ <div class="clear"></div>
+ </div>
+ </div>
+ <div id="footer_end">
+ </div>
+ </div>
+ </div>
+</body>
+</html>
