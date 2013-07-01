@@ -1,0 +1,637 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+<meta name="google-site-verification" content="PspJjBYdKf-ZfTtgaRKOqlV_UoDJoOPx0d4zUbuGGxo" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en-us" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32214061-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ <link rel="shortcut icon" href="/static/images/foundation/favicon.ico">
+
+ <title>The Perl Foundation</title>
+ <link href="http://perldoc.perl.org/static/exploreperl.css" rel="stylesheet" rev="stylesheet" type="text/css">
+
+<!-- <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+ <script type="text/javascript">_uacct = "UA-50555-10";urchinTracker();</script> -->
+ <script language="JavaScript" type="text/javascript" src="http://perldoc.perl.org/static/exploreperl.js"></script>
+
+ <!-- OVER_RIDE CSS NEEDS ADDING TO A STYLESHEET AT SOME POINT -->
+ <style type="text/css">
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	background-color: #4e5d84;
+}
+
+div#page {
+	width: 946px;
+	margin: 16px auto 26px;
+	position: relative;
+}
+
+div.clear {
+	clear: both;
+}
+
+/* @end */
+
+/* @group Header */
+
+div#header {
+	width: 946px;
+	height: 105px;
+	background-image: url(http://perldoc.perl.org/static/tpf/header.png);
+	position: relative;
+}
+
+div#strapline {
+	font: 0.8em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #b4b4b4;
+	position: absolute;
+	top: 68px;
+	left: 117px;
+}
+
+/* @group Download */
+
+div#download_link {
+	position: absolute;
+	top: 48px;
+	font-size: .8em;
+	left: 724px;
+}
+
+div#explore_link {
+	position: absolute;
+	top: 48px;
+	font-size: .8em;
+	left: 846px;
+}
+div.download a {
+	text-decoration: none;
+	color: #b4b4b4;
+}
+
+div.download a:hover {
+	color: #eaeaea;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Body */
+
+div#body {
+	background: url(http://perldoc.perl.org/static/tpf/main_bg.png) repeat-y;
+	position: relative;
+	color: #515151;
+	font-size: 16px !important;
+}
+
+/* @group Navigation */
+
+div#navigation {
+	position: absolute;
+	top: 21px;
+	left: 29px;
+	width: 155px;
+	font-size: 0.8em;
+}
+
+div#navigation_header {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_header.png);
+	width: 155px;
+	height: 14px;
+}
+
+div#navigation_body {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_bg.png);
+	width: 145px;
+	padding-right: 10px;
+}
+
+div#navigation_footer {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_footer.png);
+	width: 155px;
+	height: 13px;
+	position: relative;
+}
+
+div#navigation_end {
+	position: absolute;
+	background-color: #82a1ae;
+	width: 1px;
+	height: 1px;
+	bottom: 0;
+	right: -1px;
+}
+
+#navigation h4 {
+	padding-left: 12px;
+	margin: 0;
+	color: #36497d;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#navigation a {
+	color: #6e6e6e;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #414141;
+}
+
+#navigation ul {
+	margin: 0;
+	list-style-type: none;
+	padding: 2px 0 12px 20px;
+}
+
+#navigation li {
+	padding: 0 0 0 7px;
+	font-weight: 300;
+	font-size: .9em;
+	text-indent: -7px;
+}
+
+div#feeds {
+	margin-top: 17px;
+	margin-left: 19px;
+	font-size: .9em;
+	color: #707070;
+}
+
+/* @group Search */
+
+#navigation form#st-search-form {
+}
+
+#navigation input {
+	padding-left: 20px;
+	margin-left: 12px;
+	width: 109px;
+	height: 18px;
+	border: 1px solid #cacaca;
+	margin-bottom: 11px;
+	background: #fafafa url(http://perldoc.perl.org/static/tpf/search.png) no-repeat 3px 3px;
+	color: #919191;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Content */
+
+div#content {
+	padding-top: 9px;
+	padding-bottom: 20px;
+	width: 731px;
+	margin-left: 184px;
+ font-size: 0.8em;
+}
+
+div#content_header {
+	width: 731px;
+	height: 26px;
+	background: url(http://perldoc.perl.org/static/tpf/content_header.png) no-repeat;
+}
+
+div#content_body {
+	padding-left: 30px;
+	padding-right: 30px;
+	background: url(http://perldoc.perl.org/static/tpf/content_bg.png) repeat-y;	
+	min-height: 1000px;
+}
+
+div#content_footer {
+	width: 731px;
+	height: 25px;
+	background: url(http://perldoc.perl.org/static/tpf/content_footer.png) no-repeat;
+}
+
+h1 {
+	margin: 0;
+	font: 1.9em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #36497d;
+	background: url(http://perldoc.perl.org/static/tpf/h1_bg.png) no-repeat;
+	height: 30px;
+	padding-left: 37px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	font: 1.5em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #36497d;
+	padding-top: 9px;
+	margin: 0;
+	background: url(http://perldoc.perl.org/static/tpf/h2_bg.png) no-repeat -2px 28px;
+	padding-bottom: 4px;
+	padding-left: 0;
+	margin-bottom: 8px;
+}
+
+p {
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+a {
+	color: #36497d;
+}
+
+a:hover {
+	color: #6779a9;
+}
+
+a:visited {
+	color: #5c657d;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Footer */
+
+div#footer {
+
+}
+
+div#footer_content {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
+	padding-right: 74px;
+	padding-left: 74px;
+	background-color: #004065;
+}
+
+div#footer_strapline {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #6c6c6c;
+	font: lighter 1.05em "Gill Sans";
+}
+
+div#footer_end {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer.png);
+	width: 946px;
+	height: 42px;
+	clear: both;
+}
+
+/* @group Address */
+
+div#address {
+	background: url(http://perldoc.perl.org/static/tpf/onion-grey.png) no-repeat 0 4px;
+	padding-left: 51px;
+	float: left;
+	border-right: 1px solid #b4b4b4;
+	padding-right: 35px;
+}
+
+div#address p.name {
+	margin: 0;
+	color: #414141;
+}
+
+div#address p.address {
+	color: #797979;
+	font-size: .9em;
+	margin: 3px 0 0;
+	padding: 0;
+}
+
+div#address p.contact {
+	margin: 3px 0 0;
+	font-size: .9em;
+}
+
+div#address p.contact a {
+	color: #797979;
+	text-decoration: none;
+}
+
+div#address p.contact a:hover {
+	color: #515151;
+}
+
+/* @end */
+
+/* @group Links */
+
+div#footer_links {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
+}
+
+ul.f1 {
+	list-style-type: none;
+	margin: 0;
+	float: right;
+	padding: 8px 0 0;
+}
+
+ul.f1 li {
+	float: left;
+	color: #414141;
+	font-size: .8em;
+	text-align: right;
+	padding-left: 40px;
+}
+
+ul.f2 {
+	list-style-type: none;
+	text-align: right;
+	margin: 3px 0 0;
+	padding: 0;
+}
+
+ul.f2 li {
+	float: none;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+ul.f2 li a {
+	text-decoration: none;
+	color: #858585;
+}
+
+ul.f2 li a:hover {
+	color: #515151;
+}
+
+div#menu br {
+ display: none;
+}
+
+div#menu br + ul {
+ display: none;
+}
+
+div#homepage_link a {
+	width: 500px;
+	height: 83px;
+	display: block;
+	position: absolute;
+	top: 13px;
+	left: 12px;
+}
+
+/* @end */
+
+/* @end */
+ </style>
+
+ </head>
+
+<body onload="explorePerl.render(); explorePerl.addEvents('explore_anchor');">
+ <div id="page">
+ <div id="header">
+ <div id="homepage_link"><a href="/"></a></div>
+ <div id="download_link" class="download">
+ <a href="http://www.perl.org/get.html">Download Perl</a>
+ </div>
+ <div id="explore_link" class="download">
+ <a id="explore_anchor" href="#">Explore</a>
+ </div>
+ </div>
+ <div id="body">
+ <div id="navigation">
+ <div id="navigation_header"></div>
+ <div id="navigation_body">
+ <div id="search"> 
+ <form id="st-search-form" method="get" action="/search/pages">
+ <input id="st-search-term" type="text" name="q" size="17" value="Search" onFocus="if(this.value == 'Search'){this.value=''}" onBlur="if(this.value == ''){this.value='Search'}"/> 
+ </form> 
+ </div>
+
+ <div id="menu"> 
+	 
+ <br /><ul>
+<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage<!-- wiki-renamed-hyperlink "Homepage"<http://www.perlfoundation.org/> --></a></li>
+</ul>
+<h4 id="about">About</h4>
+<ul>
+<li><a href="/who_s_who" >Who's Who</a></li>
+<li><a href="/steering_committee" >Steering Committee</a></li>
+<li><a href="/legal" >Legal</a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns<!-- wiki-renamed-hyperlink "Tax Returns"<https://donate.perlfoundation.org/index.pl?node=IRS&type=document> --></a></li>
+<li><a href="/contact_us" >Contact Us</a></li>
+<li><a href="/press_releases" >Press Releases</a></li>
+<li><a href="/payments" >Payments</a> - details</li>
+<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog<!-- wiki-renamed-hyperlink "Foundation Blog"<http://news.perlfoundation.org/> --></a></li>
+<li><a href="/previous_homepage_news" >Previous Homepage News</a></li>
+</ul>
+<h4 id="get_involved">Get Involved</h4>
+<ul>
+<li><a href="/want_to_help" >Want to Help?</a></li>
+<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation<!-- wiki-renamed-hyperlink "Make a Donation"<https://secure.donor.com/pf012/give> --></a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status<!-- wiki-renamed-hyperlink "Fund Drive Status"<https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status> --></a></li>
+</ul>
+<h4 id="sponsorship">Sponsorship</h4>
+<ul>
+<li><a href="/sponsors" >Sponsors</a></li>
+
+<ul>
+<li><a href="/perl_5_core_maintenance_fund" >Perl 5 Core Maintenance Fund</a></li>
+<li><a href="/ian_hague_perl_6_development_grants" >Ian Hague Perl 6 Development Grants</a></li>
+</ul></ul>
+<h4 id="grants">Grants</h4>
+<ul>
+<li><a href="/grant_benefits" >Grant Benefits</a></li>
+<li><a href="/grants_committee" >Grants Committee</a></li>
+
+<ul>
+<li><a href="/running_grants" >Running Grants</a></li>
+<li><a href="/completed_grants" >Completed Grants</a></li>
+<li><a href="/how_to_write_a_proposal" >How to Write a Proposal</a></li>
+</ul></ul>
+<h4 id="initiatives">Initiatives</h4>
+<ul>
+<li><a href="/outreach_program_for_women" >Outreach Program for Women</a></li>
+<li><a href="/google_code_in" >Google Code-in</a></li>
+<li><a href="/yapc_na" >YAPC::NA</a></li>
+</ul>
+<h4 id="download_perl">Download Perl</h4>
+<ul>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5<!-- wiki-renamed-hyperlink "Perl 5"<http://www.perl.org/get.html> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6<!-- wiki-renamed-hyperlink "Perl 6"<http://www.perl6.org> --></a></li>
+</ul>
+<h4 id="events">Events</h4>
+<ul>
+<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America<!-- wiki-renamed-hyperlink "YAPC North America"<http://yapcna.org> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe<!-- wiki-renamed-hyperlink "YAPC Europe"<http://www.yapceurope.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America<!-- wiki-renamed-hyperlink "YAPC South America"<http://yapc.perl.org.br/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia<!-- wiki-renamed-hyperlink "YAPC Asia"<http://yapcasia.org/> --></a></li>
+</ul>
+<div class="wafl_block"><!-- wiki:
+.html
+<!-=-=
+^^^^ Official Wikis
+
+* "Perl 5 wiki"<http://www.perlfoundation.org/perl5>
+* "Perl 6 wiki"<http://www.perlfoundation.org/perl6>
+* "Parrot wiki"<http://www.perlfoundation.org/parrot>
+-=-=>
+.html
+--></div>
+<br /><h4 id="affiliates">Affiliates</h4>
+<ul>
+<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com<!-- wiki-renamed-hyperlink "Perl.com"<http://www.perl.com/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org<!-- wiki-renamed-hyperlink "Perl.org"<http://www.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs<!-- wiki-renamed-hyperlink "Perl Jobs"<http://jobs.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers<!-- wiki-renamed-hyperlink "Perl Mongers"<http://www.pm.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks<!-- wiki-renamed-hyperlink "PerlMonks"<http://perlmonks.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN<!-- wiki-renamed-hyperlink "CPAN"<http://cpan.org/> --></a></li>
+</ul>
+	 
+ </div>
+ </div>
+ <div id="navigation_footer">
+	 <div id="navigation_end"></div>
+	</div>
+
+ <div id="feeds">
+ Hosting provided by:
+ <a href="http://www.slicehost.com">Slicehost</a><p> 
+Grab a feed:
+
+ <a href="http://news.perlfoundation.org/rss.xml"><img src=" http://www.perlfoundation.org/static/images/foundation/rss-20.gif" alt="RSS 2.0" border="0" width="80" height="15"></a> 
+ </div>
+ </div>
+ <div id="content">
+ <div id="content_header"></div>
+ <div id="content_body">
+	 <h1>Grant Benefits</h1>
+
+<h1 id="grants_benefits_to_the_open_source_community">Grants Benefits to the Open Source Community</h1>
+<p>
+Funding leading Perl developers and educators enables the Perl Foundation to effectively pursue its mandate to advance the use and understanding of Perl in the wider community.</p>
+<p>
+Public presentations by grant recipients offer grass-roots Perl users unprecedented opportunities to learn from and interact with leading members of the Perl community, and also provide an important means for the those users to give direct feedback to the the language developers.</p>
+<p>
+Writing articles for print and on-line media enhances that transfer of information and adds to the learning resources available to the community.</p>
+<p>
+The grant recipients have the opportunity to focus their considerable talents on important projects that can directly benefit tens of thousands of Perl users around the world. This may involve improving Perl's own code base, or developing valuable new software for general use. Recipients have the time and the freedom-from-distraction to study difficult problems carefully, and develop practical, efficient, and easy-to-use solutions to them.</p>
+<p>
+The grants themselves have raised the profile of the Open Source community, prompting debate on the economics of &quot;free&quot; software, and the funding models that can best support non-commercial development. They also engender a greater sense of community pride in and proprietorship of the Perl language, acting as a focus around which interest, energy, and productive interaction can be built.</p>
+<h1 id="direct_benefits_to_sponsors">Direct Benefits to Sponsors</h1>
+<h3 id="a_vital_perl_language">A Vital Perl Language:</h3>
+<p>
+Perl has a worldwide impact, and Perl 6 is an important new generation of efficient, flexible Perl. Individuals and corporations that depend on, have an interest in, and love Perl can contribute directly to support the basic costs of development and support for this great programming language.</p>
+<h3 id="tax_deductibility">Tax deductibility:</h3>
+<p>
+TPF is a non-profit, 501(c)(3) organization with offices in Holland, Michigan. All donations to TPF are tax deductible for US residents. Donations may also qualify as tax deductions by individuals in other countries as well (check your local regulations). Employers may match individual donations.</p>
+<h3 id="kudos">Kudos:</h3>
+<p>
+The Open Source and Free Software movements often operate as meritocracies, in which reputation reflects performance. Sponsoring a high-profile, high-achiever from within these communities is an excellent way to gain credit and status, both directly for the donation itself and indirectly by association with the grant recipient.</p>
+<p>
+The software community is also heavily driven by personalities, and many members strongly identify with talented individuals. Visible support for such people is seen as visible support for the community, and is a rich source of goodwill.</p>
+<p>
+This funding drive and the subsequent grants will receive significant publicity throughout the Open Source IT industry. Historically, donations made early in the fund-raising process are particularly effective in garnering community recognition and approval.</p>
+<h3 id="publicity">Publicity:</h3>
+<p>
+TPF publicly acknowledges all sponsors, and provides special recognition for large donors.</p>
+<p>
+Sponsors donating US$5,000 or more have the opportunity to display their corporate logo on the TPF website, with a link to their home-page and a personalized note of and recognition and thanks from TPF.</p>
+<p>
+Sponsors contributing US$10,000 or more may additionally set up their own page on the TPF website (with only minor restrictions on content).</p>
+<p>
+Sponsors donating US$50,000 or more are also granted the naming rights to a particular grant. For example: &quot;The 2002 GoodWillCorp Perl Development Grant&quot;.</p>
+<h3 id="software">Software:</h3>
+<p>
+All software developed under a TPF Development grant must be released under a publically available license that is free for redistribution and use without discrimination against field of endeavour. The fruits of the work are thus immediately available for use by sponsors. Furthermore, although sponsors are not entitled to direct the course of software development, their ideas, suggestions, and questions naturally receive particular attention by grant recipients.</p>
+<h3 id="training">Training:</h3>
+<p>
+Grant recipients travel widely as part of their grant, and provide free public seminars on their work wherever they go. Not surprisingly, their travel itinerary almost always includes major IT centres where their sponsors are likely to be situated. For example, in 2001 Dr Conway presented seminars in locations accessible to each of his six major sponsors.</p>
+<p>
+Grant recipients also offer major sponsors special discounted rates on corporate training.</p>
+<p>
+Each grant is budgeted individually, according to the duration of the award, the recipient's financial needs, and projected expenses (travel, equipment, etc.) A typical amount for a 12-month grant involving some domestic US travel would be US$80,000.</p>
+<p>
+The purpose and goals of each grant are also individually negotiated with the recipient. These may include any combination of:</p>
+<ul>
+<li>Development of specific software packages,</li>
+<li>Maintenance and enhancement of the Perl core code,</li>
+<li>Design or implementation work for the forthcoming Perl 6,</li>
+<li>Delivering keynotes, tutorials, and other presentations at national and international conferences,</li>
+<li>Speaking to local Perl and Open Source user groups,</li>
+<li>Participation in relevant on-line forums,</li>
+<li>Any other activity the committee deems beneficial to the wider Perl community.</li>
+</ul>
+
+	</div>
+ <div id="content_footer"></div>
+ </div>
+ </div>
+ <div id="footer">
+ <div id="footer_content">
+ <div id="footer_strapline">
+ The Perl Foundation - dedicated to the advancement of the Perl programming language
+ </div>
+ <div id="footer_links">
+ <div id="address">
+ <p class="name">The Perl Foundation</p>
+ <p class="address">340 S Lemon Ave #6055<br>Walnut, CA 91789</p>
+ <p class="contact">
+ <a href="mailto:pr@perlfoundation.org">pr@perlfoundation.org</a><br>
+ <a href="http://www.perlfoundation.org">www.perlfoundation.org</a>
+ </p>
+ </div>
+ <ul class="f1">
+ <li>About TPF
+ <ul class="f2">
+ <li><a href="/who_s_who">Who's who?</a>
+ <li><a href="/legal">Legal</a>
+ <li><a href="/contact_us">Contact us</a>
+ <li><a href="http://news.perlfoundation.org">Foundation blog</a>
+ </ul>
+ <li>Official Wikis
+ <ul class="f2">
+ <li><a href="http://www.perlfoundation.org/perl5">Perl 5 wiki</a>
+ <li><a href="http://www.perlfoundation.org/perl6">Perl 6 wiki</a>
+ <li><a href="http://www.perlfoundation.org/parrot">Parrot wiki</a>
+ </ul>
+ <li>Get Involved
+ <ul class="f2">
+ <li><a href="/want_to_help">Want to help?</a>
+ <li><a href="https://donate.perlfoundation.org/index.pl?node=Contribution%20Info">Make a donation</a>
+ <li><a href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund drive status</a>
+ </ul>
+ <li>Grants
+ <ul class="f2">
+ <li><a href="/sponsors">Sponsors</a>
+ <li><a href="/grant_benefits">Benefits</a>
+ <li><a href="/how_to_write_a_proposal">Write a proposal</a>
+ <li><a href="/grants_committee">Grants committee</a>
+ </ul>
+ </ul>
+ <div class="clear"></div>
+ </div>
+ </div>
+ <div id="footer_end">
+ </div>
+ </div>
+ </div>
+</body>
+</html>

@@ -1,0 +1,159 @@
+www.perlfoundation.org
+
+NOTE: perlfoundation.org redirects to www.perlfoundation.org
+
+OVERVIEW
+
+1. A new engine to power the site.
+2. A new design for the site.
+3. A new hosting location (Dan has already made some very sensible suggestions to this and Casey has the current site stabilised on a server he can control) where it is controlled by the Org.
+
+STAGE 0
+
+1. Assess what we need to port from the old site.
+2. Organise a repo. and snapshot the data to it with updates when content changes.
+3. Define a feature list for the first stage of the site
+3.1 draw up a huge list of features, wishes, requirements
+3.2 triage this down to basic needs
+3.3 define from triage list what the stage 1 framework will support/perform
+3.4 make up a wish list for future stages
+
+STAGE 1
+
+1. Build framework for new site
+1.1 Choose projects, libraries and modules
+1.2 Assess requirements (hardware and software)
+1.3 Discuss implementation route
+
+
+
+CURRENT SITE SKELETON
+
+https://docs.google.com/document/d/1wo47p0FH1WZnS7JLQCYsqrTZ_AaPHXwMUf4UDUbfsws/edit?usp=sharing
+
+index.html -- Top Nav
+
+    www.perlfoundation.org -- logo
+        /get.html "Download Perl"
+        /# "Explore" -- overlay with ...
+            News
+                blogs.perl.org "Perl Blogs"
+                ironman.enlightenedperl.org "Perl Ironman"
+                www.perlbuzz.com "Perl Buzz"
+                news.perlfoundation.org "TPF News"
+            Language
+                www.perl.org "Perl.org"
+                learn.perl.org "Learn Perl"
+                perldoc.perl.org "Documentation"
+                search.cpan.org "CPAN"
+            Community
+                www.pm.org "Perl Mongers"
+                jobs.perl.org "Perl Jobs"
+                www.perlfoundation.org "Perl Foundation"
+                www.yapc.org "Conferences"
+
+
+index.html -- Left Nav
+    
+    Search Box
+
+    About
+        /who_s_who "Who's Who"
+        /steering_committee "Steering Committee"
+        /legal "Legal"
+        /index.pl?node=IRS&type=document "Tax Returns"
+        /contact_us "Contact Us"
+        /press_releases "Press Releases"
+        /payments "Payments - details"
+        news.perlfoundation.org "Foundation Blog"
+        /previous_homepage_news "Previous Homepage News"
+
+    Get Involved
+        /want_to_help "Want to Help?"
+        https://secure.donor.com/pf012/give "Make a Donation"
+        https://donate.perlfoundation.org/index.pl?node=Fund Drive Status "Fund Drive Status"
+
+    Sponsorship
+        /sponsors "Sponsors"
+            /perl_5_core_maintenance_fund "Perl 5 Core Maintenance Fund"
+            /ian_hague_perl_6_development_grants "Ian Hague Perl 6 Development Grants"
+
+    Grants
+        /grant_benefits "Grant Benefits"
+        /grants_committee "Grants Committee"
+            /running_grants "Running Grants"
+            /completed_grants "Completed Grants"
+            /how_to_write_a_proposal "How to Write a Proposal"
+
+    Initiatives
+        /outreach_program_for_women "Outreach Program for Women"
+        /google_code_in "Google Code-in"
+        /yapc_na "YAPC::NA"
+
+    Download Perl
+        /get.html "Perl 5"
+        www.perl6.org "Perl 6"
+
+    Events
+        yapcna.org "YAPC North America"
+        www.yapceurope.org "YAPC Europe"
+        yapc.perl.org.br "YAPC South America"
+        yapcasia.org "YAPC Asia"
+
+    Affiliates
+        www.perl.com "Perl.com"
+        www.perl.org "Perl.org"
+        jobs.perl.org "Perl Jobs"
+        www.pm.org "Perl Mongers"
+        perlmonks.org "PerlMonks"
+        cpan.org "CPAN"
+
+
+index.html -- Body
+
+    The Perl Foundation
+
+        www.yapc.org "International Yet Another Perl Conferences"
+        www.perl.org/get.html "Perl 5"
+        dev.perl.org/perl6/ "Perl 6"
+        www.perl.org "perl.org"
+        www.pm.org "Perl Mongers"
+        www.perlmonks.org "PerlMonks"
+
+        https://secure.donor.com/pf012/give "visit our donation page"
+
+        https://secure.donor.com/pf012/give "LARGE DONATE BUTTON"
+
+        
+        Worldwide YAPC Events
+
+            text,link and image to yapc events
+
+
+index.html -- Bottom Nav
+
+    Foundation Contact Information
+
+    About TPF
+        /who_s_who "Who's who?"
+        /legal "Legal"
+        /contact_us "Contact us"
+        /news.perlfoundation.org "Foundation blog"
+
+    Official Wikis
+        /perl5 "Perl 5 wiki"
+        /perl6 "Perl 6 wiki"
+        /parrot "Parrot wiki"
+
+    Get Involved
+        /want_to_help "Want to help?"
+        https://donate.perlfoundation.org/index.pl?node=Contribution Info "Make a donation"
+        https://donate.perlfoundation.org/index.pl?node=Fund Drive Status "Fund drive status"
+
+    Grants
+        /sponsors "Sponsors"
+        /grant_benefits "Benefits"
+        /how_to_write_a_proposal "Write a proposal"
+        /grants_committee "Grants committee"
+
+
