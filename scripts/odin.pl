@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 use CGI qw/:standard/;
+use Mail::Sendmail;
 use strict;
 use warnings;
 
@@ -22,6 +23,13 @@ if( remote_addr() =~ /204.232.175/ || remote_addr() =~ /192.30.252/)
 
     ## Copy contents
     `cp -rp www/ ../`;
+
+    sendmail(
+        From => 'perlfoun@qs598.pair.com',
+        To   => 'adam@oktud.com',
+        Subject => 'NOTICE - Code Pulled',
+        Message => 'Code was pulled by ' . remote_addr(),
+    );
 
 } else {
 
