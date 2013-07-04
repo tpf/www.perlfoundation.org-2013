@@ -12,13 +12,10 @@ print header,start_html();
 if( remote_addr() =~ /204.232.175/ || remote_addr() =~ /192.30.252/)
 {
     # Adam M Dutko
-    # || remote_addr() =~ /68.109.235.119/) {
+#    || remote_addr() =~ /68.109.235.119/) {
 
     ## DEBUG
     #print html("Allowed.");
-
-    ## Change to foundation clone
-    chdir("../www.perlfoundation.org/");
 
     ## Get the latest code
     my @gititgetit = qw(git pull);
