@@ -28,7 +28,7 @@ if( remote_addr() =~ /204.232.175/ || remote_addr() =~ /192.30.252/)
         From => 'perlfoun@qs598.pair.com',
         To   => 'adam@oktud.com',
         Subject => 'NOTICE - Code Pulled',
-        Message => 'Code was pulled by ' . remote_addr(),
+        Message => 'Code pulled by ' . remote_addr() . " on " . `hostname`,
     );
 
 } else {
