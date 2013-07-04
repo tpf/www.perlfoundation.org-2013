@@ -19,10 +19,10 @@ if( remote_addr() =~ /204.232.175/ || remote_addr() =~ /192.30.252/)
     #print html("Allowed.");
 
     ## Get the latest code
-    `git pull`;
+    exec "git pull";
 
     ## Copy contents
-    `cp -rp www/ ../`;
+    exec "cp -rp www/ ../";
 
     sendmail(
         From => 'perlfoun@qs598.pair.com',
