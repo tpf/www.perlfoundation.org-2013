@@ -18,12 +18,10 @@ if( remote_addr() =~ /204.232.175/ || remote_addr() =~ /192.30.252/)
     #print html("Allowed.");
 
     ## Get the latest code
-    my @gititgetit = qw(git pull);
-    system(@gititgetit);
+    `git pull`;
 
     ## Copy contents
-    my @replace = qw(cp -rp www/ ../);
-    system(@replace); 
+    `cp -rp www/ ../`;
 
 } else {
 
