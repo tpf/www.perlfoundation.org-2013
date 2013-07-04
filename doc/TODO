@@ -1,0 +1,6 @@
+* Rewrite links for steering and grants committee pages ... want_to_help ... rules_of_operation
+* Thoroughly check all links ... 
+* Cleanup markup and styles ... do some minimal optimization to help rendering
+* convert to markdown?
+* setup varnish and associated tools?
+* setup cron job for pull of code that should be in github

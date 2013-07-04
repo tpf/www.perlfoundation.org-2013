@@ -1,0 +1,21 @@
+#for i in *.htm; do sed -i '' 's/completed_grants/completed_grants.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/contact_us/contact_us.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/google_code_in/google_code_in.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/grant_benefits/grant_benefits.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/grants_committee/grants_committee.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/how_to_write_a_proposal/how_to_write_a_proposal.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/how_tpf_works/how_tpf_works.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/ian_hague_perl_6_development_grants/ian_hague_perl_6_development_grants.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/legal/legal.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/outreach_program_for_women/outreach_program_for_women.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/payments/payments.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/perl_5_core_maintenance_fund/perl_5_core_maintenance_fund.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/press_releases/press_releases.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/previous_homepage_news/previous_homepage_news.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/running_grants/running_grants.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/sponsors/sponsors.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/steering_committee/steering_committee.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/want_to_help/want_to_help.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/who_s_who/who_s_who.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/yapc_na/yapc_na.htm/g' $i; done
+#for i in *.htm; do sed -i '' 's/Slicehost/Pair Networks/g' $i; done
