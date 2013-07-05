@@ -3,4 +3,7 @@
 * Cleanup markup and styles ... do some minimal optimization to help rendering
 * convert to markdown?
 * setup varnish and associated tools?
+  -- look for docs in the conf directory
 * setup cron job for pull of code that should be in github
+  -- we've got odin.pl for the pair host but we have a potential perms issue
+  -- we've got jenkins.runbymany.com with a build code to generate new code on digitalocean.com VPS
