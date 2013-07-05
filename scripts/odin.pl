@@ -19,10 +19,10 @@ if( remote_addr() =~ /204.232.175/ || remote_addr() =~ /192.30.252/)
     #print html("Allowed.");
 
     ## Get the latest code
-    exec "git pull";
+    system("git", "pull");
 
     ## Copy contents
-    exec "cp -rp www/ ../";
+    system("cp", "-rp", "/usr/www/users/perlfoun/perlfoundation/www.perlfoundation.org/www/", "/usr/www/users/perlfoun/perlfoundation/");
 
     sendmail(
         From => 'perlfoun@qs598.pair.com',
