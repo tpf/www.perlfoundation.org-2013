@@ -22,10 +22,11 @@
  <title>The Perl Foundation</title>
  <link href="http://perldoc.perl.org/static/exploreperl.css" rel="stylesheet" rev="stylesheet" type="text/css">
 
-
+<!-- <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+ <script type="text/javascript">_uacct = "UA-50555-10";urchinTracker();</script> -->
  <script language="JavaScript" type="text/javascript" src="http://perldoc.perl.org/static/exploreperl.js"></script>
 
- 
+ <!-- OVER_RIDE CSS NEEDS ADDING TO A STYLESHEET AT SOME POINT -->
  <style type="text/css">
 
 body {
@@ -427,25 +428,25 @@ div#homepage_link a {
  <div id="menu"> 
 	 
  <br /><ul>
-<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage<!-- wiki-renamed-hyperlink "Homepage"<http://www.perlfoundation.org/> --></a></li>
 </ul>
 <h4 id="about">About</h4>
 <ul>
 <li><a href="/who_s_who.htm" >Who's Who</a></li>
 <li><a href="/steering_committee.htm" >Steering Committee</a></li>
 <li><a href="/legal.htm" >Legal</a></li>
-<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns</a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns<!-- wiki-renamed-hyperlink "Tax Returns"<https://donate.perlfoundation.org/index.pl?node=IRS&type=document> --></a></li>
 <li><a href="/contact_us.htm" >Contact Us</a></li>
 <li><a href="/press_releases.htm" >Press Releases</a></li>
 <li><a href="/payments.htm" >Payments</a> - details</li>
-<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog</a></li>
+<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog<!-- wiki-renamed-hyperlink "Foundation Blog"<http://news.perlfoundation.org/> --></a></li>
 <li><a href="/previous_homepage_news.htm" >Previous Homepage News</a></li>
 </ul>
 <h4 id="get_involved">Get Involved</h4>
 <ul>
 <li><a href="/want_to_help.htm" >Want to Help?</a></li>
-<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation</a></li>
-<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status</a></li>
+<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation<!-- wiki-renamed-hyperlink "Make a Donation"<https://secure.donor.com/pf012/give> --></a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status<!-- wiki-renamed-hyperlink "Fund Drive Status"<https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status> --></a></li>
 </ul>
 <h4 id="sponsors.htmhip">Sponsorship</h4>
 <ul>
@@ -473,25 +474,35 @@ div#homepage_link a {
 </ul>
 <h4 id="download_perl">Download Perl</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5<!-- wiki-renamed-hyperlink "Perl 5"<http://www.perl.org/get.html> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6<!-- wiki-renamed-hyperlink "Perl 6"<http://www.perl6.org> --></a></li>
 </ul>
 <h4 id="events">Events</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe</a></li>
-<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America</a></li>
-<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia</a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America<!-- wiki-renamed-hyperlink "YAPC North America"<http://yapcna.org> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe<!-- wiki-renamed-hyperlink "YAPC Europe"<http://www.yapceurope.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America<!-- wiki-renamed-hyperlink "YAPC South America"<http://yapc.perl.org.br/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia<!-- wiki-renamed-hyperlink "YAPC Asia"<http://yapcasia.org/> --></a></li>
 </ul>
-<div class="wafl_block"></div>
+<div class="wafl_block"><!-- wiki:
+.html
+<!-=-=
+^^^^ Official Wikis
+
+* "Perl 5 wiki"<http://www.perlfoundation.org/perl5>
+* "Perl 6 wiki"<http://www.perlfoundation.org/perl6>
+* "Parrot wiki"<http://www.perlfoundation.org/parrot>
+-=-=>
+.html
+--></div>
 <br /><h4 id="affiliates">Affiliates</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org</a></li>
-<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers</a></li>
-<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks</a></li>
-<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com<!-- wiki-renamed-hyperlink "Perl.com"<http://www.perl.com/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org<!-- wiki-renamed-hyperlink "Perl.org"<http://www.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs<!-- wiki-renamed-hyperlink "Perl Jobs"<http://jobs.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers<!-- wiki-renamed-hyperlink "Perl Mongers"<http://www.pm.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks<!-- wiki-renamed-hyperlink "PerlMonks"<http://perlmonks.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN<!-- wiki-renamed-hyperlink "CPAN"<http://cpan.org/> --></a></li>
 </ul>
 	 
  </div>
@@ -524,17 +535,17 @@ Grab a feed:
   <div class="query_wafl_items">
       <div class="wiki">
 <br /><ul>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/test_builder_2">Test::Builder 2</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/jonathan_leto_improve_parrot_embed_extend_subsystem_tests_and_documentation">Jonathan Leto - Improve Parrot Embed/Extend Subsystem Tests and Documentation</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/sebastian_riedel_the_mojo_documentation_project">Sebastian Riedel - The Mojo Documentation Project</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/kartik_thakore_manual_for_game_development_with_sdl_perl">Kartik Thakore - Manual for Game Development with SDL Perl</a></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/test_builder_2">Test::Builder 2</a><!-- wiki: {link: [Test::Builder 2]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/jonathan_leto_improve_parrot_embed_extend_subsystem_tests_and_documentation">Jonathan Leto - Improve Parrot Embed/Extend Subsystem Tests and Documentation</a><!-- wiki: {link: [Jonathan Leto -= Improve Parrot Embed/Extend Subsystem Tests and Documentation]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/sebastian_riedel_the_mojo_documentation_project">Sebastian Riedel - The Mojo Documentation Project</a><!-- wiki: {link: [Sebastian Riedel -= The Mojo Documentation Project]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/kartik_thakore_manual_for_game_development_with_sdl_perl">Kartik Thakore - Manual for Game Development with SDL Perl</a><!-- wiki: {link: [Kartik Thakore -= Manual for Game Development with SDL Perl]} --></span></li>
 </ul>
 </div>
 
   </div>
 </div>
 
-</div><br /><br /><h2 id="2010_grants">2010 Grants</h2>
+<!-- wiki: {tag_list: 2011 grants} --></div><br /><br /><h2 id="2010_grants">2010 Grants</h2>
 <div class="nlw_phrase"><div class="query_wafl_box">
   <div class="query_wafl_titlebox">
     <div class="query_wafl_title">
@@ -545,22 +556,22 @@ Grab a feed:
   <div class="query_wafl_items">
       <div class="wiki">
 <br /><ul>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/kieren_diment_the_perl_survey">Kieren Diment - The Perl Survey</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/jose_castro_bruno_martins_perlbal_documentation">Jose Castro, Bruno Martins - Perlbal documentation</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/leon_timmermans_embedding_perl_into_c_applications">Leon Timmermans - Embedding perl into C++ applications</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/gerard_goossen_changing_the_perl_5_optree_build_process_into_a_abstract_syntax_tree_generation_and_a_code_generation_step">Gerard Goossen - Changing the Perl 5 optree build process into a Abstract Syntax Tree generation and a code generation step </a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/ricardo_signes_improve_dist_zilla_s_tests_documentation_and_structure">Ricardo Signes - Improve Dist::Zilla's Tests, Documentation, and Structure</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/pod_mangling_utility_improvements_ricardo_signes">Pod Mangling Utility Improvements - Ricardo Signes</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/curtis_jewell_corporate_embedded_and_multi_user_perl_on_windows">Curtis Jewell - Corporate, Embedded, and Multi-user Perl on Windows</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/fixing_bugs_in_the_archive_zip_perl_module">Fixing Bugs in the Archive::Zip Perl Module</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/ingy_dot_net_port_pyyaml_to_perl">Ingy dot Net - Port PyYAML to Perl</a></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/kieren_diment_the_perl_survey">Kieren Diment - The Perl Survey</a><!-- wiki: {link: [Kieren Diment -= The Perl Survey]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/jose_castro_bruno_martins_perlbal_documentation">Jose Castro, Bruno Martins - Perlbal documentation</a><!-- wiki: {link: [Jose Castro, Bruno Martins -= Perlbal documentation]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/leon_timmermans_embedding_perl_into_c_applications">Leon Timmermans - Embedding perl into C++ applications</a><!-- wiki: {link: [Leon Timmermans -= Embedding perl into C++ applications]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/gerard_goossen_changing_the_perl_5_optree_build_process_into_a_abstract_syntax_tree_generation_and_a_code_generation_step">Gerard Goossen - Changing the Perl 5 optree build process into a Abstract Syntax Tree generation and a code generation step </a><!-- wiki: {link: [Gerard Goossen -= Changing the Perl 5 optree build process into a Abstract Syntax Tree generation and a code generation step ]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/ricardo_signes_improve_dist_zilla_s_tests_documentation_and_structure">Ricardo Signes - Improve Dist::Zilla's Tests, Documentation, and Structure</a><!-- wiki: {link: [Ricardo Signes -= Improve Dist::Zilla's Tests, Documentation, and Structure]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/pod_mangling_utility_improvements_ricardo_signes">Pod Mangling Utility Improvements - Ricardo Signes</a><!-- wiki: {link: [Pod Mangling Utility Improvements -= Ricardo Signes]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/curtis_jewell_corporate_embedded_and_multi_user_perl_on_windows">Curtis Jewell - Corporate, Embedded, and Multi-user Perl on Windows</a><!-- wiki: {link: [Curtis Jewell -= Corporate, Embedded, and Multi-=user Perl on Windows]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/fixing_bugs_in_the_archive_zip_perl_module">Fixing Bugs in the Archive::Zip Perl Module</a><!-- wiki: {link: [Fixing Bugs in the Archive::Zip Perl Module]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/ingy_dot_net_port_pyyaml_to_perl">Ingy dot Net - Port PyYAML to Perl</a><!-- wiki: {link: [Ingy dot Net -= Port PyYAML to Perl]} --></span></li>
 </ul>
 </div>
 
   </div>
 </div>
 
-</div><br /><br /><h2 id="2009_grants">2009 Grants</h2>
+<!-- wiki: {tag_list: 2010 grants} --></div><br /><br /><h2 id="2009_grants">2009 Grants</h2>
 <div class="nlw_phrase"><div class="query_wafl_box">
   <div class="query_wafl_titlebox">
     <div class="query_wafl_title">
@@ -571,16 +582,16 @@ Grab a feed:
   <div class="query_wafl_items">
       <div class="wiki">
 <br /><ul>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/eric_and_tina_improving_learn_perl_org">Eric and Tina - Improving learn.perl.org</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/dave_rolsky_moose_docs">Dave Rolsky - Moose docs</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/smop_simple_meta_object_programming">SMOP: Simple Meta Object Programming</a></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/eric_and_tina_improving_learn_perl_org">Eric and Tina - Improving learn.perl.org</a><!-- wiki: {link: [Eric and Tina -= Improving learn.perl.org]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/dave_rolsky_moose_docs">Dave Rolsky - Moose docs</a><!-- wiki: {link: [Dave Rolsky -= Moose docs]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/smop_simple_meta_object_programming">SMOP: Simple Meta Object Programming</a><!-- wiki: {link: [SMOP: Simple Meta Object Programming]} --></span></li>
 </ul>
 </div>
 
   </div>
 </div>
 
-</div><br /><br /><h2 id="2008_grants">2008 Grants</h2>
+<!-- wiki: {tag_list: 2009 grants} --></div><br /><br /><h2 id="2008_grants">2008 Grants</h2>
 <div class="nlw_phrase"><div class="query_wafl_box">
   <div class="query_wafl_titlebox">
     <div class="query_wafl_title">
@@ -591,16 +602,16 @@ Grab a feed:
   <div class="query_wafl_items">
       <div class="wiki">
 <br /><ul>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/perl_on_a_stick">Perl on a Stick</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/make_localtime_and_gmtime_work_past_2038">Make localtime() and gmtime() Work Past 2038</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/michael_peters_improving_smolder">Michael Peters - Improving Smolder</a></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/perl_on_a_stick">Perl on a Stick</a><!-- wiki: {link: [Perl on a Stick]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/make_localtime_and_gmtime_work_past_2038">Make localtime() and gmtime() Work Past 2038</a><!-- wiki: {link: [Make localtime() and gmtime() Work Past 2038]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/michael_peters_improving_smolder">Michael Peters - Improving Smolder</a><!-- wiki: {link: [Michael Peters -= Improving Smolder]} --></span></li>
 </ul>
 </div>
 
   </div>
 </div>
 
-</div><br /><br /><h2 id="2007_grants">2007 Grants</h2>
+<!-- wiki: {tag_list: 2008 grants} --></div><br /><br /><h2 id="2007_grants">2007 Grants</h2>
 <div class="nlw_phrase"><div class="query_wafl_box">
   <div class="query_wafl_titlebox">
     <div class="query_wafl_title">
@@ -611,15 +622,15 @@ Grab a feed:
   <div class="query_wafl_items">
       <div class="wiki">
 <br /><ul>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/march_25_2007_adam_kennedy_s_refactoring_editor_grant">March 25, 2007 - Adam Kennedy's Refactoring Editor Grant</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/chris_dolan_policies_for_perl_critic">Chris Dolan - Policies for Perl::Critic</a></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/march_25_2007_adam_kennedy_s_refactoring_editor_grant">March 25, 2007 - Adam Kennedy's Refactoring Editor Grant</a><!-- wiki: {link: [March 25, 2007 -= Adam Kennedy's Refactoring Editor Grant]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/chris_dolan_policies_for_perl_critic">Chris Dolan - Policies for Perl::Critic</a><!-- wiki: {link: [Chris Dolan -= Policies for Perl::Critic]} --></span></li>
 </ul>
 </div>
 
   </div>
 </div>
 
-</div><br /><br /><h2 id="2006_grants">2006 Grants</h2>
+<!-- wiki: {tag_list: 2007 Grants} --></div><br /><br /><h2 id="2006_grants">2006 Grants</h2>
 <div class="nlw_phrase"><div class="query_wafl_box">
   <div class="query_wafl_titlebox">
     <div class="query_wafl_title">
@@ -630,14 +641,14 @@ Grab a feed:
   <div class="query_wafl_items">
       <div class="wiki">
 <br /><ul>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/improving_perl_5">Improving Perl 5</a></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/improving_perl_5">Improving Perl 5</a><!-- wiki: {link: [Improving Perl 5]} --></span></li>
 </ul>
 </div>
 
   </div>
 </div>
 
-</div><br /><br /><h2 id="2005_grants">2005 Grants</h2>
+<!-- wiki: {category_list: 2006 Grants} --></div><br /><br /><h2 id="2005_grants">2005 Grants</h2>
 <div class="nlw_phrase"><div class="query_wafl_box">
   <div class="query_wafl_titlebox">
     <div class="query_wafl_title">
@@ -648,15 +659,15 @@ Grab a feed:
   <div class="query_wafl_items">
       <div class="wiki">
 <br /><ul>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/adam_kennedy_extending_ppi_towards_a_refactoring_perl_editor">Adam Kennedy - Extending PPI Towards a Refactoring Perl Editor</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/ivan_tubert_brohman_annocpan">Ivan Tubert-Brohman - AnnoCPAN</a></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/adam_kennedy_extending_ppi_towards_a_refactoring_perl_editor">Adam Kennedy - Extending PPI Towards a Refactoring Perl Editor</a><!-- wiki: {link: [Adam Kennedy -= Extending PPI Towards a Refactoring Perl Editor]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/ivan_tubert_brohman_annocpan">Ivan Tubert-Brohman - AnnoCPAN</a><!-- wiki: {link: [Ivan Tubert-=Brohman -= AnnoCPAN]} --></span></li>
 </ul>
 </div>
 
   </div>
 </div>
 
-</div><br /><br /><h2 id="2004_grants">2004 Grants</h2>
+<!-- wiki: {category_list: 2005 Grants} --></div><br /><br /><h2 id="2004_grants">2004 Grants</h2>
 <div class="nlw_phrase"><div class="query_wafl_box">
   <div class="query_wafl_titlebox">
     <div class="query_wafl_title">
@@ -667,16 +678,16 @@ Grab a feed:
   <div class="query_wafl_items">
       <div class="wiki">
 <br /><ul>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/adam_kennedy_complete_the_perl_ppi_parser">Adam Kennedy - Complete the Perl PPI Parser</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/jouke_visser_promote_pvoice_and_the_use_of_perl_for_writing_assistive_software">Jouke Visser - Promote pVoice and the use of Perl for writing Assistive Software</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/simon_cozens_enhance_maypole_a_mvc_web_application_framework">Simon Cozens: enhance Maypole, a MVC web application framework</a></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/adam_kennedy_complete_the_perl_ppi_parser">Adam Kennedy - Complete the Perl PPI Parser</a><!-- wiki: {link: [Adam Kennedy -= Complete the Perl PPI Parser]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/jouke_visser_promote_pvoice_and_the_use_of_perl_for_writing_assistive_software">Jouke Visser - Promote pVoice and the use of Perl for writing Assistive Software</a><!-- wiki: {link: [Jouke Visser -= Promote pVoice and the use of Perl for writing Assistive Software]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/simon_cozens_enhance_maypole_a_mvc_web_application_framework">Simon Cozens: enhance Maypole, a MVC web application framework</a><!-- wiki: {link: [Simon Cozens: enhance Maypole, a MVC web application framework]} --></span></li>
 </ul>
 </div>
 
   </div>
 </div>
 
-</div><br /><br /><h2 id="2003_grants">2003 Grants</h2>
+<!-- wiki: {category_list: 2004 Grants} --></div><br /><br /><h2 id="2003_grants">2003 Grants</h2>
 <div class="nlw_phrase"><div class="query_wafl_box">
   <div class="query_wafl_titlebox">
     <div class="query_wafl_title">
@@ -687,18 +698,18 @@ Grab a feed:
   <div class="query_wafl_items">
       <div class="wiki">
 <br /><ul>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2003_grant_report_autrijus_tang">2003 Grant Report - Autrijus Tang</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2003_grants_fourth_quarter">2003 Grants - Fourth Quarter</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/fotango_grants">Fotango Grants</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2003_grants_third_quarter">2003 Grants - Third Quarter</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2003_grants_second_quarter">2003 Grants - Second Quarter</a></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2003_grant_report_autrijus_tang">2003 Grant Report - Autrijus Tang</a><!-- wiki: {link: [2003 Grant Report -= Autrijus Tang]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2003_grants_fourth_quarter">2003 Grants - Fourth Quarter</a><!-- wiki: {link: [2003 Grants -= Fourth Quarter]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/fotango_grants">Fotango Grants</a><!-- wiki: {link: [Fotango Grants]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2003_grants_third_quarter">2003 Grants - Third Quarter</a><!-- wiki: {link: [2003 Grants -= Third Quarter]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2003_grants_second_quarter">2003 Grants - Second Quarter</a><!-- wiki: {link: [2003 Grants -= Second Quarter]} --></span></li>
 </ul>
 </div>
 
   </div>
 </div>
 
-</div><br /><br /><h2 id="2002_grants">2002 Grants</h2>
+<!-- wiki: {category_list: 2003 Grants} --></div><br /><br /><h2 id="2002_grants">2002 Grants</h2>
 <div class="nlw_phrase"><div class="query_wafl_box">
   <div class="query_wafl_titlebox">
     <div class="query_wafl_title">
@@ -709,18 +720,18 @@ Grab a feed:
   <div class="query_wafl_items">
       <div class="wiki">
 <br /><ul>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2002_grant_report_larry_wall">2002 Grant Report: Larry Wall</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/dan_sugalski_2002_grant">Dan Sugalski 2002 Grant</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2001_2002_grant_report_dan_sugalski">2001-2002 Grant Report: Dan Sugalski</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/damian_conway_2002_development_grant">Damian Conway 2002 Development Grant</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/report_of_damian_s_funded_activites_and_accomplishments">Report of Damian's funded activites and accomplishments</a></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2002_grant_report_larry_wall">2002 Grant Report: Larry Wall</a><!-- wiki: {link: [2002 Grant Report: Larry Wall]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/dan_sugalski_2002_grant">Dan Sugalski 2002 Grant</a><!-- wiki: {link: [Dan Sugalski 2002 Grant]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2001_2002_grant_report_dan_sugalski">2001-2002 Grant Report: Dan Sugalski</a><!-- wiki: {link: [2001-=2002 Grant Report: Dan Sugalski]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/damian_conway_2002_development_grant">Damian Conway 2002 Development Grant</a><!-- wiki: {link: [Damian Conway 2002 Development Grant]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/report_of_damian_s_funded_activites_and_accomplishments">Report of Damian's funded activites and accomplishments</a><!-- wiki: {link: [Report of Damian's funded activites and accomplishments]} --></span></li>
 </ul>
 </div>
 
   </div>
 </div>
 
-</div><br /><br /><h2 id="2001_grants">2001 Grants</h2>
+<!-- wiki: {category_list: 2002 Grants} --></div><br /><br /><h2 id="2001_grants">2001 Grants</h2>
 <div class="nlw_phrase"><div class="query_wafl_box">
   <div class="query_wafl_titlebox">
     <div class="query_wafl_title">
@@ -731,15 +742,15 @@ Grab a feed:
   <div class="query_wafl_items">
       <div class="wiki">
 <br /><ul>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/report_of_damian_s_funded_activites_and_accomplishments">Report of Damian's funded activites and accomplishments</a></span></li>
-<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2001_development_grant_to_dr_damian_conway">2001 Development Grant to Dr. Damian Conway</a></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/report_of_damian_s_funded_activites_and_accomplishments">Report of Damian's funded activites and accomplishments</a><!-- wiki: {link: [Report of Damian's funded activites and accomplishments]} --></span></li>
+<li><span class="nlw_phrase"><a title="inter-workspace link: perlfoundation" href="/2001_development_grant_to_dr_damian_conway">2001 Development Grant to Dr. Damian Conway</a><!-- wiki: {link: [2001 Development Grant to Dr. Damian Conway]} --></span></li>
 </ul>
 </div>
 
   </div>
 </div>
 
-</div><br />
+<!-- wiki: {category_list: 2001 Grants} --></div><br />
 	</div>
  <div id="content_footer"></div>
  </div>

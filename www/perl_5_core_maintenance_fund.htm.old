@@ -22,10 +22,11 @@
  <title>The Perl Foundation</title>
  <link href="http://perldoc.perl.org/static/exploreperl.css" rel="stylesheet" rev="stylesheet" type="text/css">
 
-
+<!-- <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+ <script type="text/javascript">_uacct = "UA-50555-10";urchinTracker();</script> -->
  <script language="JavaScript" type="text/javascript" src="http://perldoc.perl.org/static/exploreperl.js"></script>
 
- 
+ <!-- OVER_RIDE CSS NEEDS ADDING TO A STYLESHEET AT SOME POINT -->
  <style type="text/css">
 
 body {
@@ -427,25 +428,25 @@ div#homepage_link a {
  <div id="menu"> 
 	 
  <br /><ul>
-<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage<!-- wiki-renamed-hyperlink "Homepage"<http://www.perlfoundation.org/> --></a></li>
 </ul>
 <h4 id="about">About</h4>
 <ul>
 <li><a href="/who_s_who.htm" >Who's Who</a></li>
 <li><a href="/steering_committee.htm" >Steering Committee</a></li>
 <li><a href="/legal.htm" >Legal</a></li>
-<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns</a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns<!-- wiki-renamed-hyperlink "Tax Returns"<https://donate.perlfoundation.org/index.pl?node=IRS&type=document> --></a></li>
 <li><a href="/contact_us.htm" >Contact Us</a></li>
 <li><a href="/press_releases.htm" >Press Releases</a></li>
 <li><a href="/payments.htm" >Payments</a> - details</li>
-<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog</a></li>
+<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog<!-- wiki-renamed-hyperlink "Foundation Blog"<http://news.perlfoundation.org/> --></a></li>
 <li><a href="/previous_homepage_news.htm" >Previous Homepage News</a></li>
 </ul>
 <h4 id="get_involved">Get Involved</h4>
 <ul>
 <li><a href="/want_to_help.htm" >Want to Help?</a></li>
-<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation</a></li>
-<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status</a></li>
+<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation<!-- wiki-renamed-hyperlink "Make a Donation"<https://secure.donor.com/pf012/give> --></a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status<!-- wiki-renamed-hyperlink "Fund Drive Status"<https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status> --></a></li>
 </ul>
 <h4 id="sponsors.htmhip">Sponsorship</h4>
 <ul>
@@ -473,25 +474,35 @@ div#homepage_link a {
 </ul>
 <h4 id="download_perl">Download Perl</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5<!-- wiki-renamed-hyperlink "Perl 5"<http://www.perl.org/get.html> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6<!-- wiki-renamed-hyperlink "Perl 6"<http://www.perl6.org> --></a></li>
 </ul>
 <h4 id="events">Events</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe</a></li>
-<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America</a></li>
-<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia</a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America<!-- wiki-renamed-hyperlink "YAPC North America"<http://yapcna.org> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe<!-- wiki-renamed-hyperlink "YAPC Europe"<http://www.yapceurope.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America<!-- wiki-renamed-hyperlink "YAPC South America"<http://yapc.perl.org.br/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia<!-- wiki-renamed-hyperlink "YAPC Asia"<http://yapcasia.org/> --></a></li>
 </ul>
-<div class="wafl_block"></div>
+<div class="wafl_block"><!-- wiki:
+.html
+<!-=-=
+^^^^ Official Wikis
+
+* "Perl 5 wiki"<http://www.perlfoundation.org/perl5>
+* "Perl 6 wiki"<http://www.perlfoundation.org/perl6>
+* "Parrot wiki"<http://www.perlfoundation.org/parrot>
+-=-=>
+.html
+--></div>
 <br /><h4 id="affiliates">Affiliates</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org</a></li>
-<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers</a></li>
-<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks</a></li>
-<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com<!-- wiki-renamed-hyperlink "Perl.com"<http://www.perl.com/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org<!-- wiki-renamed-hyperlink "Perl.org"<http://www.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs<!-- wiki-renamed-hyperlink "Perl Jobs"<http://jobs.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers<!-- wiki-renamed-hyperlink "Perl Mongers"<http://www.pm.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks<!-- wiki-renamed-hyperlink "PerlMonks"<http://perlmonks.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN<!-- wiki-renamed-hyperlink "CPAN"<http://cpan.org/> --></a></li>
 </ul>
 	 
  </div>
@@ -511,91 +522,94 @@ Grab a feed:
  <div id="content">
  <div id="content_header"></div>
  <div id="content_body">
-	 <h1>YAPC::NA</h1>
+	 <h1>Perl 5 Core Maintenance Fund</h1>
 
+<h2 id="introduction">Introduction</h2>
 <p>
-YAPC (Yet Another Perl Conference) has been the Perl conference of choice for over a decade, it is hosted each year on five different continents. YAPC North America is the original YAPC that started it all.</p>
+In 2008 a generous contribution from Booking.com enabled The Perl Foundation to provide a series of grants, awarded to Dave Mitchell, targeted at improving the Perl 5 core. This project has been very successful and once the original contribution was spent we committed to raising new funding to help continue and expand this important venture. Details of the funding raised so far and how this has been spent can be found in this <a target="_blank" title="(external link)" href="https://docs.google.com/spreadsheet/pub?key=0AkU6pBm3WGeedGlqV1d0OXFVaG8yVTVDRFI5c0hLOHc&amp;output=html">Google document<!-- wiki-renamed-hyperlink "Google document"<https://docs.google.com/spreadsheet/pub?key=0AkU6pBm3WGeedGlqV1d0OXFVaG8yVTVDRFI5c0hLOHc&output=html> --></a>.</p>
+<h2 id="description_of_fund">Description of Fund</h2>
 <p>
-Hundreds of attendees come to hear over 100 talks across three days, but the YAPC's are primarily a social conference, and as such have a very community-driven down to Earth feel that make a YAPC a joy to attend. As with all the best conferences the &quot;hallway track&quot;, birds of a feather sessions (BOFs), and the people you meet are the reason most attendees come back year after year.</p>
-<h3 id="2012_the_wild_side_of_perl">2012: The Wild Side of Perl</h3>
+The donations made to this fund will be used for the maintenance and improvement of the Perl 5 core. Funds will be disbursed via grants awarded by The Perl Foundation in conjunction with well-respected members of the perl5 community. The grants will be awarded to the most appropriate applicant and managed in association with the Perl 5 Porters.</p>
+<h3 id="initial_objectives">Initial Objectives</h3>
 <p>
-The <a target="_blank" title="(external link)" href="http://yapcna.org/">2012 YAPC North America</a> <a target="_blank" title="(external link)" href="http://yapcna.org/conference">(Yet Another Perl Conference)</a> will be held on the 13-15th June at <a target="_blank" title="(external link)" href="http://blog.yapcna.org/post/7072246690/yapc-2012-venue-uw-madison">the University of Wisconsin's Madison Campus</a>.</p>
+The initial objective of this fund was to raise $25,000 to continue funding Dave Mitchell's work and to fund new work on the core by Nicholas Clark. This has been &quot;match funded&quot; by Vienna.pm who will match dollar for dollar the first $10,000 of sponsors.htmhip leaving on 20% of the initial funding to be found after the first $10,000 has been raised (<a target="_blank" title="(external link)" href="http://vienna.pm.org/10_000_dollar_for_the_perl5_core_maintaince_fund.html">27th July announcement by Thomas Klausner<!-- wiki-renamed-hyperlink "27th July announcement by Thomas Klausner"<http://vienna.pm.org/10_000_dollar_for_the_perl5_core_maintaince_fund.html> --></a>). This generous contribution is due to the well managed <a target="_blank" title="(external link)" href="http://vienna.yapceurope.org/ye2007/">YAPC::Europe 2007<!-- wiki-renamed-hyperlink "YAPC::Europe 2007"<http://vienna.yapceurope.org/ye2007/> --></a> in Vienna.</p>
+<h2 id="applicant_eligibility">Applicant Eligibility</h2>
 <p>
-Like many other Perl events the team are running a wide range of activities including the usual conference dinner, Job Fair, Hallway Track, Workshops, Training and will take Sponsorship and have a call for speakers.</p>
+Due to the nature of this fund, and its targeted focus, eligibility to apply has two initial requirements:</p>
 <p>
-However, the organisation committee for this year, led by JT Smith, are doing an industrious job and seeking to lead the way in managing the event so that it will be the best Perl Conference that America has seen and will sow strong seeds for future teams to build upon.</p>
-<h4 id="building_on_a_great_success">Building on a great success...</h4>
+1. To be eligible the applicant must be a contributor to the Perl 5 core.<br />
+2. The application must be endorsed by one or more people with commit rights to the core.</p>
+<h4 id="approval_process">Approval Process</h4>
 <p>
-The organisers for 2012 have decided on a whole range of improvements and additions to previous years events. these can be easily followed on the regularly updated <a target="_blank" title="(external link)" href="http://blog.yapcna.org/">conference blog</a>, all of their enhancements and initiatives are too numerous to list, but they include:</p>
-<ul>
-<li>Moving <a target="_blank" title="(external link)" href="http://yapcna.org/">YAPC::NA</a>. to a permanent home website;</li>
-<li><a target="_blank" title="(external link)" href="http://blog.yapcna.org/post/8416752276/act-being-converted-to-plack">Improving the Act software</a> that powers the conference websites for Perl conferences;</li>
-<li>Creating the <a target="_blank" title="(external link)" href="http://blog.yapcna.org/post/8940577681/future-friend-of-perl">Future Friend of Perl</a>;</li>
-<li>Holding the <a target="_blank" title="(external link)" href="http://www.yapcna.org/perl-tng">Perl: The Next Generation</a> Initiative;</li>
-<li>Changing the <a target="_blank" title="(external link)" href="http://blog.yapcna.org/post/13102310411/auction-replaced-with-raffle-at-yapc-na-2012">Auction to a Raffle</a>;</li>
-<li>Making a <a target="_blank" title="(external link)" href="http://blog.yapcna.org/post/8810880932/and-our-theme-for-yapc-na-2012-is">comprehensive 'theme'</a> &quot;The Wild Side of Perl&quot;and providing lots of choice of how to work with that theme and expound upon it;</li>
-<li>Encouraging alternative travel, <a target="_blank" title="(external link)" href="http://blog.yapcna.org/post/13289305024/take-a-badger-bus-to-yapc?ad54a6c0">travel by bus</a>, or <a target="_blank" title="(external link)" href="http://blog.yapcna.org/post/13388191288/you-should-take-amtrak-to-more-places">travel by rail</a> to YAPC::NA;</li>
-<li>Having a <a target="_blank" title="(external link)" href="http://blog.yapcna.org/post/12165676182/yapc-perl-documentary-commercial">Documentary Commercial</a>;</li>
-<li>Having a <a target="_blank" title="(external link)" href="http://blog.yapcna.org/post/10268761624/zero-to-perl-workshop">Zero - Perl Workshop</a>;</li>
-<li>A best-ever job fair&quot;<a target="_blank" title="(external link)" href="http://yapcna.org/job-fair">http://yapcna.org/job-fair</a>';</li>
-<li>Having a <a target="_blank" title="(external link)" href="https://www.facebook.com/yapcna">Facebook Page</a>;</li>
-<li>Having a <a target="_blank" title="(external link)" href="https://twitter.com/#!/yapcna">Twitter Feed</a>;</li>
-</ul>
+Once an application has been received, and confirmed as matching the initial requirements, it will be published on The Perl Foundation blog for a period of community feedback. If it is required, by the nature of the grant, feedback may also be requested from key community members. During this period of feedback applicants may be asked to provide additional material or to amend their application before it is put forward for evaluation.</p>
 <p>
-There are many others such as the Partner Program and <a target="_blank" title="(external link)" href="http://yapcna.org/sponsors.htmhip">initiatives for Sponsors</a> and the varying <a target="_blank" title="(external link)" href="http://yapcna.org/sponsors.htmhip/levels-of-sponsors.htmhip">levels of sponsors.htmhip</a> available for the event and the rights and privileges that come with it. This year they hope to make it very easy for many more companies and individuals to <a target="_blank" title="(external link)" href="http://yapcna.org/sponsors.htmhip/become-a-sponsor">become a sponsor</a>. There are several levels of Sponsorship:</p>
-<ul>
-<li>Friend of Perl</li>
-<li><a target="_blank" title="(external link)" href="http://blog.yapcna.org/post/8940577681/future-friend-of-perl">Future Friend of Perl</a></li>
-<li>Bronze</li>
-<li>Silver</li>
-<li>Gold</li>
-<li>Platinum</li>
-<li>Diamond</li>
-</ul>
+Final evaluation of any grants will be performed by the president of The Perl Foundation in consultation with other members (Executive, Board and Committee); with members of the Perl 5 Porters; with the Perl 5 Pumpking.</p>
+<h4 id="license_and_release">License and Release</h4>
 <p>
-All of the sponsors.htmhip goes towards making a better conference or towards sponsoring a student place as part of the <a target="_blank" title="(external link)" href="http://www.yapcna.org/perl-tng">Perl: The Next Generation</a> Initiative.</p>
-<div class="wafl_block"><div>A full list of sponsors.htm is shown on the website pages and will be in the
-  associated media for the conference, including t-shirts, booklets, flyers.
-  Currently these companies sponsor YAPC::NA: <span
-    style="
-margin: 10px auto 10px auto;
-">
-    <iframe src="http://www.yapcna.org/sponsors.htm-folder?func=ajaxInlineView"
-      id="sponsors.htm-iframe"></iframe>
-  </span></div>
-</div>
-<br /><p>
-The <a target="_blank" title="(external link)" href="http://www.yapcna.org/perl-tng">Perl: The Next Generation</a> initiative is seeking to encourage a greater uptake of Perl amongst younger, or new, programmers to Perl, the organisers this year are seeking to &quot;not only to provide a great social experience and enhance the careers of existing Perl developers, but to bring the next generation of Perl developers into the community&quot;. Perl TNG (as its homage-linked title lets it colloquially be known) has several aspects to it:</p>
-<ul>
-<li>Why you should learn Perl;</li>
-<li>The <a target="_blank" title="(external link)" href="http://blog.yapcna.org/post/10268761624/zero-to-perl-workshop">Zero - Perl Workshop</a>;</li>
-<li>Future Friends of Perl and the <a target="_blank" title="(external link)" href="http://yapcna.org/sponsors.htmhip/levels-of-sponsors.htmhip">Sponsorship Program</a></li>
-<li>Begineer Track</li>
-<li>Job Fair</li>
-<li>Workforce Development</li>
-</ul>
+Any code created, modified or submitted during the period of the grant 'must' be released as open source under the same license terms as Perl 5 itself. Completed work will need to published in a public version control system.</p>
+<h2 id="grant_conditions">Grant Conditions</h2>
+<h4 id="reporting">Reporting</h4>
 <p>
-The Sponsorship Program seeks to bring in more students to Perl by sponsoring their attendance and costs in a manner similar to the <a target="_blank" title="(external link)" href="http://www.send-a-newbie.enlightenedperl.org">Send-A-Newbie initiative</a> that has been run in association with the <a target="_blank" title="(external link)" href="http://www.enlightenedperl.org">Enlightened Perl Organisation</a> and the YAPC::EU conference over the last four years.</p>
+1. Successful applicants must provide a weekly report to the P5P mailing list. Missing two weekly reports in a row without prior notice will be grounds for terminating the grant.<br />
+2. Successful applicants must provide a monthly report to The Perl Foundation.</p>
+<h4 id="management">Management</h4>
 <p>
-Like most YAPC events of recent years YAPC::NA::2012 will have a <a target="_blank" title="(external link)" href="http://yapcna.org/job-fair">job fair</a> in which sponsors.htm, companies and attendees can attend. Some companies that sponsor will have pride of place booths, and other companies will be allowed to sponsor just a job fair attendance The organisers hope to make this year's job fair relevant to the many different skill levels/experience of Perl developers attending the conference.</p>
-<h4 id="helping_hand">Helping Hand</h4>
+1. Each grant will have at least two managers to represent Perl 5 Porters and The Perl Foundation.<br />
+2. In cases where the applicant does not have a commit bit to the Perl 5 core, the manager from Perl 5 Porters must be an existing committer.<br />
+3. Payments will be made on a monthly basis, in arrears, only after the work has been signed off by the grant manager.<br />
+4. In the case of a dispute that cannot be resolved the grant will be terminated.</p>
+<h4 id="termination_of_grant">Termination of Grant</h4>
 <p>
-Most Perl events are run entirely by volunteers who give up their valuable time to make this a stunning community for us all to enjoy. If you would like to <a target="_blank" title="(external link)" href="http://yapcna.org/volunteer">help volunteer</a> for the event then please visit the <a target="_blank" title="(external link)" href="http://yapcna.org/volunteer">volunteer page</a> and offer your services. There are plenty of jobs of varying skill level, from zero to expert so don't think that you cannot be used. Jobs include:</p>
-<ul>
-<li>Writing Code</li>
-<li>Designing Websites</li>
-<li>Copywriting/editing</li>
-<li>Promotion</li>
-<li>Donor Development</li>
-<li>Blogging</li>
-<li>Roadies</li>
-<li>Student Recruitment</li>
-<li>Speaker Recruitment</li>
-</ul>
+As previously reported, missing two weekly reports in a row without prior notice and disputes that cannot be resolved will terminate the grant. Payment will be made for the work completed to date. For time based grants, payment will be for hours worked. For milestone based grants, payment will be made up to the last completed milestone.</p>
+<h2 id="termination_of_fund">Termination of Fund</h2>
 <p>
-And many more...</p>
+If a period of one year has elapsed with no grants in progress and no new applications the remaining funds might be used for general Perl5 development.</p>
+<h2 id="application">Application</h2>
 <p>
-Please follow this page, the <a target="_blank" title="(external link)" href="http://yapcna.org/">YAPC NA site</a> their <a target="_blank" title="(external link)" href="https://twitter.com/#!/yapcna">Twitter Feed</a> and <a target="_blank" title="(external link)" href="https://www.facebook.com/yapcna">Facebook Page</a> for more information.</p>
+In order to apply for a grant under this fund the following Grant Application form must be completed:</p>
+<h3 id="perl_5_core_maintenance_grant_application_form">Perl 5 Core Maintenance Grant Application Form</h3>
+<p>
+(Please submit all areas of the completed form to Karen Pauley, President of TPF, karen(at)perlfoundation.org.)</p>
+<p>
+<strong>Name:</strong><br />
+(Your full name and irc nickname.)</p>
+<p>
+<strong>Email &amp; Phone:</strong><br />
+(This information will not be made public but is required for the Foundation grant approval and payment of any funds.)</p>
+<p>
+<strong>Project Title:</strong><br />
+(How the grant will be known.)</p>
+<p>
+<strong>Synopsis:</strong><br />
+(A brief description of your grant application.)</p>
+<p>
+<strong>Benefits to Perl 5 Core Maintenance:</strong><br />
+(How your work will specifically benefit the core.)</p>
+<p>
+<strong>Deliverable Elements:</strong></p>
+<p>
+<strong>Project Details:</strong><br />
+(A more detailed description.)</p>
+<p>
+<strong>Project Schedule:</strong><br />
+(Please be as realistic as possible.)</p>
+<p>
+<strong>Bio.:</strong><br />
+(Who are you? What makes you the best person to work on this project?)</p>
+<p>
+<strong>Endorsed by:</strong></p>
+<p>
+<strong>Country of Residence:</strong><br />
+(Current country of residence, please note if you intend to move during the grant process and can provide details please do so.)</p>
+<p>
+<strong>Nationality:</strong><br />
+(Residents and nationals of countries who we are prohibited by U.S. law from engaging in commerce, are ineligible to participate.)</p>
+<p>
+<strong>Amount Requested:</strong><br />
+(In USD ($))</p>
+<p>
+<strong>Suggestions for Grant Manager:</strong><br />
+(Please make suggestions as to who would be willing to manage this grant bearing in mind that if you do not have commit access that your Grant Manager from Perl 5 Porters will be required to have this.)</p>
 
 	</div>
  <div id="content_footer"></div>

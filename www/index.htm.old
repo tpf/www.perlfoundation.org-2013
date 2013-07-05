@@ -54,25 +54,25 @@
  <div id="menu"> 
 	 
  <br /><ul>
-<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage<!-- wiki-renamed-hyperlink "Homepage"<http://www.perlfoundation.org/> --></a></li>
 </ul>
 <h4 id="about">About</h4>
 <ul>
 <li><a href="/who_s_who.htm" >Who's Who</a></li>
 <li><a href="/steering_committee.htm" >Steering Committee</a></li>
 <li><a href="/legal.htm" >Legal</a></li>
-<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns</a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns<!-- wiki-renamed-hyperlink "Tax Returns"<https://donate.perlfoundation.org/index.pl?node=IRS&type=document> --></a></li>
 <li><a href="/contact_us.htm" >Contact Us</a></li>
 <li><a href="/press_releases.htm" >Press Releases</a></li>
 <li><a href="/payments.htm" >Payments</a> - details</li>
-<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog</a></li>
+<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog<!-- wiki-renamed-hyperlink "Foundation Blog"<http://news.perlfoundation.org/> --></a></li>
 <li><a href="/previous_homepage_news.htm" >Previous Homepage News</a></li>
 </ul>
 <h4 id="get_involved.htm">Get Involved</h4>
 <ul>
 <li><a href="/want_to_help.htm" >Want to Help?</a></li>
-<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation</a></li>
-<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status</a></li>
+<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation<!-- wiki-renamed-hyperlink "Make a Donation"<https://secure.donor.com/pf012/give> --></a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status<!-- wiki-renamed-hyperlink "Fund Drive Status"<https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status> --></a></li>
 </ul>
 <h4 id="sponsors.htmhip">Sponsorship</h4>
 <ul>
@@ -100,24 +100,24 @@
 </ul>
 <h4 id="download_perl">Download Perl</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5<!-- wiki-renamed-hyperlink "Perl 5"<http://www.perl.org/get.html> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6<!-- wiki-renamed-hyperlink "Perl 6"<http://www.perl6.org> --></a></li>
 </ul>
 <h4 id="events">Events</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe</a></li>
-<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America</a></li>
-<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia</a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America<!-- wiki-renamed-hyperlink "YAPC North America"<http://yapcna.org> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe<!-- wiki-renamed-hyperlink "YAPC Europe"<http://www.yapceurope.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America<!-- wiki-renamed-hyperlink "YAPC South America"<http://yapc.perl.org.br/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia<!-- wiki-renamed-hyperlink "YAPC Asia"<http://yapcasia.org/> --></a></li>
 </ul>
 <br /><h4 id="affiliates">Affiliates</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org</a></li>
-<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers</a></li>
-<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks</a></li>
-<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com<!-- wiki-renamed-hyperlink "Perl.com"<http://www.perl.com/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org<!-- wiki-renamed-hyperlink "Perl.org"<http://www.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs<!-- wiki-renamed-hyperlink "Perl Jobs"<http://jobs.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers<!-- wiki-renamed-hyperlink "Perl Mongers"<http://www.pm.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks<!-- wiki-renamed-hyperlink "PerlMonks"<http://perlmonks.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN<!-- wiki-renamed-hyperlink "CPAN"<http://cpan.org/> --></a></li>
 </ul>
 	 
  </div>
@@ -140,7 +140,7 @@ Grab a feed:
 	 <h1>The Perl Foundation</h1>
 
 <p>
-The Perl Foundation is dedicated to the advancement of the Perl programming language through open discussion, collaboration, design, and code. It coordinates the efforts of numerous grass-roots Perl-based groups, including: <a target="_blank" title="(external link)" href="http://www.yapc.org">International Yet Another Perl Conferences</a>; Carries the legal.htm responsibility for <a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5</a> and <a target="_blank" title="(external link)" href="http://dev.perl.org/perl6/">Perl 6</a>; <a target="_blank" title="(external link)" href="http://www.perl.org">perl.org</a>; <a target="_blank" title="(external link)" href="http://www.pm.org">Perl Mongers</a>; <a target="_blank" title="(external link)" href="http://www.perlmonks.org">PerlMonks</a>.</p>
+The Perl Foundation is dedicated to the advancement of the Perl programming language through open discussion, collaboration, design, and code. It coordinates the efforts of numerous grass-roots Perl-based groups, including: <a target="_blank" title="(external link)" href="http://www.yapc.org">International Yet Another Perl Conferences<!-- wiki-renamed-hyperlink "International Yet Another Perl Conferences"<http://www.yapc.org> --></a>; Carries the legal.htm responsibility for <a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5<!-- wiki-renamed-hyperlink "Perl 5"<http://www.perl.org/get.html> --></a> and <a target="_blank" title="(external link)" href="http://dev.perl.org/perl6/">Perl 6<!-- wiki-renamed-hyperlink "Perl 6"<http://dev.perl.org/perl6/> --></a>; <a target="_blank" title="(external link)" href="http://www.perl.org">perl.org<!-- wiki-renamed-hyperlink "perl.org"<http://www.perl.org> --></a>; <a target="_blank" title="(external link)" href="http://www.pm.org">Perl Mongers<!-- wiki-renamed-hyperlink "Perl Mongers"<http://www.pm.org> --></a>; <a target="_blank" title="(external link)" href="http://www.perlmonks.org">PerlMonks<!-- wiki-renamed-hyperlink "PerlMonks"<http://www.perlmonks.org> --></a>.</p>
 <div class="wafl_block"><div><span style="float: right; margin: 10px;"> <a
       href="https://secure.donor.com/pf012/give"><img
 	src="http://www.perlfoundation.org/http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20110628203216-0-25390/files/donate-new2.png"
@@ -303,21 +303,37 @@ In the meantime we will once again participate (if accepted!) in the GCi if/when
 <br /><p>
 On the 4th February <a target="_blank" title="(external link)" href="http://google-opensource.blogspot.com/2012/02/google-summer-of-code-2012-is-on.html">Google confirmed</a> that there will once again be a Summer of Code in 2012. The Perl Foundation will once again attempt to participate as a mentoring organisation in this event. Please read <a target="_blank" title="(external link)" href="http://mdk.per.ly/2012/02/06/gsoc-2012/">Mark Keating's Perly Blog</a> for more information. A <a target="_blank" title="(external link)" href="http://wiki.enlightenedperl.org/gsoc2012">general information page</a> and <a target="_blank" title="(external link)" href="http://wiki.enlightenedperl.org/gsoc2012/ideas">Ideas Page</a> can be found on the <a target="_blank" title="(external link)" href="http://wiki.enlightenedperl.org/">EPO wiki</a>.</p>
 <p>
-Please check back here to see changes, a new page under the sidebar Initiatives is being prepared and will soon be available. A new flyer is available to print out and distribute at <span class="nlw_phrase"><span class="wafl_existence_error">basic-with-bleed-2012.pdf</span></span>; <span class="nlw_phrase"><a href="/attachment/press_releases.htm/basic-home-office-2012.pdf">[Press Releases] basic-home-office-2012.pdf</a></span>; <span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012-2.pdf">[Press Releases] GSoC-2012-2.pdf</a></span> <span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012-2.pdf">[Press Releases] GSoC-2012-2.pdf</a></span>.</p>
+Please check back here to see changes, a new page under the sidebar Initiatives is being prepared and will soon be available. A new flyer is available to print out and distribute at <span class="nlw_phrase"><span class="wafl_existence_error">basic-with-bleed-2012.pdf</span><!-- wiki: {file: basic-=with-=bleed-=2012.pdf} --></span>; <span class="nlw_phrase"><a href="/attachment/press_releases.htm/basic-home-office-2012.pdf">[Press Releases] basic-home-office-2012.pdf</a><!-- wiki: {file: [Press Releases] basic-=home-=office-=2012.pdf} --></span>; <span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012-2.pdf">[Press Releases] GSoC-2012-2.pdf</a><!-- wiki: {file: [Press Releases] GSoC-=2012-=2.pdf} --></span> <span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012-2.pdf">[Press Releases] GSoC-2012-2.pdf</a><!-- wiki: {file: [Press Releases] GSoC-=2012-=2.pdf} --></span>.</p>
 <h2 id="craigslist_charitable_fund_donates_100_000_to_the_perl_foundation">craigslist Charitable Fund Donates $100,000 to the Perl Foundation</h2>
-<span class="nlw_phrase"><img alt="craigslist.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20120124094857-0-22979/files/craigslist.png" /></span><br /><br /><div class="wafl_block"><a href="#craigslist" style="font-weight:bold; text-decoration: none;"> 24th
+<span class="nlw_phrase"><img alt="craigslist.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20120124094857-0-22979/files/craigslist.png" /><!-- wiki: {image: craigslist.png} --></span><br /><br /><div class="wafl_block"><a href="#craigslist" style="font-weight:bold; text-decoration: none;"> 24th
   January 2012 <br><span style="color: #666;font-size:90%;">Mark
     Keating</span></a>
-</div>
+<!-- wiki:
+.html
+<a href=="#craigslist" style=="font-=weight:bold; text-=decoration: none;">
+24th January 2012
+<br>
+<span style=="color: #666;font-=size:90%;">Mark Keating</a>
+</a>
+.html
+--></div>
 <br /><p>
 We are pleased to announce that the craigslist Charitable Fund has donated $100,000 to support Perl5 and the Perl Foundation. craigslist CEO and former Perl Hacker Jim Buckmaster, said, “It was unclear at first how best to give something back to Perl. Fortunately there was more than one way to do it.” Karen Pauley, Perl Foundation President stated: “I am extremely grateful to craigslist Charitable Fund for this incredibly generous donation. What a fantastic way for The Perl Foundation to start 2012!”</p>
 <p>
-For more information download the pdf of the press release: <span class="nlw_phrase"><a href="/attachment/press_releases.htm/tpf-craigslist-sponsors.htmhip.pdf">[Press Releases] tpf-craigslist-sponsors.htmhip.pdf</a></span>, or the news item at <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2012/01/craigslist-charitable-fund-don.html">http://news.perlfoundation.org/2012/01/craigslist-charitable-fund-don.html</a>.</p>
+For more information download the pdf of the press release: <span class="nlw_phrase"><a href="/attachment/press_releases.htm/tpf-craigslist-sponsors.htmhip.pdf">[Press Releases] tpf-craigslist-sponsors.htmhip.pdf</a><!-- wiki: {file: [Press Releases] tpf-=craigslist-=sponsors.htmhip.pdf} --></span>, or the news item at <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2012/01/craigslist-charitable-fund-don.html">http://news.perlfoundation.org/2012/01/craigslist-charitable-fund-don.html</a>.</p>
 <h2 id="dc_baltimore_perl_workshop">DC-Baltimore Perl Workshop</h2>
-<span class="nlw_phrase"><img alt="Screen%20Shot%202012-01-23%20at%2014.19.20%20copy.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20120123145236-0-18903/files/Screen%20Shot%202012-01-23%20at%2014.19.20%20copy.png" /></span><br /><br /><div class="wafl_block"><a href="#DCBPW2012" style="font-weight:bold; text-decoration: none;"> 23rd
+<span class="nlw_phrase"><img alt="Screen%20Shot%202012-01-23%20at%2014.19.20%20copy.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20120123145236-0-18903/files/Screen%20Shot%202012-01-23%20at%2014.19.20%20copy.png" /><!-- wiki: {image: Screen Shot 2012-=01-=23 at 14.19.20 copy.png} --></span><br /><br /><div class="wafl_block"><a href="#DCBPW2012" style="font-weight:bold; text-decoration: none;"> 23rd
   January 2012 <br><span style="color: #666;font-size:90%;">Mark
     Keating</span></a>
-</div>
+<!-- wiki:
+.html
+<a href=="#DCBPW2012" style=="font-=weight:bold; text-=decoration: none;">
+23rd January 2012
+<br>
+<span style=="color: #666;font-=size:90%;">Mark Keating</a>
+</a>
+.html
+--></div>
 <br /><p>
 The DC Baltimore Perl Workshop will be held on the 14th April 2012 on the Campus of CCBC Catonsville.</p>
 <p>
@@ -330,7 +346,15 @@ Read more on the conference website at <a target="_blank" title="(external link)
 <div class="wafl_block"><a href="#perl-com2012" style="font-weight:bold; text-decoration: none;"> 5th
   January 2012 <br><span style="color: #666;font-size:90%;"
     >chromatic</span></a>
-</div>
+<!-- wiki:
+.html
+<a href=="#perl-=com2012" style=="font-=weight:bold; text-=decoration: none;">
+5th January 2012
+<br>
+<span style=="color: #666;font-=size:90%;">chromatic</a>
+</a>
+.html
+--></div>
 <br /><p>
 Last year (2011), Perl.com came back to life, this time under the guidance of The Perl Foundation. We're glad to be back, publishing tips, tricks, and tutorials for novices, dabblers, and professionals alike!</p>
 <p>
@@ -340,10 +364,18 @@ Perl can do anything, and 2011 has demonstrated that Perl is bigger and better t
 <p>
 This is our site, and it's exactly what we make of it. Let's show off a little bit. Send your article proposals and ideas to <a href="mailto:editor@perl.com">editor@perl.com</a>, and let's make 2012 the best year for Perl yet.</p>
 <h2 id="booking_com_present_further_sponsors.htmhip_for_perl5">Booking.com present further sponsors.htmhip for Perl5</h2>
-<span class="nlw_phrase"><img alt="booking.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20110719095811-0-8501/files/booking.png" /></span><br /><br /><div class="wafl_block"><a href="#booking-dec" style="font-weight:bold; text-decoration: none;"> 14th
+<span class="nlw_phrase"><img alt="booking.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20110719095811-0-8501/files/booking.png" /><!-- wiki: {image: booking.png} --></span><br /><br /><div class="wafl_block"><a href="#booking-dec" style="font-weight:bold; text-decoration: none;"> 14th
   December 2011 <br><span style="color: #666;font-size:90%;">Mark
     Keating</span></a>
-</div>
+<!-- wiki:
+.html
+<a href=="#booking-=dec" style=="font-=weight:bold; text-=decoration: none;">
+14th December 2011
+<br>
+<span style=="color: #666;font-=size:90%;">Mark Keating</a>
+</a>
+.html
+--></div>
 <br /><p>
 It is with great pleasure that I can announce that Booking.com, the premier online hotel room reservation company, have given a donation of one hundred thousand Euros towards future development of Perl 5.</p>
 <p>
@@ -352,25 +384,41 @@ Karen Pauley and Jesse Vincent (the former Perl5 PumpKing) are attending a speci
 Booking.com have a long association of involvement in the Perl community and have supported its developments in many ways.</p>
 <p>
 A special announcement and full press release will be available in due course.</p>
-<span class="nlw_phrase"><img alt="Screen%20Shot%202011-12-14%20at%2009.59.10.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20111214095951-0-9231/files/Screen%20Shot%202011-12-14%20at%2009.59.10.png" /></span><br /><br /><p>
-For more information download the pdf of the press release: <span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-booking-sponsors.htmhip.pdf">[Press Releases] Perl-5-booking-sponsors.htmhip.pdf</a></span>, or the news item at <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2012/01/bookingcom-sponsors.htm-100000-to.html">http://news.perlfoundation.org/2012/01/bookingcom-sponsors.htm-100000-to.html</a>.</p>
+<span class="nlw_phrase"><img alt="Screen%20Shot%202011-12-14%20at%2009.59.10.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20111214095951-0-9231/files/Screen%20Shot%202011-12-14%20at%2009.59.10.png" /><!-- wiki: {image: Screen Shot 2011-=12-=14 at 09.59.10.png} --></span><br /><br /><p>
+For more information download the pdf of the press release: <span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-booking-sponsors.htmhip.pdf">[Press Releases] Perl-5-booking-sponsors.htmhip.pdf</a><!-- wiki: {file: [Press Releases] Perl-=5-=booking-=sponsors.htmhip.pdf} --></span>, or the news item at <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2012/01/bookingcom-sponsors.htm-100000-to.html">http://news.perlfoundation.org/2012/01/bookingcom-sponsors.htm-100000-to.html</a>.</p>
 <p>
 craigslist_charitable_fund_don</p>
 <h2 id="perl_oasis_2012">Perl Oasis 2012</h2>
 <div class="wafl_block"><a href="#oasis2012" style="font-weight:bold; text-decoration: none;"> 1st
   December 2011 <br><span style="color: #666;font-size:90%;">Mark
     Keating</span></a>
-</div>
+<!-- wiki:
+.html
+<a href=="#oasis2012" style=="font-=weight:bold; text-=decoration: none;">
+1st December 2011
+<br>
+<span style=="color: #666;font-=size:90%;">Mark Keating</a>
+</a>
+.html
+--></div>
 <br /><p>
-The 2012 <a target="_blank" title="(external link)" href="http://www.perloasis.info/opw2012/">Perl Oasis</a> with be held in Orlando, Florida on 13-15th January at the Four Points Sheraton, 5905 International Drive, FL3 2819.</p>
+The 2012 <a target="_blank" title="(external link)" href="http://www.perloasis.info/opw2012/">Perl Oasis<!-- wiki-renamed-hyperlink "Perl Oasis"<http://www.perloasis.info/opw2012/> --></a> with be held in Orlando, Florida on 13-15th January at the Four Points Sheraton, 5905 International Drive, FL3 2819.</p>
 <p>
 Perl Oasis is a day long conference focusing on the practical applications of Perl, the conference is organised by the Orlando Perl Mongers with the duties formally handled by Chris Prather and Jamie Moorhead.</p>
 <p>
-This year's topic is &quot;Perl, Go-Karts and Beer&quot;and you can <a target="_blank" title="(external link)" href="http://www.perloasis.info/opw2012/call_for_speakers.html">submit a talk</a> or <a target="_blank" title="(external link)" href="http://www.perloasis.info/opw2012/sponsors.htmhip.html">sponsor the conference</a> right now. You can also <a target="_blank" title="(external link)" href="http://www.perloasis.info/opw2012/main">sign up for attendance</a>.</p>
+This year's topic is &quot;Perl, Go-Karts and Beer&quot;and you can <a target="_blank" title="(external link)" href="http://www.perloasis.info/opw2012/call_for_speakers.html">submit a talk<!-- wiki-renamed-hyperlink "submit a talk"<http://www.perloasis.info/opw2012/call_for_speakers.html> --></a> or <a target="_blank" title="(external link)" href="http://www.perloasis.info/opw2012/sponsors.htmhip.html">sponsor the conference<!-- wiki-renamed-hyperlink "sponsor the conference"<http://www.perloasis.info/opw2012/sponsors.htmhip.html> --></a> right now. You can also <a target="_blank" title="(external link)" href="http://www.perloasis.info/opw2012/main">sign up for attendance<!-- wiki-renamed-hyperlink "sign up for attendance"<http://www.perloasis.info/opw2012/main> --></a>.</p>
 <h2 id="google_code_in.htm_2011">Google Code-in 2011</h2>
-<span class="nlw_phrase"><img alt="GCI-2011-web.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20111110114110-0-18828/files/GCI-2011-web.png" /></span><br /><br /><div class="wafl_block"><a href="#gci" style="font-weight:bold; text-decoration: none;"> 10th November
+<span class="nlw_phrase"><img alt="GCI-2011-web.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20111110114110-0-18828/files/GCI-2011-web.png" /><!-- wiki: {image: GCI-=2011-=web.png} --></span><br /><br /><div class="wafl_block"><a href="#gci" style="font-weight:bold; text-decoration: none;"> 10th November
   2011 <br><span style="color: #666;font-size:90%;">Mark Keating</span></a>
-</div>
+<!-- wiki:
+.html
+<a href=="#gci" style=="font-=weight:bold; text-=decoration: none;">
+10th November 2011
+<br>
+<span style=="color: #666;font-=size:90%;">Mark Keating</a>
+</a>
+.html
+--></div>
 <br /><p>
 The Perl foundation has been accepted as a mentoring organisation for the Google Code-in 2011. We are now seeking students and mentors to participate in this event. Please make sure to spread the word and links to anyone you think might be interested, you can also download and distribute flyers which are available on the <a href="/press_releases.htm" >Press Releases</a> section of the website and linked below.</p>
 <p>
@@ -379,10 +427,14 @@ There is a very short time period to involve yourself in this important initiati
 Please join the irc channel #gci on irc.perl.org to discuss this either as a mentor or as a student.</p>
 <div class="wafl_block"><div>You must <a href="&lt;http://link.shadow.cat/uzyGCR&gt;">sign up with
     Google Melange</a> if you wish to be a Mentor for the initiative. </div>
-</div>
+<!-- wiki:
+.html
+You must <a href=="<http://link.shadow.cat/uzyGCR>">sign up with Google Melange</a> if you wish to be a Mentor for the initiative.
+.html
+--></div>
 <br /><h4 id="links">Links</h4>
 <h5 id="press_releases.htm">Press Releases</h5>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/GCi-2011-basic-home-small-office-printer.pdf">[Press Releases] GCi-2011-basic-home-small-office-printer.pdf</a></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/GCi-2011-basic.pdf">[Press Releases] GCi-2011-basic.pdf</a></span><br /><br /><h5 id="web_pages">Web Pages</h5>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/GCi-2011-basic-home-small-office-printer.pdf">[Press Releases] GCi-2011-basic-home-small-office-printer.pdf</a><!-- wiki: {file: [Press Releases] GCi-=2011-=basic-=home-=small-=office-=printer.pdf} --></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/GCi-2011-basic.pdf">[Press Releases] GCi-2011-basic.pdf</a><!-- wiki: {file: [Press Releases] GCi-=2011-=basic.pdf} --></span><br /><br /><h5 id="web_pages">Web Pages</h5>
 <p>
 Google Code-in Page: <a target="_blank" title="(external link)" href="http://link.shadow.cat/uEBDxY">http://link.shadow.cat/uEBDxY</a><br />
 tpf GCi page: <a target="_blank" title="(external link)" href="http://link.shadow.cat/t1S295">http://link.shadow.cat/t1S295</a><br />
@@ -391,26 +443,54 @@ tpf Mentors' page: <a target="_blank" title="(external link)" href="http://link.
 <h2 id="yapc_brasil">YAPC Brasil</h2>
 <div class="wafl_block"><a href="#jack" style="font-weight:bold; text-decoration: none;"> 3rd November
   2011 <br><span style="color: #666;font-size:90%;">Mark Keating</span></a>
-</div>
+<!-- wiki:
+.html
+<a href=="#jack" style=="font-=weight:bold; text-=decoration: none;">
+3rd November 2011
+<br>
+<span style=="color: #666;font-=size:90%;">Mark Keating</a>
+</a>
+.html
+--></div>
 <br /><div class="wafl_block"><div>While not being a TPF event we would like to announce this year's
   YAPC::Brasil is being held in the magnificent city of Rio de Janeiro in the
   <a href="http://shadowc.at/otxNlg">Centro de Convenes Flex Center</a> this
   weekend from Friday 4th November to Sunday 6th November 2011.<br><br></div>
-</div>
+<!-- wiki:
+.html
+While not being a TPF event we would like to announce this year's YAPC::Brasil is being held in the magnificent city of Rio de Janeiro in the <a href=="http://shadowc.at/otxNlg">Centro de Convenes Flex Center</a> this weekend from Friday 4th November to Sunday 6th November 2011.<br><br>
+.html
+--></div>
 <br /><div class="wafl_block"><div>The schedule for Friday will feature a 1 day course by the guest speaker
   brian d foy who will be teaching "Effective Perl Programming". The two
   weekend days, Saturday and Sunday, will feature a broad range of talks in
   both English and Portuguese (not simultaneously).<br><br></div>
-</div>
+<!-- wiki:
+.html
+The schedule for Friday will feature a 1 day course by the guest speaker brian d foy who will be teaching "Effective Perl Programming". The two weekend days, Saturday and Sunday, will feature a broad range of talks in both English and Portuguese (not simultaneously).<br><br>
+.html
+--></div>
 <br /><div class="wafl_block"><div>A <a href="http://shadowc.at/mZFJuV">complete schedule</a> is currently
   online and you can also <a href="http://shadowc.at/n2LCh1">register for the
     event</a>, <a href="http://shadowc.at/qbYZnw">images promoting the
     event</a> along with maps detailing how to attend are also online. </div>
-</div>
+<!-- wiki:
+.html
+A <a href=="http://shadowc.at/mZFJuV">complete schedule</a> is currently online and you can also <a href=="http://shadowc.at/n2LCh1">register for the event</a>, <a href=="http://shadowc.at/qbYZnw">images promoting the event</a> along with maps detailing how to attend are also online.
+.html
+--></div>
 <br /><h2 id="a_new_jack_o_lantern">A new Jack o' Lantern*</h2>
 <div class="wafl_block"><a href="#jack" style="font-weight:bold; text-decoration: none;"> 1st November
   2011 <br><span style="color: #666;font-size:90%;">Mark Keating</span></a>
-</div>
+<!-- wiki:
+.html
+<a href=="#jack" style=="font-=weight:bold; text-=decoration: none;">
+1st November 2011
+<br>
+<span style=="color: #666;font-=size:90%;">Mark Keating</a>
+</a>
+.html
+--></div>
 <br /><p>
 With typical stylish aplomb and an adherence to timing we have come to admire the excellent Jesse Vincent passed on the reins (reigns)* and title of Pumpking on All Hallow's Eve, yesterday.</p>
 <p>
@@ -421,14 +501,24 @@ Jesse has spent some time discussing the change of Kingship with the incoming &q
 It is therefore with a great regret that we wave farewell to Jesse who stands tall with the other former Pumpkings and we hail our new Perl 5 Overlord, in just style I declare &quot;the King is dead, long live the King&quot;.</p>
 <div class="wafl_block"><div>Please make sure you view <a href="http://shadowc.at/viXeno">Jesse's
     original announcement</a>. </div>
-</div>
+<!-- wiki:
+.html
+Please make sure you view <a href=="http://shadowc.at/viXeno">Jesse's original announcement</a>.
+.html
+--></div>
 <ul>
 <li>Apologies for my puns.</li>
 </ul>
 <h2 id="google_code_in.htm_2011_gci2011">Google Code-in 2011 (GCi2011)</h2>
 <div class="wafl_block"><a href="#gci2011" style="font-weight:bold; text-decoration: none;"> 26th
   October 2011 </a>
-</div>
+<!-- wiki:
+.html
+<a href=="#gci2011" style=="font-=weight:bold; text-=decoration: none;">
+26th October 2011
+</a>
+.html
+--></div>
 <br /><p>
 The Perl Foundation is aiming to participate as a mentoring organization in Google Code-in 2011! Our application must be prepared by 1st November 2011 and if we are successful this will be announced on 9th November 2011.</p>
 <p>
@@ -438,13 +528,21 @@ The program ideally suits small tasks that can be achieved within a few hours to
 <div class="wafl_block"><div>Please <a href="http://bit.ly/rXCsDq">visit this page for information</a>
   and <a href="http://bit.ly/w1bpL6">learn how to submit your tasks here</a>.
 </div>
-</div>
+<!-- wiki:
+.html
+Please <a href=="http://bit.ly/rXCsDq">visit this page for information</a> and <a href=="http://bit.ly/w1bpL6">learn how to submit your tasks here</a>.
+.html
+--></div>
 <br /><h2 id="want_to_help.htm">Want to Help?</h2>
 <p>
-<a href="/want_to_help.htm" >Find out</a> what you can do to support The Perl Foundation.</p>
+<a href="/want_to_help.htm" >Find out<!-- wiki-renamed-link want to help? --></a> what you can do to support The Perl Foundation.</p>
 <div class="wafl_block"><div>The Perl Foundation is a business alias for the Yet Another society, a
   non-profit, 501(c)(3) organization based in Holland, Michigan. </div>
-</div>
+<!-- wiki:
+.html
+The Perl Foundation is a business alias for the Yet Another society, a non-=profit, 501(c)(3) organization based in Holland, Michigan.
+.html
+--></div>
 
 	</div>
  <div id="content_footer"></div>

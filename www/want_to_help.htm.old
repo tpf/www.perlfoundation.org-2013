@@ -22,10 +22,11 @@
  <title>The Perl Foundation</title>
  <link href="http://perldoc.perl.org/static/exploreperl.css" rel="stylesheet" rev="stylesheet" type="text/css">
 
-
+<!-- <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+ <script type="text/javascript">_uacct = "UA-50555-10";urchinTracker();</script> -->
  <script language="JavaScript" type="text/javascript" src="http://perldoc.perl.org/static/exploreperl.js"></script>
 
- 
+ <!-- OVER_RIDE CSS NEEDS ADDING TO A STYLESHEET AT SOME POINT -->
  <style type="text/css">
 
 body {
@@ -427,71 +428,81 @@ div#homepage_link a {
  <div id="menu"> 
 	 
  <br /><ul>
-<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage<!-- wiki-renamed-hyperlink "Homepage"<http://www.perlfoundation.org/> --></a></li>
 </ul>
 <h4 id="about">About</h4>
 <ul>
-<li><a href="/who_s_who.htm" >Who's Who</a></li>
-<li><a href="/steering_committee.htm" >Steering Committee</a></li>
-<li><a href="/legal.htm" >Legal</a></li>
-<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns</a></li>
-<li><a href="/contact_us.htm" >Contact Us</a></li>
-<li><a href="/press_releases.htm" >Press Releases</a></li>
-<li><a href="/payments.htm" >Payments</a> - details</li>
-<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog</a></li>
-<li><a href="/previous_homepage_news.htm" >Previous Homepage News</a></li>
+<li><a href="/who_s_who" >Who's Who</a></li>
+<li><a href="/steering_committee" >Steering Committee</a></li>
+<li><a href="/legal" >Legal</a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns<!-- wiki-renamed-hyperlink "Tax Returns"<https://donate.perlfoundation.org/index.pl?node=IRS&type=document> --></a></li>
+<li><a href="/contact_us" >Contact Us</a></li>
+<li><a href="/press_releases" >Press Releases</a></li>
+<li><a href="/payments" >Payments</a> - details</li>
+<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog<!-- wiki-renamed-hyperlink "Foundation Blog"<http://news.perlfoundation.org/> --></a></li>
+<li><a href="/previous_homepage_news" >Previous Homepage News</a></li>
 </ul>
 <h4 id="get_involved">Get Involved</h4>
 <ul>
-<li><a href="/want_to_help.htm" >Want to Help?</a></li>
-<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation</a></li>
-<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status</a></li>
+<li><a href="/want_to_help" >Want to Help?</a></li>
+<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation<!-- wiki-renamed-hyperlink "Make a Donation"<https://secure.donor.com/pf012/give> --></a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status<!-- wiki-renamed-hyperlink "Fund Drive Status"<https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status> --></a></li>
 </ul>
-<h4 id="sponsors.htmhip">Sponsorship</h4>
+<h4 id="sponsorship">Sponsorship</h4>
 <ul>
-<li><a href="/sponsors.htm" >Sponsors</a></li>
+<li><a href="/sponsors" >Sponsors</a></li>
 
 <ul>
-<li><a href="/perl_5_core_maintenance_fund.htm" >Perl 5 Core Maintenance Fund</a></li>
-<li><a href="/ian_hague_perl_6_development_grants.htm" >Ian Hague Perl 6 Development Grants</a></li>
+<li><a href="/perl_5_core_maintenance_fund" >Perl 5 Core Maintenance Fund</a></li>
+<li><a href="/ian_hague_perl_6_development_grants" >Ian Hague Perl 6 Development Grants</a></li>
 </ul></ul>
 <h4 id="grants">Grants</h4>
 <ul>
-<li><a href="/grant_benefits.htm" >Grant Benefits</a></li>
-<li><a href="/grants_committee.htm" >Grants Committee</a></li>
+<li><a href="/grant_benefits" >Grant Benefits</a></li>
+<li><a href="/grants_committee" >Grants Committee</a></li>
 
 <ul>
-<li><a href="/running_grants.htm" >Running Grants</a></li>
-<li><a href="/completed_grants.htm" >Completed Grants</a></li>
-<li><a href="/how_to_write_a_proposal.htm" >How to Write a Proposal</a></li>
+<li><a href="/running_grants" >Running Grants</a></li>
+<li><a href="/completed_grants" >Completed Grants</a></li>
+<li><a href="/how_to_write_a_proposal" >How to Write a Proposal</a></li>
 </ul></ul>
 <h4 id="initiatives">Initiatives</h4>
 <ul>
-<li><a href="/outreach_program_for_women.htm" >Outreach Program for Women</a></li>
-<li><a href="/google_code_in.htm" >Google Code-in</a></li>
-<li><a href="/yapc_na.htm" >YAPC::NA</a></li>
+<li><a href="/outreach_program_for_women" >Outreach Program for Women</a></li>
+<li><a href="/google_code_in" >Google Code-in</a></li>
+<li><a href="/yapc_na" >YAPC::NA</a></li>
 </ul>
 <h4 id="download_perl">Download Perl</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5<!-- wiki-renamed-hyperlink "Perl 5"<http://www.perl.org/get.html> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6<!-- wiki-renamed-hyperlink "Perl 6"<http://www.perl6.org> --></a></li>
 </ul>
 <h4 id="events">Events</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe</a></li>
-<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America</a></li>
-<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia</a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America<!-- wiki-renamed-hyperlink "YAPC North America"<http://yapcna.org> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe<!-- wiki-renamed-hyperlink "YAPC Europe"<http://www.yapceurope.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America<!-- wiki-renamed-hyperlink "YAPC South America"<http://yapc.perl.org.br/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia<!-- wiki-renamed-hyperlink "YAPC Asia"<http://yapcasia.org/> --></a></li>
 </ul>
-<div class="wafl_block"></div>
+<div class="wafl_block"><!-- wiki:
+.html
+<!-=-=
+^^^^ Official Wikis
+
+* "Perl 5 wiki"<http://www.perlfoundation.org/perl5>
+* "Perl 6 wiki"<http://www.perlfoundation.org/perl6>
+* "Parrot wiki"<http://www.perlfoundation.org/parrot>
+-=-=>
+.html
+--></div>
 <br /><h4 id="affiliates">Affiliates</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org</a></li>
-<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers</a></li>
-<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks</a></li>
-<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com<!-- wiki-renamed-hyperlink "Perl.com"<http://www.perl.com/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org<!-- wiki-renamed-hyperlink "Perl.org"<http://www.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs<!-- wiki-renamed-hyperlink "Perl Jobs"<http://jobs.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers<!-- wiki-renamed-hyperlink "Perl Mongers"<http://www.pm.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks<!-- wiki-renamed-hyperlink "PerlMonks"<http://perlmonks.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN<!-- wiki-renamed-hyperlink "CPAN"<http://cpan.org/> --></a></li>
 </ul>
 	 
  </div>
@@ -502,7 +513,7 @@ div#homepage_link a {
 
  <div id="feeds">
  Hosting provided by:
- <a href="http://www.slicehost.com">Pair Networks</a><p> 
+ <a href="http://www.slicehost.com">Slicehost</a><p> 
 Grab a feed:
 
  <a href="http://news.perlfoundation.org/rss.xml"><img src=" http://www.perlfoundation.org/static/images/foundation/rss-20.gif" alt="RSS 2.0" border="0" width="80" height="15"></a> 
@@ -511,129 +522,35 @@ Grab a feed:
  <div id="content">
  <div id="content_header"></div>
  <div id="content_body">
-	 <h1>Who's Who</h1>
+	 <h1>Want to Help?</h1>
 
-<span class="nlw_phrase"><div class="wiki-include-page">
-<div class="wiki-include-title"><a href='/board_of_directors'>Board of Directors</a> </div>
-<div class="wiki-include-content">
-<ul>
-<li>Nathan Torkington <em>chairman</em></li>
-<li>Karen Pauley <em>president</em></li>
-<li>Jim Brandt <em>secretary</em></li>
-<li>Dan Wright <em>treasurer</em></li>
-<li>Kurt DeMaagd</li>
-<li>Curtis &quot;Ovid&quot; Poe</li>
-<li>Allison Randal</li>
-</ul>
 <p>
-Kevin Lenzo <em>director emeritus</em></p>
-</div></div></span><br /><span class="nlw_phrase"><div class="wiki-include-page">
-<div class="wiki-include-title"><a href='/steering_committee.htm_members'>Steering Committee Members</a> </div>
-<div class="wiki-include-content">
+The Perl Foundation exists to promote and support community efforts around the Perl programming language. We encourage you to contribute by:</p>
 <ul>
-<li>Karen Pauley <em>chair</em></li>
-<li>Ask Bjorn Hansen <em>Perl.org</em></li>
-<li>Jim Brandt <em>conferences</em></li>
-<li>Casey West <em>PerlFoundation.org</em></li>
-<li>Mark Keating <em>marketing and public relations</em></li>
-<li>Larry Hixson <em>donor relations</em></li>
-<li>Alberto Simões <em>grants</em></li>
-<li>Ya'akov Sloman <em>community advocate</em></li>
-<li>Graham Barr <em>CPAN</em></li>
-<li>&quot;At Large&quot; committee members:</li>
+<li>Joining your local <a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers<!-- wiki-renamed-hyperlink "Perl Mongers"<http://www.pm.org/> --></a> group</li>
+<li>Visit <a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks<!-- wiki-renamed-hyperlink "PerlMonks"<http://perlmonks.org/> --></a></li>
+<li>Attend a <a target="_blank" title="(external link)" href="http://www.yapc.org/">YAPC<!-- wiki-renamed-hyperlink "YAPC"<http://www.yapc.org/> --></a> in your region of the world</li>
+<li>There are many other ways you can contribute to Perl, including:</li>
 
 <ul>
-<li>David Adler awards</li>
-<li>Uri Guttman <em>social events</em></li>
-<li>Paul Blair <em>PR</em></li>
-</ul>
-<li>Ex officio:</li>
-
-<ul>
-<li>Kurt DeMaagd</li>
+<li>Contribute and maintain a module on the CPAN</li>
+<li>Participate in the development, maintenance and documentation of Perl 5</li>
+<li>Join in the development effort for Perl 6 and Parrot</li>
+<li>Another important way you can contribute to Perl, both as a langauge and as a community, is to make a tax-deductible donation to the Perl Foundation.</li>
 </ul></ul>
-</div></div></span><br /><span class="nlw_phrase"><div class="wiki-include-page">
-<div class="wiki-include-title"><a href='/grants_committee.htm_members'>Grants Committee Members</a> </div>
-<div class="wiki-include-content">
-<h4 id="committee_members">Committee Members</h4>
-<ul>
-<li>Alberto Simões <em>secretary</em></li>
-<li>Leon Brocard</li>
-<li>Rafael Garcia-Suarez</li>
-<li>Thomas Klausner</li>
-<li>Ben Tilly</li>
-<li>Will &quot;Coke&quot; Coleda</li>
-<li>Perrin Harkins</li>
-<li>Elizabeth Mattijsen</li>
-<li>Ricardo Signes</li>
-</ul>
-<h4 id="grant_managers_non_voting">Grant Managers (non-voting)</h4>
-<ul>
-<li>Rosellyne Thompson</li>
-<li>Ricardo Signes</li>
-<li>Renée Baecker</li>
-<li>Tom Hukins</li>
-<li>Alan Alavi</li>
-<li>Makoto Nozaki</li>
-</ul>
-<h4 id="former_committee_members">Former Committee Members</h4>
-<ul>
-<li>Hugo van der Sanden</li>
-<li><a target="_blank" title="(external link)" href="http://stason.org">Stas Bekman</a></li>
-<li>Piers Cawley</li>
-<li>Curtis &quot;Ovid&quot; Poe</li>
-<li>Andy Armstrong</li>
-<li>Kurt DeMaagd</li>
-</ul>
-<h4 id="former_grant_managers">Former Grant Managers</h4>
-<ul>
-<li>Jeff Adams</li>
-<li>Jeff Horwitz</li>
-<li>Adrian Howard</li>
-</ul>
-</div></div></span><br /><span class="nlw_phrase"><div class="wiki-include-page">
-<div class="wiki-include-title"><a href='/conferences_committee'>Conferences Committee</a> </div>
-<div class="wiki-include-content">
-<ul>
-<li>Heath Bair <em>chair</em></li>
-<li>Jeff Bisbee</li>
-<li>Uri Guttman</li>
-<li>Kevin Eye</li>
-<li>Pete Krawczyk</li>
-<li>G. Wade Johnson</li>
-<li>Will Willis</li>
-<li>Todd Rinaldo</li>
-<li>Jeremy Fluhmann</li>
-</ul>
-</div></div></span><br /><span class="nlw_phrase"><div class="wiki-include-page">
-<div class="wiki-include-title"><a href='/marketing_committee'>Marketing Committee</a> </div>
-<div class="wiki-include-content">
-<ul>
-<li>Mark Keating <em>chair</em></li>
-<li>Dave Cross </li>
-<li>Jon Allen </li>
-<li>Torsten Raudssus</li>
-<li>Ian Norton</li>
-<li>Jess Robinson</li>
-<li>Curtis &quot;Ovid&quot; Poe</li>
-<li>Karen Pauley</li>
-<li>Chris Prather</li>
-<li>Yaakov Sloman</li>
-</ul>
-</div></div></span><br /><span class="nlw_phrase"><div class="wiki-include-page">
-<div class="wiki-include-title"><a href='/community_advocacy_committee'>Community Advocacy Committee</a> </div>
-<div class="wiki-include-content">
-<ul>
-<li>Abigail</li>
-<li>Doug Bell</li>
-<li>Mark Keating</li>
-<li>Karen Pauley</li>
-<li>Nuba Princigalli</li>
-<li>Dave Rolsky <em>lead, CoC Working Group</em></li>
-<li>Upasana Shukla <em>member for India</em></li>
-<li>Ya'akov Sloman <em>chair</em></li>
-</ul>
-</div></div></span><br />
+<h1 id="we_appreciate_your_support">We Appreciate Your Support</h1>
+<p>
+The donations of others helps keep the Perl Foundation alive. We appreciate all of our donors, and will-be donors.<br />
+See the contributions to date!</p>
+<p>
+You can <a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Contribution%20Info">donate online<!-- wiki-renamed-hyperlink "donate online"<https://donate.perlfoundation.org/index.pl?node=Contribution%20Info> --></a>, or send a check with your contribution.</p>
+<p>
+Checks can be made payable to &quot;The Perl Foundation&quot;, and sent to:</p>
+<p>
+Yet Another Society d/b/a The Perl Foundation<br />
+340 S Lemon Ave #6055<br />
+Walnut, CA 91789</p>
+
 	</div>
  <div id="content_footer"></div>
  </div>
@@ -655,9 +572,9 @@ Kevin Lenzo <em>director emeritus</em></p>
  <ul class="f1">
  <li>About TPF
  <ul class="f2">
- <li><a href="/who_s_who.htm">Who's who?</a>
- <li><a href="/legal.htm">Legal</a>
- <li><a href="/contact_us.htm">Contact us</a>
+ <li><a href="/who_s_who">Who's who?</a>
+ <li><a href="/legal">Legal</a>
+ <li><a href="/contact_us">Contact us</a>
  <li><a href="http://news.perlfoundation.org">Foundation blog</a>
  </ul>
  <li>Official Wikis
@@ -668,16 +585,16 @@ Kevin Lenzo <em>director emeritus</em></p>
  </ul>
  <li>Get Involved
  <ul class="f2">
- <li><a href="/want_to_help.htm">Want to help?</a>
+ <li><a href="/want_to_help">Want to help?</a>
  <li><a href="https://donate.perlfoundation.org/index.pl?node=Contribution%20Info">Make a donation</a>
  <li><a href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund drive status</a>
  </ul>
  <li>Grants
  <ul class="f2">
- <li><a href="/sponsors.htm">Sponsors</a>
- <li><a href="/grant_benefits.htm">Benefits</a>
- <li><a href="/how_to_write_a_proposal.htm">Write a proposal</a>
- <li><a href="/grants_committee.htm">Grants committee</a>
+ <li><a href="/sponsors">Sponsors</a>
+ <li><a href="/grant_benefits">Benefits</a>
+ <li><a href="/how_to_write_a_proposal">Write a proposal</a>
+ <li><a href="/grants_committee">Grants committee</a>
  </ul>
  </ul>
  <div class="clear"></div>

@@ -22,10 +22,11 @@
  <title>The Perl Foundation</title>
  <link href="http://perldoc.perl.org/static/exploreperl.css" rel="stylesheet" rev="stylesheet" type="text/css">
 
-
+<!-- <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+ <script type="text/javascript">_uacct = "UA-50555-10";urchinTracker();</script> -->
  <script language="JavaScript" type="text/javascript" src="http://perldoc.perl.org/static/exploreperl.js"></script>
 
- 
+ <!-- OVER_RIDE CSS NEEDS ADDING TO A STYLESHEET AT SOME POINT -->
  <style type="text/css">
 
 body {
@@ -427,25 +428,25 @@ div#homepage_link a {
  <div id="menu"> 
 	 
  <br /><ul>
-<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perlfoundation.org/">Homepage<!-- wiki-renamed-hyperlink "Homepage"<http://www.perlfoundation.org/> --></a></li>
 </ul>
 <h4 id="about">About</h4>
 <ul>
 <li><a href="/who_s_who.htm" >Who's Who</a></li>
 <li><a href="/steering_committee.htm" >Steering Committee</a></li>
 <li><a href="/legal.htm" >Legal</a></li>
-<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns</a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=IRS&amp;type=document">Tax Returns<!-- wiki-renamed-hyperlink "Tax Returns"<https://donate.perlfoundation.org/index.pl?node=IRS&type=document> --></a></li>
 <li><a href="/contact_us.htm" >Contact Us</a></li>
 <li><a href="/press_releases.htm" >Press Releases</a></li>
 <li><a href="/payments.htm" >Payments</a> - details</li>
-<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog</a></li>
+<li><a target="_blank" title="(external link)" href="http://news.perlfoundation.org/">Foundation Blog<!-- wiki-renamed-hyperlink "Foundation Blog"<http://news.perlfoundation.org/> --></a></li>
 <li><a href="/previous_homepage_news.htm" >Previous Homepage News</a></li>
 </ul>
 <h4 id="get_involved">Get Involved</h4>
 <ul>
 <li><a href="/want_to_help.htm" >Want to Help?</a></li>
-<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation</a></li>
-<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status</a></li>
+<li><a target="_blank" title="(external link)" href="https://secure.donor.com/pf012/give">Make a Donation<!-- wiki-renamed-hyperlink "Make a Donation"<https://secure.donor.com/pf012/give> --></a></li>
+<li><a target="_blank" title="(external link)" href="https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status">Fund Drive Status<!-- wiki-renamed-hyperlink "Fund Drive Status"<https://donate.perlfoundation.org/index.pl?node=Fund%20Drive%20Status> --></a></li>
 </ul>
 <h4 id="sponsors.htmhip">Sponsorship</h4>
 <ul>
@@ -473,25 +474,35 @@ div#homepage_link a {
 </ul>
 <h4 id="download_perl">Download Perl</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/get.html">Perl 5<!-- wiki-renamed-hyperlink "Perl 5"<http://www.perl.org/get.html> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl6.org">Perl 6<!-- wiki-renamed-hyperlink "Perl 6"<http://www.perl6.org> --></a></li>
 </ul>
 <h4 id="events">Events</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe</a></li>
-<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America</a></li>
-<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia</a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcna.org">YAPC North America<!-- wiki-renamed-hyperlink "YAPC North America"<http://yapcna.org> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.yapceurope.org/">YAPC Europe<!-- wiki-renamed-hyperlink "YAPC Europe"<http://www.yapceurope.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America<!-- wiki-renamed-hyperlink "YAPC South America"<http://yapc.perl.org.br/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia<!-- wiki-renamed-hyperlink "YAPC Asia"<http://yapcasia.org/> --></a></li>
 </ul>
-<div class="wafl_block"></div>
+<div class="wafl_block"><!-- wiki:
+.html
+<!-=-=
+^^^^ Official Wikis
+
+* "Perl 5 wiki"<http://www.perlfoundation.org/perl5>
+* "Perl 6 wiki"<http://www.perlfoundation.org/perl6>
+* "Parrot wiki"<http://www.perlfoundation.org/parrot>
+-=-=>
+.html
+--></div>
 <br /><h4 id="affiliates">Affiliates</h4>
 <ul>
-<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org</a></li>
-<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs</a></li>
-<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers</a></li>
-<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks</a></li>
-<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN</a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com<!-- wiki-renamed-hyperlink "Perl.com"<http://www.perl.com/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.perl.org/">Perl.org<!-- wiki-renamed-hyperlink "Perl.org"<http://www.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://jobs.perl.org/">Perl Jobs<!-- wiki-renamed-hyperlink "Perl Jobs"<http://jobs.perl.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://www.pm.org/">Perl Mongers<!-- wiki-renamed-hyperlink "Perl Mongers"<http://www.pm.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://perlmonks.org/">PerlMonks<!-- wiki-renamed-hyperlink "PerlMonks"<http://perlmonks.org/> --></a></li>
+<li><a target="_blank" title="(external link)" href="http://cpan.org/">CPAN<!-- wiki-renamed-hyperlink "CPAN"<http://cpan.org/> --></a></li>
 </ul>
 	 
  </div>
@@ -522,51 +533,51 @@ If you are wishing to convert these files to another language, further add to th
 <h2 id="press_pack">Press Pack</h2>
 <p>
 This is the full version of the Perl Foundation Press Pack with details and information on Perl Foundation activities.</p>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Press-Pack-Full-2011.pdf">TPF-Press-Pack-Full-2011.pdf</a></span><br /><br /><h2 id="sponsors.htmhip_and_support_press_releases.htm">Sponsorship and Support Press Releases</h2>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Press-Pack-Full-2011.pdf">TPF-Press-Pack-Full-2011.pdf</a><!-- wiki: {file: TPF-=Press-=Pack-=Full-=2011.pdf} --></span><br /><br /><h2 id="sponsors.htmhip_and_support_press_releases.htm">Sponsorship and Support Press Releases</h2>
 <p>
 These releases cover the generous support and sponsors.htmhip that organisations give to The Perl Foundation and the community as a whole.</p>
 <h3 id="2012">2012</h3>
 <h4 id="january_2012">January 2012</h4>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/tpf-craigslist-sponsors.htmhip.pdf">tpf-craigslist-sponsors.htmhip.pdf</a></span><br /><br /><h3 id="2011">2011</h3>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/tpf-craigslist-sponsors.htmhip.pdf">tpf-craigslist-sponsors.htmhip.pdf</a><!-- wiki: {file: tpf-=craigslist-=sponsors.htmhip.pdf} --></span><br /><br /><h3 id="2011">2011</h3>
 <h4 id="august_2011">August 2011</h4>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Lovefilm-supporting-the-Perl-community.pdf">TPF-Lovefilm-supporting-the-Perl-community.pdf</a></span><br /><br /><h4 id="december_2011">December 2011</h4>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-booking-sponsors.htmhip.pdf">Perl-5-booking-sponsors.htmhip.pdf</a></span><br /><br /><h2 id="perl_5_core_maintenance_fund.htm_press_releases.htm">Perl 5 Core Maintenance Fund Press Releases</h2>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Lovefilm-supporting-the-Perl-community.pdf">TPF-Lovefilm-supporting-the-Perl-community.pdf</a><!-- wiki: {file: TPF-=Lovefilm-=supporting-=the-=Perl-=community.pdf} --></span><br /><br /><h4 id="december_2011">December 2011</h4>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-booking-sponsors.htmhip.pdf">Perl-5-booking-sponsors.htmhip.pdf</a><!-- wiki: {file: Perl-=5-=booking-=sponsors.htmhip.pdf} --></span><br /><br /><h2 id="perl_5_core_maintenance_fund.htm_press_releases.htm">Perl 5 Core Maintenance Fund Press Releases</h2>
 <p>
 Press releases of contributions, contributors and ancillary information relating to this fund.</p>
 <h3 id="2011">2011</h3>
 <h4 id="june_2011">June 2011</h4>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-Maintenance-Fund.pdf">Perl-5-Maintenance-Fund.pdf</a></span><br /><br /><h4 id="july">July</h4>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-Maintenance-Fund-booking-cpanel-sponsors.htmhip-combined-announcement.pdf">Perl-5-Maintenance-Fund-booking-cpanel-sponsors.htmhip-combined-announcement.pdf</a></span><br /><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-CMF-cpanel-sponsors.htmhip.pages">Perl-5-CMF-cpanel-sponsors.htmhip.pages</a></span><br /><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-CMF-booking-sponsors.htmhip.pdf">Perl-5-CMF-booking-sponsors.htmhip.pdf</a></span><br /><br /><h4 id="august">August</h4>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-CMF-NAP-sponsors.htmhip.pdf">Perl-5-CMF-NAP-sponsors.htmhip.pdf</a></span><br /><br /><h4 id="september">September</h4>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-CMF-liquid-web-sponsors.htmhip.pdf">Perl-5-CMF-liquid-web-sponsors.htmhip.pdf</a></span><br /><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/liquid-web-Press-Release-Perl5-cmf-Donation.pdf">liquid-web-Press-Release-Perl5-cmf-Donation.pdf</a></span><br /><br /><h2 id="flyers_for_distribution">Flyers for Distribution</h2>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-Maintenance-Fund.pdf">Perl-5-Maintenance-Fund.pdf</a><!-- wiki: {file: Perl-=5-=Maintenance-=Fund.pdf} --></span><br /><br /><h4 id="july">July</h4>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-Maintenance-Fund-booking-cpanel-sponsors.htmhip-combined-announcement.pdf">Perl-5-Maintenance-Fund-booking-cpanel-sponsors.htmhip-combined-announcement.pdf</a><!-- wiki: {file: Perl-=5-=Maintenance-=Fund-=booking-=cpanel-=sponsors.htmhip-=combined-=announcement.pdf} --></span><br /><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-CMF-cpanel-sponsors.htmhip.pages">Perl-5-CMF-cpanel-sponsors.htmhip.pages</a><!-- wiki: {file: Perl-=5-=CMF-=cpanel-=sponsors.htmhip.pages} --></span><br /><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-CMF-booking-sponsors.htmhip.pdf">Perl-5-CMF-booking-sponsors.htmhip.pdf</a><!-- wiki: {file: Perl-=5-=CMF-=booking-=sponsors.htmhip.pdf} --></span><br /><br /><h4 id="august">August</h4>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-CMF-NAP-sponsors.htmhip.pdf">Perl-5-CMF-NAP-sponsors.htmhip.pdf</a><!-- wiki: {file: Perl-=5-=CMF-=NAP-=sponsors.htmhip.pdf} --></span><br /><br /><h4 id="september">September</h4>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/Perl-5-CMF-liquid-web-sponsors.htmhip.pdf">Perl-5-CMF-liquid-web-sponsors.htmhip.pdf</a><!-- wiki: {file: Perl-=5-=CMF-=liquid-=web-=sponsors.htmhip.pdf} --></span><br /><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/liquid-web-Press-Release-Perl5-cmf-Donation.pdf">liquid-web-Press-Release-Perl5-cmf-Donation.pdf</a><!-- wiki: {file: liquid-=web-=Press-=Release-=Perl5-=cmf-=Donation.pdf} --></span><br /><br /><h2 id="flyers_for_distribution">Flyers for Distribution</h2>
 <p>
 These flyers are all A5 and can be printed in colour or black and white or mailed as pdf files/converted to graphics and included in websites. If you wish to discuss usage of the flyers contact pr(at)perlfoundation.org. If you would like to print these out on a home, office, or home-office printer (non-commercial printer) then you can use the variant files labeled as &quot;home-office&quot;. Any variant named with the word &quot;bleed&quot; has a 3mm bleed area so can be printed either digitally or lithographically.</p>
 <h4 id="flyers_promoting_perl_websites_and_community_resources">Flyers promoting Perl websites and community resources.</h4>
 <p>
 A list of several useful websites, if you wish to add more addresses to this and help create future flyers then contact pr(at)perlfoundation.org.</p>
 <h5 id="new_version_for_2012">New version for 2012</h5>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful%20Websites2012.pdf">TPF-Useful Websites2012.pdf</a></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful%20Websites2012.pages">TPF-Useful Websites2012.pages</a></span><br /><br /><h5 id="2011_version_no_dates">2011 version (no dates)</h5>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites.pdf">TPF-Useful-Websites.pdf</a></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites-home-office.pdf">TPF-Useful-Websites-home-office.pdf</a></span><br /><br /><p>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful%20Websites2012.pdf">TPF-Useful Websites2012.pdf</a><!-- wiki: {file: TPF-=Useful Websites2012.pdf} --></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful%20Websites2012.pages">TPF-Useful Websites2012.pages</a><!-- wiki: {file: TPF-=Useful Websites2012.pages} --></span><br /><br /><h5 id="2011_version_no_dates">2011 version (no dates)</h5>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites.pdf">TPF-Useful-Websites.pdf</a><!-- wiki: {file: TPF-=Useful-=Websites.pdf} --></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites-home-office.pdf">TPF-Useful-Websites-home-office.pdf</a><!-- wiki: {file: TPF-=Useful-=Websites-=home-=office.pdf} --></span><br /><br /><p>
 A list detailing just organisations and resources in the Perl community, if you wish to add more addresses to this and help create future flyers then contact pr(at)perlfoundation.org.</p>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites-Orgs-and-Resources.pdf">TPF-Useful-Websites-Orgs-and-Resources.pdf</a></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Orgs-and-Resources-home-office.pdf">TPF-Orgs-and-Resources-home-office.pdf</a></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites-Orgs-and-Resources-with-bleed.pdf">TPF-Useful-Websites-Orgs-and-Resources-with-bleed.pdf</a></span><br /><br /><p>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites-Orgs-and-Resources.pdf">TPF-Useful-Websites-Orgs-and-Resources.pdf</a><!-- wiki: {file: TPF-=Useful-=Websites-=Orgs-=and-=Resources.pdf} --></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Orgs-and-Resources-home-office.pdf">TPF-Orgs-and-Resources-home-office.pdf</a><!-- wiki: {file: TPF-=Orgs-=and-=Resources-=home-=office.pdf} --></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites-Orgs-and-Resources-with-bleed.pdf">TPF-Useful-Websites-Orgs-and-Resources-with-bleed.pdf</a><!-- wiki: {file: TPF-=Useful-=Websites-=Orgs-=and-=Resources-=with-=bleed.pdf} --></span><br /><br /><p>
 A list of Perl community sites offering news and information (news sites and blog feeds), if you wish to add more addresses to this and help create future flyers then contact pr(at)perlfoundation.org.</p>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites-Community.pdf">TPF-Useful-Websites-Community.pdf</a></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites-Community-home-office.pdf">TPF-Useful-Websites-Community-home-office.pdf</a></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites-Community-with-bleed.pdf">TPF-Useful-Websites-Community-with-bleed.pdf</a></span><br /><br /><h4 id="flyers_promoting_upcoming_conferences_in_the_perl_world">Flyers promoting upcoming conferences in the Perl world</h4>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites-Community.pdf">TPF-Useful-Websites-Community.pdf</a><!-- wiki: {file: TPF-=Useful-=Websites-=Community.pdf} --></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites-Community-home-office.pdf">TPF-Useful-Websites-Community-home-office.pdf</a><!-- wiki: {file: TPF-=Useful-=Websites-=Community-=home-=office.pdf} --></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Useful-Websites-Community-with-bleed.pdf">TPF-Useful-Websites-Community-with-bleed.pdf</a><!-- wiki: {file: TPF-=Useful-=Websites-=Community-=with-=bleed.pdf} --></span><br /><br /><h4 id="flyers_promoting_upcoming_conferences_in_the_perl_world">Flyers promoting upcoming conferences in the Perl world</h4>
 <p>
 (If you have a conference on perl and would like to be included in a future flyer contact mdk(at)perlfoundation.org.)</p>
 <h5 id="2012_tbc">2012 tbc.</h5>
 <h5 id="archive_of_previous_versions">Archive of previous versions:</h5>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Upcoming-Perl-Conferences-2011-OSCON.pdf">TPF-Upcoming-Perl-Conferences-2011-OSCON.pdf</a></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Upcoming-Perl-Conferences-2011-September-onwards.pdf">TPF-Upcoming-Perl-Conferences-2011-September-onwards.pdf</a></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Upcoming-Perl-Conferences-2011-September-onwards-home-office.pdf">TPF-Upcoming-Perl-Conferences-2011-September-onwards-home-office.pdf</a></span><br /><br /><h5 id="flyers_promoting_the_2011_google_code_in.htm_initiative_from_the_perl_foundation">Flyers promoting the 2011 Google Code-in initiative from the Perl Foundation</h5>
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/GCi-2011-basic-home-small-office-printer.pdf">GCi-2011-basic-home-small-office-printer.pdf</a></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/GCi-2011-basic.pdf">GCi-2011-basic.pdf</a></span><br /><br /><h4 id="flyers_promoting_the_2012_google_summer_of_code_initiative_from_the_perl_foundation">Flyers promoting the 2012 Google Summer of Code initiative from the Perl Foundation</h4>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Upcoming-Perl-Conferences-2011-OSCON.pdf">TPF-Upcoming-Perl-Conferences-2011-OSCON.pdf</a><!-- wiki: {file: TPF-=Upcoming-=Perl-=Conferences-=2011-=OSCON.pdf} --></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Upcoming-Perl-Conferences-2011-September-onwards.pdf">TPF-Upcoming-Perl-Conferences-2011-September-onwards.pdf</a><!-- wiki: {file: TPF-=Upcoming-=Perl-=Conferences-=2011-=September-=onwards.pdf} --></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/TPF-Upcoming-Perl-Conferences-2011-September-onwards-home-office.pdf">TPF-Upcoming-Perl-Conferences-2011-September-onwards-home-office.pdf</a><!-- wiki: {file: TPF-=Upcoming-=Perl-=Conferences-=2011-=September-=onwards-=home-=office.pdf} --></span><br /><br /><h5 id="flyers_promoting_the_2011_google_code_in.htm_initiative_from_the_perl_foundation">Flyers promoting the 2011 Google Code-in initiative from the Perl Foundation</h5>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/GCi-2011-basic-home-small-office-printer.pdf">GCi-2011-basic-home-small-office-printer.pdf</a><!-- wiki: {file: GCi-=2011-=basic-=home-=small-=office-=printer.pdf} --></span><br /><span class="nlw_phrase"><a href="/attachment/press_releases.htm/GCi-2011-basic.pdf">GCi-2011-basic.pdf</a><!-- wiki: {file: GCi-=2011-=basic.pdf} --></span><br /><br /><h4 id="flyers_promoting_the_2012_google_summer_of_code_initiative_from_the_perl_foundation">Flyers promoting the 2012 Google Summer of Code initiative from the Perl Foundation</h4>
 <p>
 Newest Flyer:<br />
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/basic-with-bleed-2012.pdf">basic-with-bleed-2012.pdf</a></span><br />
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/basic-home-office-2012.pdf">basic-home-office-2012.pdf</a></span><br />
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012-2.pdf">GSoC-2012-2.pdf</a></span></p>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/basic-with-bleed-2012.pdf">basic-with-bleed-2012.pdf</a><!-- wiki: {file: basic-=with-=bleed-=2012.pdf} --></span><br />
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/basic-home-office-2012.pdf">basic-home-office-2012.pdf</a><!-- wiki: {file: basic-=home-=office-=2012.pdf} --></span><br />
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012-2.pdf">GSoC-2012-2.pdf</a><!-- wiki: {file: GSoC-=2012-=2.pdf} --></span></p>
 <p>
 Older flyers:<br />
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012.pdf">GSoC-2012.pdf</a></span><br />
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012-home-office.pdf">GSoC-2012-home-office.pdf</a></span><br />
-<span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012-with-bleed.pdf">GSoC-2012-with-bleed.pdf</a></span></p>
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012.pdf">GSoC-2012.pdf</a><!-- wiki: {file: GSoC-=2012.pdf} --></span><br />
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012-home-office.pdf">GSoC-2012-home-office.pdf</a><!-- wiki: {file: GSoC-=2012-=home-=office.pdf} --></span><br />
+<span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012-with-bleed.pdf">GSoC-2012-with-bleed.pdf</a><!-- wiki: {file: GSoC-=2012-=with-=bleed.pdf} --></span></p>
 
 	</div>
  <div id="content_footer"></div>
