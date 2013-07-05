@@ -1,0 +1,363 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	background-color: #4e5d84;
+}
+
+div#page {
+	width: 946px;
+	margin: 16px auto 26px;
+	position: relative;
+}
+
+div.clear {
+	clear: both;
+}
+
+/* @end */
+
+/* @group Header */
+
+div#header {
+	width: 946px;
+	height: 105px;
+	background-image: url(http://perldoc.perl.org/static/tpf/header.png);
+	position: relative;
+}
+
+div#strapline {
+	font: 0.8em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #b4b4b4;
+	position: absolute;
+	top: 68px;
+	left: 117px;
+}
+
+/* @group Download */
+
+div#download_link {
+	position: absolute;
+	top: 48px;
+	font-size: .8em;
+	left: 724px;
+}
+
+div#explore_link {
+	position: absolute;
+	top: 48px;
+	font-size: .8em;
+	left: 846px;
+}
+div.download a {
+	text-decoration: none;
+	color: #b4b4b4;
+}
+
+div.download a:hover {
+	color: #eaeaea;
+}
+
+/* @end */
+
+/* @group Body */
+
+div#body {
+	background: url(http://perldoc.perl.org/static/tpf/main_bg.png) repeat-y;
+	position: relative;
+	color: #515151;
+	font-size: 16px !important;
+}
+
+/* @group Navigation */
+
+div#navigation {
+	position: absolute;
+	top: 21px;
+	left: 29px;
+	width: 155px;
+	font-size: 0.8em;
+}
+
+div#navigation_header {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_header.png);
+	width: 155px;
+	height: 14px;
+}
+
+div#navigation_body {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_bg.png);
+	width: 145px;
+	padding-right: 10px;
+}
+
+div#navigation_footer {
+	background-image: url(http://perldoc.perl.org/static/tpf/nav_footer.png);
+	width: 155px;
+	height: 13px;
+	position: relative;
+}
+
+div#navigation_end {
+	position: absolute;
+	background-color: #82a1ae;
+	width: 1px;
+	height: 1px;
+	bottom: 0;
+	right: -1px;
+}
+
+#navigation h4 {
+	padding-left: 12px;
+	margin: 0;
+	color: #36497d;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#navigation a {
+	color: #6e6e6e;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #414141;
+}
+
+#navigation ul {
+	margin: 0;
+	list-style-type: none;
+	padding: 2px 0 12px 20px;
+}
+
+#navigation li {
+	padding: 0 0 0 7px;
+	font-weight: 300;
+	font-size: .9em;
+	text-indent: -7px;
+}
+
+div#feeds {
+	margin-top: 17px;
+	margin-left: 19px;
+	font-size: .9em;
+	color: #707070;
+}
+
+/* @group Search */
+
+#navigation form#st-search-form {
+}
+
+#navigation input {
+	padding-left: 20px;
+	margin-left: 12px;
+	width: 109px;
+	height: 18px;
+	border: 1px solid #cacaca;
+	margin-bottom: 11px;
+	background: #fafafa url(http://perldoc.perl.org/static/tpf/search.png) no-repeat 3px 3px;
+	color: #919191;
+}
+
+/* @end */
+
+/* @group Content */
+
+div#content {
+	padding-top: 9px;
+	padding-bottom: 20px;
+	width: 731px;
+	margin-left: 184px;
+ font-size: 0.8em;
+}
+
+div#content_header {
+	width: 731px;
+	height: 26px;
+	background: url(http://perldoc.perl.org/static/tpf/content_header.png) no-repeat;
+}
+
+div#content_body {
+	padding-left: 30px;
+	padding-right: 30px;
+	background: url(http://perldoc.perl.org/static/tpf/content_bg.png) repeat-y;	
+	min-height: 1000px;
+}
+
+div#content_footer {
+	width: 731px;
+	height: 25px;
+	background: url(http://perldoc.perl.org/static/tpf/content_footer.png) no-repeat;
+}
+
+h1 {
+	margin: 0;
+	font: 1.9em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #36497d;
+	background: url(http://perldoc.perl.org/static/tpf/h1_bg.png) no-repeat;
+	height: 30px;
+	padding-left: 37px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	font: 1.5em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #36497d;
+	padding-top: 9px;
+	margin: 0;
+	background: url(http://perldoc.perl.org/static/tpf/h2_bg.png) no-repeat -2px 28px;
+	padding-bottom: 4px;
+	padding-left: 0;
+	margin-bottom: 8px;
+}
+
+p {
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+a {
+	color: #36497d;
+}
+
+a:hover {
+	color: #6779a9;
+}
+
+a:visited {
+	color: #5c657d;
+}
+
+/* @end */
+
+/* @group Footer */
+
+div#footer {
+
+}
+
+div#footer_content {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
+	padding-right: 74px;
+	padding-left: 74px;
+	background-color: #004065;
+}
+
+div#footer_strapline {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #6c6c6c;
+	font: lighter 1.05em "Gill Sans";
+}
+
+div#footer_end {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer.png);
+	width: 946px;
+	height: 42px;
+	clear: both;
+}
+
+/* @group Address */
+
+div#address {
+	background: url(http://perldoc.perl.org/static/tpf/onion-grey.png) no-repeat 0 4px;
+	padding-left: 51px;
+	float: left;
+	border-right: 1px solid #b4b4b4;
+	padding-right: 35px;
+}
+
+div#address p.name {
+	margin: 0;
+	color: #414141;
+}
+
+div#address p.address {
+	color: #797979;
+	font-size: .9em;
+	margin: 3px 0 0;
+	padding: 0;
+}
+
+div#address p.contact {
+	margin: 3px 0 0;
+	font-size: .9em;
+}
+
+div#address p.contact a {
+	color: #797979;
+	text-decoration: none;
+}
+
+div#address p.contact a:hover {
+	color: #515151;
+}
+
+/* @end */
+
+/* @group Links */
+
+div#footer_links {
+	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
+}
+
+ul.f1 {
+	list-style-type: none;
+	margin: 0;
+	float: right;
+	padding: 8px 0 0;
+}
+
+ul.f1 li {
+	float: left;
+	color: #414141;
+	font-size: .8em;
+	text-align: right;
+	padding-left: 40px;
+}
+
+ul.f2 {
+	list-style-type: none;
+	text-align: right;
+	margin: 3px 0 0;
+	padding: 0;
+}
+
+ul.f2 li {
+	float: none;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+ul.f2 li a {
+	text-decoration: none;
+	color: #858585;
+}
+
+ul.f2 li a:hover {
+	color: #515151;
+}
+
+div#menu br {
+ display: none;
+}
+
+div#menu br + ul {
+ display: none;
+}
+
+div#homepage_link a {
+	width: 500px;
+	height: 83px;
+	display: block;
+	position: absolute;
+	top: 13px;
+	left: 12px;
+}
+
+/* @end */

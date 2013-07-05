@@ -1,11 +1,20 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML>
 <html lang="en">
- <head>
-<meta name="google-site-verification" content="PspJjBYdKf-ZfTtgaRKOqlV_UoDJoOPx0d4zUbuGGxo" />
- <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
- <meta http-equiv="Content-Language" content="en-us" />
-<script type="text/javascript">
+<head>
 
+<meta charset="utf-8" />
+<meta name="google-site-verification" content="PspJjBYdKf-ZfTtgaRKOqlV_UoDJoOPx0d4zUbuGGxo" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+
+<title>The Perl Foundation</title>
+
+<link rel="shortcut icon" href="/static/images/foundation/favicon.ico">
+<link href="http://perldoc.perl.org/static/exploreperl.css" rel="stylesheet" rev="stylesheet" type="text/css" />
+<link href="/static/css/index.css" rel="stylesheet" type="text/css" />
+ 
+
+<script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-32214061-1']);
   _gaq.push(['_trackPageview']);
@@ -15,394 +24,11 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
 </script>
- <link rel="shortcut icon" href="/static/images/foundation/favicon.ico">
 
- <title>The Perl Foundation</title>
- <link href="http://perldoc.perl.org/static/exploreperl.css" rel="stylesheet" rev="stylesheet" type="text/css">
+<script language="JavaScript" type="text/javascript" src="http://perldoc.perl.org/static/exploreperl.js"></script>
 
-<!-- <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
- <script type="text/javascript">_uacct = "UA-50555-10";urchinTracker();</script> -->
- <script language="JavaScript" type="text/javascript" src="http://perldoc.perl.org/static/exploreperl.js"></script>
-
- <!-- OVER_RIDE CSS NEEDS ADDING TO A STYLESHEET AT SOME POINT -->
- <style type="text/css">
-
-body {
-	padding: 0;
-	margin: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
-	background-color: #4e5d84;
-}
-
-div#page {
-	width: 946px;
-	margin: 16px auto 26px;
-	position: relative;
-}
-
-div.clear {
-	clear: both;
-}
-
-/* @end */
-
-/* @group Header */
-
-div#header {
-	width: 946px;
-	height: 105px;
-	background-image: url(http://perldoc.perl.org/static/tpf/header.png);
-	position: relative;
-}
-
-div#strapline {
-	font: 0.8em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
-	color: #b4b4b4;
-	position: absolute;
-	top: 68px;
-	left: 117px;
-}
-
-/* @group Download */
-
-div#download_link {
-	position: absolute;
-	top: 48px;
-	font-size: .8em;
-	left: 724px;
-}
-
-div#explore_link {
-	position: absolute;
-	top: 48px;
-	font-size: .8em;
-	left: 846px;
-}
-div.download a {
-	text-decoration: none;
-	color: #b4b4b4;
-}
-
-div.download a:hover {
-	color: #eaeaea;
-}
-
-/* @end */
-
-/* @end */
-
-/* @group Body */
-
-div#body {
-	background: url(http://perldoc.perl.org/static/tpf/main_bg.png) repeat-y;
-	position: relative;
-	color: #515151;
-	font-size: 16px !important;
-}
-
-/* @group Navigation */
-
-div#navigation {
-	position: absolute;
-	top: 21px;
-	left: 29px;
-	width: 155px;
-	font-size: 0.8em;
-}
-
-div#navigation_header {
-	background-image: url(http://perldoc.perl.org/static/tpf/nav_header.png);
-	width: 155px;
-	height: 14px;
-}
-
-div#navigation_body {
-	background-image: url(http://perldoc.perl.org/static/tpf/nav_bg.png);
-	width: 145px;
-	padding-right: 10px;
-}
-
-div#navigation_footer {
-	background-image: url(http://perldoc.perl.org/static/tpf/nav_footer.png);
-	width: 155px;
-	height: 13px;
-	position: relative;
-}
-
-div#navigation_end {
-	position: absolute;
-	background-color: #82a1ae;
-	width: 1px;
-	height: 1px;
-	bottom: 0;
-	right: -1px;
-}
-
-#navigation h4 {
-	padding-left: 12px;
-	margin: 0;
-	color: #36497d;
-	font-weight: normal;
-	font-style: normal;
-}
-
-#navigation a {
-	color: #6e6e6e;
-	text-decoration: none;
-}
-
-#navigation a:hover {
-	color: #414141;
-}
-
-#navigation ul {
-	margin: 0;
-	list-style-type: none;
-	padding: 2px 0 12px 20px;
-}
-
-#navigation li {
-	padding: 0 0 0 7px;
-	font-weight: 300;
-	font-size: .9em;
-	text-indent: -7px;
-}
-
-div#feeds {
-	margin-top: 17px;
-	margin-left: 19px;
-	font-size: .9em;
-	color: #707070;
-}
-
-/* @group Search */
-
-#navigation form#st-search-form {
-}
-
-#navigation input {
-	padding-left: 20px;
-	margin-left: 12px;
-	width: 109px;
-	height: 18px;
-	border: 1px solid #cacaca;
-	margin-bottom: 11px;
-	background: #fafafa url(http://perldoc.perl.org/static/tpf/search.png) no-repeat 3px 3px;
-	color: #919191;
-}
-
-/* @end */
-
-/* @end */
-
-/* @group Content */
-
-div#content {
-	padding-top: 9px;
-	padding-bottom: 20px;
-	width: 731px;
-	margin-left: 184px;
- font-size: 0.8em;
-}
-
-div#content_header {
-	width: 731px;
-	height: 26px;
-	background: url(http://perldoc.perl.org/static/tpf/content_header.png) no-repeat;
-}
-
-div#content_body {
-	padding-left: 30px;
-	padding-right: 30px;
-	background: url(http://perldoc.perl.org/static/tpf/content_bg.png) repeat-y;	
-	min-height: 1000px;
-}
-
-div#content_footer {
-	width: 731px;
-	height: 25px;
-	background: url(http://perldoc.perl.org/static/tpf/content_footer.png) no-repeat;
-}
-
-h1 {
-	margin: 0;
-	font: 1.9em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
-	color: #36497d;
-	background: url(http://perldoc.perl.org/static/tpf/h1_bg.png) no-repeat;
-	height: 30px;
-	padding-left: 37px;
-	padding-top: 1px;
-	padding-bottom: 5px;
-}
-
-h2 {
-	font: 1.5em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
-	color: #36497d;
-	padding-top: 9px;
-	margin: 0;
-	background: url(http://perldoc.perl.org/static/tpf/h2_bg.png) no-repeat -2px 28px;
-	padding-bottom: 4px;
-	padding-left: 0;
-	margin-bottom: 8px;
-}
-
-p {
-	margin: 0;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-a {
-	color: #36497d;
-}
-
-a:hover {
-	color: #6779a9;
-}
-
-a:visited {
-	color: #5c657d;
-}
-
-/* @end */
-
-/* @end */
-
-/* @group Footer */
-
-div#footer {
-
-}
-
-div#footer_content {
-	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
-	padding-right: 74px;
-	padding-left: 74px;
-	background-color: #004065;
-}
-
-div#footer_strapline {
-	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	color: #6c6c6c;
-	font: lighter 1.05em "Gill Sans";
-}
-
-div#footer_end {
-	background-image: url(http://perldoc.perl.org/static/tpf/footer.png);
-	width: 946px;
-	height: 42px;
-	clear: both;
-}
-
-/* @group Address */
-
-div#address {
-	background: url(http://perldoc.perl.org/static/tpf/onion-grey.png) no-repeat 0 4px;
-	padding-left: 51px;
-	float: left;
-	border-right: 1px solid #b4b4b4;
-	padding-right: 35px;
-}
-
-div#address p.name {
-	margin: 0;
-	color: #414141;
-}
-
-div#address p.address {
-	color: #797979;
-	font-size: .9em;
-	margin: 3px 0 0;
-	padding: 0;
-}
-
-div#address p.contact {
-	margin: 3px 0 0;
-	font-size: .9em;
-}
-
-div#address p.contact a {
-	color: #797979;
-	text-decoration: none;
-}
-
-div#address p.contact a:hover {
-	color: #515151;
-}
-
-/* @end */
-
-/* @group Links */
-
-div#footer_links {
-	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
-}
-
-ul.f1 {
-	list-style-type: none;
-	margin: 0;
-	float: right;
-	padding: 8px 0 0;
-}
-
-ul.f1 li {
-	float: left;
-	color: #414141;
-	font-size: .8em;
-	text-align: right;
-	padding-left: 40px;
-}
-
-ul.f2 {
-	list-style-type: none;
-	text-align: right;
-	margin: 3px 0 0;
-	padding: 0;
-}
-
-ul.f2 li {
-	float: none;
-	font-size: 1em;
-	margin: 0;
-	padding: 0;
-}
-
-ul.f2 li a {
-	text-decoration: none;
-	color: #858585;
-}
-
-ul.f2 li a:hover {
-	color: #515151;
-}
-
-div#menu br {
- display: none;
-}
-
-div#menu br + ul {
- display: none;
-}
-
-div#homepage_link a {
-	width: 500px;
-	height: 83px;
-	display: block;
-	position: absolute;
-	top: 13px;
-	left: 12px;
-}
-
-/* @end */
-
-/* @end */
- </style>
-
- </head>
+</head>
 
 <body onload="explorePerl.render(); explorePerl.addEvents('explore_anchor');">
  <div id="page">
@@ -484,17 +110,6 @@ div#homepage_link a {
 <li><a target="_blank" title="(external link)" href="http://yapc.perl.org.br/">YAPC South America<!-- wiki-renamed-hyperlink "YAPC South America"<http://yapc.perl.org.br/> --></a></li>
 <li><a target="_blank" title="(external link)" href="http://yapcasia.org/">YAPC Asia<!-- wiki-renamed-hyperlink "YAPC Asia"<http://yapcasia.org/> --></a></li>
 </ul>
-<div class="wafl_block"><!-- wiki:
-.html
-<!-=-=
-^^^^ Official Wikis
-
-* "Perl 5 wiki"<http://www.perlfoundation.org/perl5>
-* "Perl 6 wiki"<http://www.perlfoundation.org/perl6>
-* "Parrot wiki"<http://www.perlfoundation.org/parrot>
--=-=>
-.html
---></div>
 <br /><h4 id="affiliates">Affiliates</h4>
 <ul>
 <li><a target="_blank" title="(external link)" href="http://www.perl.com/">Perl.com<!-- wiki-renamed-hyperlink "Perl.com"<http://www.perl.com/> --></a></li>
@@ -535,14 +150,7 @@ The Perl Foundation is dedicated to the advancement of the Perl programming lang
   Foundation, then <a href="https://secure.donor.com/pf012/give">visit our
     donation page</a> by simply clicking on the link in the sidebar, in this
   text, or by using the button on the top right of this paragraph. </div>
-<!-- wiki:
-.html
-<span style=="float: right; margin: 10px;">
-<a href=="https://secure.donor.com/pf012/give"><img border=="0" src=="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20110628203216-=0-=25390/files/donate-=new2.png"></a>
-</span>
-If you would like to make a donation to the Perl Foundation, or to a specific initiative such as the Core 5 Maintenance Fund for Perl 5 or one of the many Perl conferences supported by The Perl Foundation, then <a href=="https://secure.donor.com/pf012/give">visit our donation page</a> by simply clicking on the link in the sidebar, in this text, or by using the button on the top right of this paragraph. 
-.html
---></div>
+</div>
 <br /><h4 id="worldwide_yapc_events">Worldwide YAPC Events</h4>
 <div class="wafl_block"><table cellspacing="0"
   style="
@@ -575,109 +183,13 @@ If you would like to make a donation to the Perl Foundation, or to a specific in
 	  style="padding: 0 0 0 10px; border: 0px;"> </a></td>
   </tr>
 </table>
-<!-- wiki:
-.html
-<table cellspacing=="0" cellpadding=="0"
-        style=="
-              font: helvetica;
-              font-=size: 8pt;
-              ">
-  <tr>
-    <td>
-      <!-=-= <a href=="http://yapcna.org/"> -=-=>
-      Yet Another Perl Conference: North America (YAPC::NA)
-      </a>
-    </td>
-    <td style=="padding: 0 0 0 10px">
-     June 2014, tbc, Orlando, Florida 
-    </td>
-    <td>
-      <a href=="http://yapcna.org/">
-      <img style=="padding: 0 0 0 10px; border: 0px;"  src=="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20120123171052-=2-=19510/files/na2.png" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href=="http://act.yapc.eu/ye2013/">
-      Yet Another Perl Conference: Europe (YAPC::EU)
-      </a>
-    </td>
-    <td style=="padding: 0 0 0 10px">
-      12-=14th August 2013, Kiev, Ukraine 
-    </td>
-    <td>
-      <a href=="http://act.yapc.eu/ye2013/">
-      <img style=="padding: 0 0 0 10px; border: 0px;" src=="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20120123171051-=1-=19510/files/eu2.png" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href=="http://yapcasia.org/2013/">
-      Yet Another Perl Conference: Asia (YAPC::Asia)
-      </a>
-    </td>
-    <td style=="padding: 0 0 0 10px">
-      19-=21st September 2013, Keio University Hiyoshi Campus, Tokyo
-    </td>
-    <td>
-      <a href=="http://yapcasia.org/2013/">
-      <img style=="padding: 0 0 0 10px; border: 0px;" src=="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20120123171137-=0-=19845/files/asia2.png" />
-      </a>
-    </td>
-  </tr>
-
-<!-=-=
-  <tr>
-    <td>
-      <a href=="http://yapcrussia.org/en/">
-      Yet Another Perl Conference: Russia (YAPC::Russia)
-      </a>
-    </td>
-    <td style=="padding: 0 0 0 10px">
-      2013 Dates tba 
-    </td>
-    <td>
-      <a href=="http://yapcrussia.org/en/">
-      <img style=="padding: 0 0 0 10px; border: 0px;" src=="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20120123171138-=1-=19845/files/ru2.png" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href=="http://www.yapcbrasil.org.br/2012/main">
-      Yet Another Perl Conference: Brasil (YAPC::Brasil)
-      </a>
-    </td>
-    <td style=="padding: 0 0 0 10px">
-      2013 Dates tba 
-    </td>
-    <td>
-      <a href=="http://www.yapcbrasil.org.br/2012/main">
-      <img style=="padding: 0 0 0 10px; border: 0px;" src=="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20120123171050-=0-=19510/files/br2.png" />
-      </a>
-    </td>
-  </tr>
--=-=>
-  
-</table>
-.html
---></div>
+</div>
 <br /><h2 id="yapc_na.htm_2014_will_be_in_orlando_florida">YAPC::NA::2014 will be in Orlando, Florida</h2>
 <div class="wafl_block"><a href="#yapcna" style="font-weight:bold; text-decoration: none;"> 16th June
   2013 <br><span style="color: #666;font-size:90%;">Mark Keating</span></a>
-<!-- wiki:
-.html
-<a href=="#yapcna" style=="font-=weight:bold; text-=decoration: none;">
-16th June 2013
-<br>
-<span style=="color: #666;font-=size:90%;">Mark Keating</a>
-</a>
-.html
---></div>
+</div>
 <br /><p>
-It is with pleasure that TPF (The Perl Foundation) announces the 2014 Yet Another Perl Conference North America (YAPC::NA) will be held in the city of Orlando, Florida. Details concerning the date and time are being finalized but we expect it to be in the second half of June, in the Florida Hotel and Conference Center (<a target="_blank" title="(external link)" href="http://bit.ly/10mYBHa">Hotel and Conference centre<!-- wiki-renamed-hyperlink "Hotel and Conference centre"<http://bit.ly/10mYBHa> --></a>).</p>
+It is with pleasure that TPF (The Perl Foundation) announces the 2014 Yet Another Perl Conference North America (YAPC::NA) will be held in the city of Orlando, Florida. Details concerning the date and time are being finalized but we expect it to be in the second half of June, in the Florida Hotel and Conference Center (<a target="_blank" title="(external link)" href="http://bit.ly/10mYBHa">Hotel and Conference centre</a>).</p>
 <p>
 YAPC::NA::2014 will be hosted by the Orlando Perl Mongers (Orlando.pm) and the members of Dahut Perl Mongers (Dahut.pm). Chris Prather is the lead organizer. This is Chris' second time organizing YAPC::NA (after a successful Asheville debut in 2011). He is also the organizer of the very popular yearly Perl Oasis held in Orlando in January.</p>
 <p>
@@ -696,17 +208,9 @@ Karen Pauley: President (karen(at)perlfoundation.org)</p>
 <div class="wafl_block"><a href="#outreach" style="font-weight:bold; text-decoration: none;"> 30th
   March 2013 <br><span style="color: #666;font-size:90%;">Karen
     Pauley</span></a>
-<!-- wiki:
-.html
-<a href=="#outreach" style=="font-=weight:bold; text-=decoration: none;">
-30th March 2013
-<br>
-<span style=="color: #666;font-=size:90%;">Karen Pauley</a>
-</a>
-.html
---></div>
+</div>
 <br /><p>
-We will be taking part in the current round of the <a target="_blank" title="(external link)" href="https://live.gnome.org/OutreachProgramForWomen">Free and Open Source Outreach Program for Women<!-- wiki-renamed-hyperlink "Free and Open Source Outreach Program for Women"<https://live.gnome.org/OutreachProgramForWomen> --></a>. This successful program was started in 2006 by the GNOME Foundation to encourage women to participate in the FOSS community. This round of the program is open to women looking for internships between June and September of 2013. Full details of the eligibility requirements can be found on the <a target="_blank" title="(external link)" href="https://live.gnome.org/OutreachProgramForWomen">program website<!-- wiki-renamed-hyperlink "program website"<https://live.gnome.org/OutreachProgramForWomen> --></a>.</p>
+We will be taking part in the current round of the <a target="_blank" title="(external link)" href="https://live.gnome.org/OutreachProgramForWomen">Free and Open Source Outreach Program for Women</a>. This successful program was started in 2006 by the GNOME Foundation to encourage women to participate in the FOSS community. This round of the program is open to women looking for internships between June and September of 2013. Full details of the eligibility requirements can be found on the <a target="_blank" title="(external link)" href="https://live.gnome.org/OutreachProgramForWomen">program website</a>.</p>
 <p>
 We are looking for mentors and project ideas for the interns and also help with the coordination of this project. If you are interested in helping out in any way please contact karen(at)perlfoundation.org</p>
 <p>
@@ -714,15 +218,7 @@ At present we have the funding for one intern. If you or your company would be i
 <h2 id="yapc_na.htm_extends_the_call_for_speakers">YAPC::NA Extends the call for speakers</h2>
 <div class="wafl_block"><a href="#yapcna" style="font-weight:bold; text-decoration: none;"> 18th March
   2013 <br><span style="color: #666;font-size:90%;">Mark Keating</span></a>
-<!-- wiki:
-.html
-<a href=="#yapcna" style=="font-=weight:bold; text-=decoration: none;">
-18th March 2013
-<br>
-<span style=="color: #666;font-=size:90%;">Mark Keating</a>
-</a>
-.html
---></div>
+</div>
 <br /><p>
 The YAPC::NA organisers have announced they are moving the deadline for the call for speakers to the end of this month (March).</p>
 <p>
@@ -731,31 +227,15 @@ The YAPC::NA organisers have announced they are moving the deadline for the call
 <div class="wafl_block"><a href="#survey" style="font-weight:bold; text-decoration: none;"> 18th
   December 2012 <br><span style="color: #666;font-size:90%;">Karen
     Pauley</span></a>
-<!-- wiki:
-.html
-<a href=="#survey" style=="font-=weight:bold; text-=decoration: none;">
-18th December 2012
-<br>
-<span style=="color: #666;font-=size:90%;">Karen Pauley</a>
-</a>
-.html
---></div>
+</div>
 <br /><p>
-Today is Perl's 25th Anniversary. There is much that could be said regarding Perl's history and if you are interested in reading about that Mark has written a <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2012/12/the-first-twenty-five-years.html">detailed post for our blog<!-- wiki-renamed-hyperlink "detailed post for our blog"<http://news.perlfoundation.org/2012/12/the=-first=-twenty=-five=-years.html> --></a>.</p>
+Today is Perl's 25th Anniversary. There is much that could be said regarding Perl's history and if you are interested in reading about that Mark has written a <a target="_blank" title="(external link)" href="http://news.perlfoundation.org/2012/12/the-first-twenty-five-years.html">detailed post for our blog</a>.</p>
 <p>
 I would like to congratulate Larry Wall and to thank him for this gift and his inspiration. I would also like to congratulate all those who have contributed in any way to the development of Perl. It's been an amazing journey and I look forward to seeing where it takes us over the coming years.</p>
 <h2 id="perl_survey">Perl Survey</h2>
 <div class="wafl_block"><a href="#survey" style="font-weight:bold; text-decoration: none;"> 9th October
   2012 <br><span style="color: #666;font-size:90%;">Mark Keating</span></a>
-<!-- wiki:
-.html
-<a href=="#survey" style=="font-=weight:bold; text-=decoration: none;">
-9th October 2012
-<br>
-<span style=="color: #666;font-=size:90%;">Mark Keating</a>
-</a>
-.html
---></div>
+</div>
 <br /><p>
 You can help with a PhD students survey into Newcomer experience in open source.</p>
 <p>
@@ -763,20 +243,12 @@ If you have joined the Perl community within the last 2 years, we would like to 
 <p>
 The data you provide will help gain insights about the experience of newcomers within the Perl community. It will also be used to improve the survey before it is later administered to contributors from other FOSS projects.</p>
 <p>
-Please consider filling this in and spreading the word about it. <a target="_blank" title="(external link)" href="https://limesurvey.sim.vuw.ac.nz/index.php?sid=89971&amp;lang=en">The survey can be found here<!-- wiki-renamed-hyperlink "The survey can be found here"<https://limesurvey.sim.vuw.ac.nz/index.php?sid=89971&lang=en> --></a>, and should take no longer than 20 minutes of your time to complete.</p>
+Please consider filling this in and spreading the word about it. <a target="_blank" title="(external link)" href="https://limesurvey.sim.vuw.ac.nz/index.php?sid=89971&amp;lang=en">The survey can be found here</a>, and should take no longer than 20 minutes of your time to complete.</p>
 <h2 id="marketing_committee">Marketing Committee</h2>
 <div class="wafl_block"><a href="#mar-com" style="font-weight:bold; text-decoration: none;"> 27th
   August 2012 <br><span style="color: #666;font-size:90%;">Mark
     Keating</span></a>
-<!-- wiki:
-.html
-<a href=="#mar-=com" style=="font-=weight:bold; text-=decoration: none;">
-27th August 2012
-<br>
-<span style=="color: #666;font-=size:90%;">Mark Keating</a>
-</a>
-.html
---></div>
+</div>
 <br /><p>
 I am proud to announce that the Perl Foundation Marketing Committee has three new members in the form of:</p>
 <p>
@@ -791,15 +263,7 @@ This is part of a continuing move to further the goals and aims of the committee
 <div class="wafl_block"><a href="#con-chair" style="font-weight:bold; text-decoration: none;"> 21st
   August 2012 <br><span style="color: #666;font-size:90%;">Mark
     Keating</span></a>
-<!-- wiki:
-.html
-<a href=="#con-=chair" style=="font-=weight:bold; text-=decoration: none;">
-21st August 2012
-<br>
-<span style=="color: #666;font-=size:90%;">Mark Keating</a>
-</a>
-.html
---></div>
+</div>
 <br /><p>
 The Perl Foundation would like to congratulate Heath Bair (Candybar) on his election to the position of YAPC (NA) Conference Chair.</p>
 <p>
@@ -809,15 +273,7 @@ Heath has already indicated that he will be building upon the work done by Josh 
 <h2 id="white_camel">White Camel</h2>
 <div class="wafl_block"><a href="#WC2012" style="font-weight:bold; text-decoration: none;"> 16th June
   2012 <br><span style="color: #666;font-size:90%;">Mark Keating</span></a>
-<!-- wiki:
-.html
-<a href=="#WC2012" style=="font-=weight:bold; text-=decoration: none;">
-16th June 2012
-<br>
-<span style=="color: #666;font-=size:90%;">Mark Keating</a>
-</a>
-.html
---></div>
+</div>
 <br /><p>
 The Perl Foundation would like to congratulate this year's winners of the prestigious White Camel awards for services to the Perl Community. This year the awards went to Renée Bäcker ($foo magazin, YAPC::EU::2012, German Perl Mongers); Breno G. de Oliveira (Perl SDK, YAPC::Brasil::2011) and Jim Keenan (NY.pm).</p>
 <p>
@@ -826,15 +282,7 @@ All three of whom have been active in their local communities and in the broader
 <div class="wafl_block"><a href="#na2012-01" style="font-weight:bold; text-decoration: none;"> 15th
   June 2012 <br><span style="color: #666;font-size:90%;">Mark
     Keating</span></a>
-<!-- wiki:
-.html
-<a href=="#na2012-=01" style=="font-=weight:bold; text-=decoration: none;">
-15th June 2012
-<br>
-<span style=="color: #666;font-=size:90%;">Mark Keating</a>
-</a>
-.html
---></div>
+</div>
 <br /><p>
 Today is the last day of the YAPC::NA::2012 and we at the Perl Foundation would like to thank JT and his team for putting on an excellent event.</p>
 <p>
@@ -842,34 +290,18 @@ I am sure there will be a number of good blogs and social media reports about th
 <h2 id="the_perl_foundation_and_gsoc_2012">The Perl Foundation and GSoC 2012</h2>
 <div class="wafl_block"><a href="#gsoc2012" style="font-weight:bold; text-decoration: none;"> 6th April
   2012 <br><span style="color: #666;font-size:90%;">Mark Keating</span></a>
-<!-- wiki:
-.html
-<a href=="#gsoc2012" style=="font-=weight:bold; text-=decoration: none;">
-6th April 2012
-<br>
-<span style=="color: #666;font-=size:90%;">Mark Keating</a>
-</a>
-.html
---></div>
+</div>
 <br /><p>
 It is common knowledge that the Perl Foundation did not get accepted to this year's GSoC. The official line from Google was that we were rejected as they wanted to allow more 'new' organisations in and we were one of the older organisations that were cut. This unfortunately doesn't give us enough understanding of how we can improve our chances, or if it would be better to allow all the various projects to apply individually instead of under the tpf banner as this might improve their chances. We will be holding discussions on this in the coming year and will hopefully have a cohesive plan for next year.</p>
 <p>
 In the meantime we will once again participate (if accepted!) in the GCi if/when announced, and have some plans for an alternative event to the GSoC based solely around Perl. We will keep you informed of future developments...</p>
 <h2 id="the_perl_foundation_to_attempt_to_participate_in_gsoc_2012">The Perl Foundation to attempt to participate in GSoC 2012</h2>
-<span class="nlw_phrase"><img alt="GSOC-2012-220px.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20120207155447-0-31007/files/GSOC-2012-220px.png" /><!-- wiki: {image: GSOC-=2012-=220px.png} --></span><br /><br /><div class="wafl_block"><a href="#gsoc2012" style="font-weight:bold; text-decoration: none;"> 6th
+<span class="nlw_phrase"><img alt="GSOC-2012-220px.png" src="http://www.perlfoundation.org//data/workspaces/perlfoundation/attachments/the_perl_foundation:20120207155447-0-31007/files/GSOC-2012-220px.png" /></span><br /><br /><div class="wafl_block"><a href="#gsoc2012" style="font-weight:bold; text-decoration: none;"> 6th
   February 2012 <br><span style="color: #666;font-size:90%;">Mark
     Keating</span></a>
-<!-- wiki:
-.html
-<a href=="#gsoc2012" style=="font-=weight:bold; text-=decoration: none;">
-6th February 2012
-<br>
-<span style=="color: #666;font-=size:90%;">Mark Keating</a>
-</a>
-.html
---></div>
+</div>
 <br /><p>
-On the 4th February <a target="_blank" title="(external link)" href="http://google-opensource.blogspot.com/2012/02/google-summer-of-code-2012-is-on.html">Google confirmed<!-- wiki-renamed-hyperlink "Google confirmed"<http://google=-opensource.blogspot.com/2012/02/google=-summer=-of=-code=-2012=-is=-on.html> --></a> that there will once again be a Summer of Code in 2012. The Perl Foundation will once again attempt to participate as a mentoring organisation in this event. Please read <a target="_blank" title="(external link)" href="http://mdk.per.ly/2012/02/06/gsoc-2012/">Mark Keating's Perly Blog<!-- wiki-renamed-hyperlink "Mark Keating's Perly Blog"<http://mdk.per.ly/2012/02/06/gsoc=-2012/> --></a> for more information. A <a target="_blank" title="(external link)" href="http://wiki.enlightenedperl.org/gsoc2012">general information page<!-- wiki-renamed-hyperlink "general information page"<http://wiki.enlightenedperl.org/gsoc2012> --></a> and <a target="_blank" title="(external link)" href="http://wiki.enlightenedperl.org/gsoc2012/ideas">Ideas Page<!-- wiki-renamed-hyperlink "Ideas Page"<http://wiki.enlightenedperl.org/gsoc2012/ideas> --></a> can be found on the <a target="_blank" title="(external link)" href="http://wiki.enlightenedperl.org/">EPO wiki<!-- wiki-renamed-hyperlink "EPO wiki"<http://wiki.enlightenedperl.org/> --></a>.</p>
+On the 4th February <a target="_blank" title="(external link)" href="http://google-opensource.blogspot.com/2012/02/google-summer-of-code-2012-is-on.html">Google confirmed</a> that there will once again be a Summer of Code in 2012. The Perl Foundation will once again attempt to participate as a mentoring organisation in this event. Please read <a target="_blank" title="(external link)" href="http://mdk.per.ly/2012/02/06/gsoc-2012/">Mark Keating's Perly Blog</a> for more information. A <a target="_blank" title="(external link)" href="http://wiki.enlightenedperl.org/gsoc2012">general information page</a> and <a target="_blank" title="(external link)" href="http://wiki.enlightenedperl.org/gsoc2012/ideas">Ideas Page</a> can be found on the <a target="_blank" title="(external link)" href="http://wiki.enlightenedperl.org/">EPO wiki</a>.</p>
 <p>
 Please check back here to see changes, a new page under the sidebar Initiatives is being prepared and will soon be available. A new flyer is available to print out and distribute at <span class="nlw_phrase"><span class="wafl_existence_error">basic-with-bleed-2012.pdf</span><!-- wiki: {file: basic-=with-=bleed-=2012.pdf} --></span>; <span class="nlw_phrase"><a href="/attachment/press_releases.htm/basic-home-office-2012.pdf">[Press Releases] basic-home-office-2012.pdf</a><!-- wiki: {file: [Press Releases] basic-=home-=office-=2012.pdf} --></span>; <span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012-2.pdf">[Press Releases] GSoC-2012-2.pdf</a><!-- wiki: {file: [Press Releases] GSoC-=2012-=2.pdf} --></span> <span class="nlw_phrase"><a href="/attachment/press_releases.htm/GSoC-2012-2.pdf">[Press Releases] GSoC-2012-2.pdf</a><!-- wiki: {file: [Press Releases] GSoC-=2012-=2.pdf} --></span>.</p>
 <h2 id="craigslist_charitable_fund_donates_100_000_to_the_perl_foundation">craigslist Charitable Fund Donates $100,000 to the Perl Foundation</h2>
