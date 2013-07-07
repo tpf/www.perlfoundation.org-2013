@@ -1,0 +1,23 @@
+server {
+
+    listen   80; ## listen for ipv4
+    server_name  perlfoundation.org www.perlfoundation.org; 
+    access_log  /var/log/nginx/perlfoundation.org.access.log;
+
+    location / {
+        root   /var/www/perlfoundation.org/www/;
+        index  index.html index.htm;
+    }
+
+    error_page  404  /404.html;
+    location = /404.html {
+        root   /var/www/perlfoundation.org/defaults;
+    }
+
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   /var/www/perlfoundation.org/defaults;
+    }
+
+}
+
