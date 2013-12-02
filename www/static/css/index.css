@@ -22,7 +22,7 @@ div.clear {
 div#header {
 	width: 946px;
 	height: 105px;
-	background-image: url(http://perldoc.perl.org/static/tpf/header.png);
+	background-image: url(/static/images/header.png);
 	position: relative;
 }
 
@@ -63,7 +63,7 @@ div.download a:hover {
 /* @group Body */
 
 div#body {
-	background: url(http://perldoc.perl.org/static/tpf/main_bg.png) repeat-y;
+	background: url(/static/images/main_bg.png) repeat-y;
 	position: relative;
 	color: #515151;
 	font-size: 16px !important;
@@ -80,19 +80,19 @@ div#navigation {
 }
 
 div#navigation_header {
-	background-image: url(http://perldoc.perl.org/static/tpf/nav_header.png);
+	background-image: url(/static/images/nav_header.png);
 	width: 155px;
 	height: 14px;
 }
 
 div#navigation_body {
-	background-image: url(http://perldoc.perl.org/static/tpf/nav_bg.png);
+	background-image: url(/static/images/nav_bg.png);
 	width: 145px;
 	padding-right: 10px;
 }
 
 div#navigation_footer {
-	background-image: url(http://perldoc.perl.org/static/tpf/nav_footer.png);
+	background-image: url(/static/images/nav_footer.png);
 	width: 155px;
 	height: 13px;
 	position: relative;
@@ -156,7 +156,7 @@ div#feeds {
 	height: 18px;
 	border: 1px solid #cacaca;
 	margin-bottom: 11px;
-	background: #fafafa url(http://perldoc.perl.org/static/tpf/search.png) no-repeat 3px 3px;
+	background: #fafafa url(/static/images/search.png) no-repeat 3px 3px;
 	color: #919191;
 }
 
@@ -175,27 +175,27 @@ div#content {
 div#content_header {
 	width: 731px;
 	height: 26px;
-	background: url(http://perldoc.perl.org/static/tpf/content_header.png) no-repeat;
+	background: url(/static/images/content_header.png) no-repeat;
 }
 
 div#content_body {
 	padding-left: 30px;
 	padding-right: 30px;
-	background: url(http://perldoc.perl.org/static/tpf/content_bg.png) repeat-y;	
+	background: url(/static/images/content_bg.png) repeat-y;	
 	min-height: 1000px;
 }
 
 div#content_footer {
 	width: 731px;
 	height: 25px;
-	background: url(http://perldoc.perl.org/static/tpf/content_footer.png) no-repeat;
+	background: url(/static/images/content_footer.png) no-repeat;
 }
 
 h1 {
 	margin: 0;
 	font: 1.9em "ITC Garamond", Garamond, Georgia, "Times New Roman", Times, serif;
 	color: #36497d;
-	background: url(http://perldoc.perl.org/static/tpf/h1_bg.png) no-repeat;
+	background: url(/static/images/h1_bg.png) no-repeat;
 	height: 30px;
 	padding-left: 37px;
 	padding-top: 1px;
@@ -207,7 +207,7 @@ h2 {
 	color: #36497d;
 	padding-top: 9px;
 	margin: 0;
-	background: url(http://perldoc.perl.org/static/tpf/h2_bg.png) no-repeat -2px 28px;
+	background: url(/static/images/h2_bg.png) no-repeat -2px 28px;
 	padding-bottom: 4px;
 	padding-left: 0;
 	margin-bottom: 8px;
@@ -240,7 +240,7 @@ div#footer {
 }
 
 div#footer_content {
-	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
+	background-image: url(/static/images/footer_bg.png);
 	padding-right: 74px;
 	padding-left: 74px;
 	background-color: #004065;
@@ -255,7 +255,7 @@ div#footer_strapline {
 }
 
 div#footer_end {
-	background-image: url(http://perldoc.perl.org/static/tpf/footer.png);
+	background-image: url(/static/images/footer.png);
 	width: 946px;
 	height: 42px;
 	clear: both;
@@ -264,7 +264,7 @@ div#footer_end {
 /* @group Address */
 
 div#address {
-	background: url(http://perldoc.perl.org/static/tpf/onion-grey.png) no-repeat 0 4px;
+	background: url(/static/images/onion-grey.png) no-repeat 0 4px;
 	padding-left: 51px;
 	float: left;
 	border-right: 1px solid #b4b4b4;
@@ -302,7 +302,7 @@ div#address p.contact a:hover {
 /* @group Links */
 
 div#footer_links {
-	background-image: url(http://perldoc.perl.org/static/tpf/footer_bg.png);
+	background-image: url(/static/images/footer_bg.png);
 }
 
 ul.f1 {
