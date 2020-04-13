@@ -1,6 +1,9 @@
 www.perlfoundation.org
 ======================
 
+; DEPRECATED
+
+
 http://www.perlfoundation.org/
 
 * conf/ - location for configuration files
